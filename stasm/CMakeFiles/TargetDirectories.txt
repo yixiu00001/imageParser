@@ -1,0 +1,6 @@
+/home/yx/fr/project/imageParser/stasm4.1.0/CMakeFiles/minimal.dir
+/home/yx/fr/project/imageParser/stasm4.1.0/CMakeFiles/minimal2.dir
+/home/yx/fr/project/imageParser/stasm4.1.0/CMakeFiles/stasm.dir
+/home/yx/fr/project/imageParser/stasm4.1.0/CMakeFiles/stasmMain.dir
+/home/yx/fr/project/imageParser/stasm4.1.0/CMakeFiles/swas.dir
+/home/yx/fr/project/imageParser/stasm4.1.0/CMakeFiles/tasms.dir

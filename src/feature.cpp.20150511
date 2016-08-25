@@ -1,0 +1,501 @@
+//C++ file
+/***********************************************
+ *
+ *      Filename: feature.cpp
+ *
+ *        Author: yx - yixiu@inspur.com
+ *   Description: ---
+ *        Create: 2015-04-16 14:25:47
+ * Last Modified: 2015-04-16 14:25:47
+ ************************************************/
+#include "ldaMine.h"
+#include "feature.h"
+#include "lbpMine.h"
+#include<iostream>
+#include<fstream>
+#include<sstream>
+#define DIMENTIONS  7  
+#define DST_HEIGHT 50
+#define DST_WIDTH 50
+
+using namespace std;
+using namespace cv;
+void FEATURE::PrintMat(Mat H1)
+{
+	int rows = H1.rows;
+	int cols = H1.cols;
+	cout<<"mat rows="<<rows<<" cols="<<cols<<endl;
+	for( int i = 0; i<rows; i++ )
+	{
+		const uchar* inData1=H1.ptr<uchar>(i);
+		for(int j=0; j<cols;j++)
+		{
+			cout<<*inData1++<<" ";
+		}
+		cout<<endl;
+	}
+}
+
+double compare(Mat H1, Mat H2)
+{
+
+	int num =0 ;
+	int rows = H1.rows;
+	int cols = H1.cols;
+	int h1,h2;
+	cout<<"rows="<<rows<<" "<<cols<<endl;
+	for( int i = 0; i<rows; i++ )
+	{
+		const uchar* inData1=H1.ptr<uchar>(i);
+		const uchar* inData2=H2.ptr<uchar>(i);
+		for(int j=0; j<cols;j++)
+		{
+			h1 = *inData1++;
+			h2 = *inData2++;
+			if(h1!=h2)
+				num++;
+		}
+	}
+	return 1-num*1.0/(H1.rows*H1.cols);
+}
+
+//lbp function
+Mat FEATURE::Lbp3Channel(Mat srcImg)
+{
+	Mat grayImg;	
+	int radius = 1;
+	int neighbors = 8;
+	vector<Mat> channels;  
+	//first change to gray
+	cvtColor(srcImg,  grayImg, CV_RGB2GRAY );
+	Mat lbpImgGray = Mat(grayImg.rows-2*radius, grayImg.cols-2*radius,CV_8UC1, Scalar(0));
+	LBPMINE::elbpCircle(grayImg,lbpImgGray , radius,neighbors);
+	imshow("graylbpCicle", lbpImgGray);
+
+	//imshow("10", grayImg);
+	split(srcImg,channels);
+	grayImg = channels.at(0);
+	Mat lbpImg = Mat(grayImg.rows-2*radius, grayImg.cols-2*radius,CV_8UC1, Scalar(0));
+	LBPMINE::elbpCircle(grayImg,lbpImg , radius,neighbors);
+	lbpImg.copyTo(channels.at(0));
+	imshow("bluelbpCircle", lbpImg);
+
+
+	grayImg = channels.at(1);
+	Mat lbpImgG = Mat(grayImg.rows-2*radius, grayImg.cols-2*radius,CV_8UC1, Scalar(0));
+	LBPMINE::elbpCircle(grayImg,lbpImgG , radius,neighbors);
+	lbpImgG.copyTo(channels.at(1));
+	imshow("greenlbpCircle", lbpImgG);
+
+	grayImg = channels.at(2);
+	Mat lbpImgR = Mat(grayImg.rows-2*radius, grayImg.cols-2*radius,CV_8UC1, Scalar(0));
+	LBPMINE::elbpCircle(grayImg,lbpImgR , radius,neighbors);
+	lbpImgR.copyTo(channels.at(2));
+	imshow("redlbpCircle", lbpImgR);
+	double sim;
+	/*
+	   sim = compare(lbpImg, lbpImg);
+	   cout<<"b vs b="<<sim<<endl;
+	   sim = compare(lbpImg, lbpImgG);
+	   cout<<"b vs g="<<sim<<endl;
+	   sim = compare(lbpImg, lbpImgR);
+	   cout<<"b vs r="<<sim<<endl;
+	   sim = compare(lbpImgG, lbpImgR);
+	   cout<<"g vs r="<<sim<<endl;
+	 */
+	merge(channels,lbpImg); 
+	sim = compare(srcImg, lbpImg);
+	cout<<"s vs lbp="<<sim<<endl;
+	sim = compare(lbpImg, lbpImgGray);
+	cout<<"s vs lbpGray="<<sim<<endl;
+
+	return lbpImg;
+}
+Mat FEATURE::SiftCompute(Mat srcImg)
+{
+
+	Mat grayImg;
+	//cvtColor(srcImg,  grayImg, CV_RGB2GRAY );
+	//vector<Mat> channels;  
+	//split(srcImg,channels);
+	//grayImg = channels.at(0);
+	//grayImg.convertTo(grayImg,CV_8U);
+
+	//imshow("gray", grayImg);
+	//特征点检测
+	//SiftFeatureDetector detector;
+	initModule_nonfree();//初始化模块，使用SIFT或SURF时用到  
+	Ptr<FeatureDetector> detector = FeatureDetector::create( "SIFT" );//创建SIFT特征检测器  
+	Ptr<DescriptorExtractor> descriptor_extractor = DescriptorExtractor::create( "SIFT" );//创建特征向量生成器 
+	if( detector.empty() || descriptor_extractor.empty() )  
+		cout<<"fail to create detector!"<<endl; 
+	std::vector<cv::KeyPoint> keypoints;
+	detector->detect(srcImg, keypoints);
+
+
+	//根据特征点计算特征描述子矩阵，即特征向量矩阵  
+	Mat descriptors;
+	descriptor_extractor->compute( srcImg, keypoints, descriptors ); 
+	cout<<"图像特征描述矩阵大小："<<descriptors.size()  <<"，特征向量个数："<<descriptors.rows<<"，维数："<<descriptors.cols<<endl;
+
+	// Add results to image and save.
+	Mat dstImg;
+	drawKeypoints(srcImg, keypoints, dstImg);
+	cout<<"sift rows="<<dstImg.rows<<" cols="<<dstImg.cols<<endl;
+	double sim = compare(srcImg, dstImg);
+	cout<<"s vs sift="<<sim<<endl;
+	imshow("sift", dstImg);
+
+
+	return dstImg;
+}
+vector<float> FEATURE::HogCompute(Mat srcImg)
+{
+	CvSize winSize = cvSize(60,60); 
+	CvSize blockSize = cvSize(20,20);
+	CvSize strideSize = cvSize(10,10); 
+	CvSize cellSize = cvSize(5,5);
+	int bins = 9;
+	HOGDescriptor *hog= new  HOGDescriptor(winSize, blockSize, strideSize, cellSize, bins);
+	vector< float >descriptors;//HOG描述向量
+	CvSize winShiftSize = cvSize(10,10);//搜尋框移動位置
+	CvSize paddingSize = cvSize(0,0);//補滿邊界位置
+	hog->compute(srcImg, descriptors, winShiftSize, paddingSize);//調用計算函數  
+	return descriptors;
+
+}
+//将给出的图像回归为值域在0~255之间的正常图像
+Mat norm_0_255(const Mat& src) {
+	// 构建返回图像矩阵
+	Mat dst;
+	switch(src.channels()) {
+		case 1://根据图像通道情况选择不同的回归函数
+			cv::normalize(src, dst, 0, 255, NORM_MINMAX, CV_8UC1);
+			break;
+		case 3:
+			cv::normalize(src, dst, 0, 255, NORM_MINMAX, CV_8UC3);
+			break;
+		default:
+			src.copyTo(dst);
+			break;
+	}
+	return dst;
+}
+
+// 将一副图像的数据转换为Row Matrix中的一行；这样做是为了跟opencv给出的PCA类的接口对应
+//参数中最重要的就是第一个参数，表示的是训练图像样本集合
+//Mat asRowMatrix(const Mat src, int rtype, double alpha = 1, double beta = 0)
+static Mat asRowMatrix(InputArrayOfArrays src, int rtype, double alpha=1, double beta=0) 
+{
+    // number of samples
+    size_t n = src.total();
+    // return empty matrix if no matrices given
+    if(n == 0)
+        return Mat();
+    // dimensionality of (reshaped) samples
+    size_t d = src.getMat(0).total();
+    // create data matrix
+    Mat data((int)n, (int)d, rtype);
+    for(unsigned int i = 0; i < n; i++) {
+        // get a hold of the current row
+        Mat xi = data.row(i);
+        // make reshape happy by cloning for non-continuous matrices
+        src.getMat(i).reshape(1, 1).convertTo(xi, rtype, 1/255.);
+        /*
+		if(src.getMat(i).isContinuous()) {
+            src.getMat(i).reshape(1, 1).convertTo(xi, rtype, alpha, beta);
+        } else {
+            src.getMat(i).clone().reshape(1, 1).convertTo(xi, rtype, alpha, beta);
+        }
+		*/
+	}
+
+	return data;
+}
+
+static void read_imgList(const string& filename, vector<Mat>& images) {
+    std::ifstream file(filename.c_str(), ifstream::in);
+    if (!file) {
+        string error_message = "No valid input file was given, please check the given filename.";
+        CV_Error(CV_StsBadArg, error_message);
+    }
+    string line;
+    while (getline(file, line)) {
+		Mat data = imread(line, 0);
+		//Mat dst_img_rsize(DST_WIDTH,DST_HEIGHT,data.type());
+		//resize(data,dst_img_rsize,dst_img_rsize.size(),0,0,INTER_LINEAR);
+        images.push_back(data);
+    }
+}
+static void read_labelList(const string& filename, vector<int> &labels)
+{
+    std::ifstream file(filename.c_str(), ifstream::in);
+    if (!file) {
+        string error_message = "No valid input file was given, please check the given filename.";
+        CV_Error(CV_StsBadArg, error_message);
+    }
+    string line;
+    while (getline(file, line)) {
+		labels.push_back(atoi(line.c_str()));
+	//	cout<<"label="<<atoi(line.c_str())<<endl;
+	}
+	
+}
+void save(const string& fileName, Mat _eigenvalues, Mat _eigenvectors )
+{
+	FileStorage fs(fileName, FileStorage::WRITE);
+	if(!fs.isOpened())
+	{
+        CV_Error(CV_StsError, "File can't be opened for writing!");
+	}
+	fs<<"eigenvalues"<<_eigenvalues;
+	fs<<"eigenvectors"<<_eigenvectors;
+}
+void FEATURE::loadModel(const string& fileName, Mat* _eigenvalues, Mat* _eigenvectors)
+{
+    FileStorage fs(fileName, FileStorage::READ);
+    if (!fs.isOpened())
+       CV_Error(CV_StsError, "File can't be opened for writing!");
+	fs["eigenvalues"]>>*_eigenvalues;
+	fs["eigenvectors"]>>*_eigenvectors;
+	
+}
+/*
+*PcaTrain,train the module of pca
+*In: imageListName, the list name of train images
+*    modelName, the name of modelName to save the model
+*/
+void FEATURE::PcaTrain(String imageListName,String modelName)
+{
+	vector<Mat> images;
+	read_imgList(imageListName, images);
+
+	//the change the input image go format the Pca Input format
+	Mat pcaIn = asRowMatrix(images, CV_32FC1);
+	PCA pca(pcaIn, Mat(), CV_PCA_DATA_AS_ROW, 0.95);
+	Mat pcaEigenvectors = pca.eigenvectors.clone();
+	Mat pcaEigenvalues = pca.eigenvalues.clone();
+	save(modelName, pcaEigenvalues, pcaEigenvectors);
+}
+/*
+*PcaCompute,compute a set of values of linearly uncorrelated variables by principal component analysis
+*In: srcImg, the image that go to compute pca
+*    modelName, the name of modelName to load the model
+*/
+Mat FEATURE::PcaCompute(Mat srcImg, String modelName)
+{
+	Mat pcaEigenvalues;
+	Mat pcaEigenvectors;
+	//loadModel(modelName, &pcaEigenvalues, &pcaEigenvectors);
+
+	Mat testIn,pcaIn;
+	//chage the image to gray
+	cvtColor(srcImg,  srcImg, CV_RGB2GRAY );
+	pcaIn = norm_0_255(srcImg);
+	pcaIn.reshape(1, 1).convertTo(testIn, CV_32FC1, 1/255.);
+
+	Mat pcaRes;
+	//gemm(testIn, pcaEigenvectors.reshape(0, pcaEigenvectors.cols), 1,  Mat(), 0, pcaRes);
+	gemm(testIn, _eigenvectors.reshape(0, _eigenvectors.cols), 1,  Mat(), 0, pcaRes);
+	cout<<"pcaRes rows="<< pcaRes.rows<<" cols="<<pcaRes.cols<<endl<<pcaRes<<endl;
+
+	return pcaRes;
+	
+}
+/*
+*LdaTrain,train the module of lda
+*In: imageListName, the list name of train images
+     labelListName, the list name of train labels
+*    modelName, the name of modelName to save the model
+*/
+Mat FEATURE::LdaTrain(String imageListName, String labelListName, String modelName)
+{
+	//train pca
+	vector<Mat>images;
+	vector<int>labels;
+	read_imgList(imageListName, images);
+	Mat pcaIn = asRowMatrix(images, CV_32FC1);
+	PCA pca(pcaIn, Mat(), CV_PCA_DATA_AS_ROW, 0.95); // trackbar is initially set here, also this is a common value for retainedVariance
+	Mat point = pca.project(pcaIn);
+	Mat pcaEigenvectors = pca.eigenvectors.clone();
+	Mat pcaEigenvalues = pca.eigenvalues.clone();
+	save("pca.res", pcaEigenvalues, pcaEigenvectors);
+	
+	//train lda
+	read_labelList(labelListName, labels);
+	LDAMine lda = LDAMine(point, labels);
+	Mat ldaEigenvectors = lda.eigenvectors().clone();
+	Mat ldaEigenvalues = lda.eigenvalues().clone();
+	save("lda.res", ldaEigenvalues, ldaEigenvectors);
+
+	//get pca*lda
+	Mat pcaldaVec;
+	Mat ldaVecTrans ;
+	ldaEigenvectors.convertTo(ldaVecTrans, CV_32FC1);
+	gemm(pcaEigenvectors.reshape(0,pcaEigenvectors.cols), ldaVecTrans,1,Mat(), 0, pcaldaVec);
+	save(modelName, Mat(), pcaldaVec);
+
+	return point;
+}
+/*
+*LdaCompute,compute a set of values of linearly uncorrelated variables by Linear discriminant analysis
+*In: srcImg, the image that go to compute lda
+*    modelName, the name of modelName to load the model
+*/
+Mat FEATURE::LdaCompute(Mat srcImg, String modelName)
+{
+	Mat pcaLdaEigenvalues;
+	Mat pcaLdaEigenvectors;
+	loadModel(modelName, &pcaLdaEigenvalues, &pcaLdaEigenvectors);
+
+	Mat testIn,pcaIn;
+	cvtColor(srcImg,  srcImg, CV_RGB2GRAY );
+	pcaIn = norm_0_255(srcImg);
+	pcaIn.reshape(1, 1).convertTo(testIn, CV_32FC1, 1/255.);
+
+	Mat ldaRes;
+	gemm(testIn, pcaLdaEigenvectors, 1,  Mat(), 0, ldaRes);
+	cout<<"pcaLdaRes rows="<< ldaRes.rows<<" cols="<<ldaRes.cols<<endl<<ldaRes<<endl;
+
+	return ldaRes;
+	
+}
+	
+Mat PcaComputeTest(Mat srcImg)
+{
+	Mat pcaIn;
+	cvtColor(srcImg,  srcImg, CV_RGB2GRAY );
+	pcaIn = norm_0_255(srcImg);
+	/*vector<Mat> db;
+	cvtColor(srcImg,  srcImg, CV_RGB2GRAY );
+	db.push_back(srcImg);
+	db.push_back(srcImg);
+	pcaIn = asRowMatrix(db, CV_32FC1);
+	imshow("pcain", srcImg);
+	*/
+	cout<<"channel="<<pcaIn.channels()<<" rows="<<pcaIn.rows<<" cols="<<pcaIn.cols<<endl;
+
+	PCA pca(pcaIn, Mat(), CV_PCA_DATA_AS_ROW, 0.95); // trackbar is initially set here, also this is a common value for retainedVariance
+	//imshow("pc1", norm_0_255(pca.eigenvectors).reshape(0, srcImg.rows));
+	Mat point = pca.project(pcaIn);
+	cout<<"point rows="<<point.rows<<" cols="<<point.cols<<endl;
+
+	Mat reconstruction = pca.backProject(point);
+    reconstruction = reconstruction.reshape(1, srcImg.rows); // reshape from a row vector into image shape
+	reconstruction = norm_0_255(reconstruction);
+	cout<<"recon channels="<<reconstruction.channels()<<" rows="<<reconstruction.rows<<" cols="<<reconstruction.cols<<endl;
+	imshow("pca", reconstruction);
+	return reconstruction;
+	/*cout << "eigenvalues:" <<endl << pca.eigenvalues <<endl<<endl;  
+	  Mat vecs = pca.eigenvectors;
+	  cout<<"eigenvectors:"<<endl<<vecs<<endl;
+	  return vecs;
+	 */
+}
+Mat LdaComputeTest(Mat srcImg)
+{
+	vector<Mat>images;
+	vector<int>labels;
+	//load image and labels
+	///home/yx/fr/project/imageParser/list
+	///home/yx/fr/project/imageParser/label
+	///*
+	String imageName = "/home/yx/fr/project/imageParser/list";
+	String labelName = "/home/yx/fr/project/imageParser/label";
+	read_imgList(imageName, images);
+	Mat pcaIn = asRowMatrix(images, CV_32FC1);
+	//*/
+	//Mat pcaIn = (Mat_<float>(3,7)<< 3,3, 2.5,2.4,0.5, 0.7, 2.2, 2.9, 1.9, 2.2, 3.1, 3.0, 2.3, 2.7, 1.6, 1, 1.1, 1.5, 1.6, 1.1, 0.9);
+	cout<<"before pca data.rows="<<pcaIn.rows<<" cols="<<pcaIn.cols<<endl;
+	//PCA pca(pcaIn, Mat(), CV_PCA_DATA_AS_ROW, 0.95); // trackbar is initially set here, also this is a common value for retainedVariance
+	/*
+	PCA pca(pcaIn, Mat(), CV_PCA_DATA_AS_ROW,0.95); // trackbar is initially set here, also this is a common value for retainedVariance
+	Mat point = pca.project(pcaIn);
+	cout<<"pcaIn rows="<<pcaIn.rows<<" cols="<<pcaIn.cols<<endl;
+	cout <<"eigenvectors rows=" << pca.eigenvectors.rows<<" cols="<< pca.eigenvectors.cols<<endl;//<<pca.eigenvectors<<endl;
+	//cout<<"eigenvalues="<<pca.eigenvalues<<endl;
+	//Mat point = pca.project(pcaIn.row(0));
+	cout<<"point rows="<<point.rows<<" cols="<<point.cols<<endl;
+	save("pca.res", pca.eigenvalues, pca.eigenvectors);
+	*/
+	/*
+	Mat res;
+	Mat pcaEigenvalues;
+	Mat pcaEigenvectors;
+	load("pca.res", &pcaEigenvalues, &pcaEigenvectors);
+	cout<<"vectors rows="<<pcaEigenvectors.rows<<" cols="<<pcaEigenvectors.cols<<" pcaIN cols="<<pcaIn.row(0).cols<<endl;
+	//gemm(pcaIn.row(0), pca.eigenvectors.reshape(1,pca.eigenvectors.cols), 1, Mat(), 0, res);
+	Mat vectors ;
+	pcaEigenvectors.reshape(1, pcaEigenvectors.cols).convertTo(vectors, CV_32FC1);
+	gemm(pcaIn.row(0), vectors, 1, Mat(), 0, res);
+	cout<<"res rows="<<res.rows<<" cols="<<res.cols<<endl;
+	*/
+	//cout<<point<<endl;
+	/*
+	Mat reconstruction = pca.backProject(point);
+	reconstruction = reconstruction.reshape(images[0].channels(), images[0].rows);
+	//reconstruction = norm_0_255(reconstruction);
+	cout<<"recon channels="<<reconstruction.channels()<<" rows="<<reconstruction.rows<<" cols="<<reconstruction.cols<<endl;
+	imshow("pca", reconstruction);
+
+
+	*/
+	/*
+	cout<<"after pca data.rows="<<point.rows<<" cols="<<point.cols<<endl;
+	read_labelList(labelName, labels);
+	LDAMine lda = LDAMine(point, labels);
+	Mat eigenvectors = lda.eigenvectors().clone();
+	Mat eigenvalues = lda.eigenvalues().clone();
+	cout<<"LDA eigenvalues cols="<<eigenvalues.cols<<endl<<eigenvalues<<endl;
+	cout <<"LDA eigenvectors rows="<<eigenvectors.rows<<" cols="<<eigenvectors.cols<<endl;//<<eigenvectors<<endl;
+
+	save("lda.res", eigenvalues, eigenvectors);
+	Mat ldaVec;
+	Mat ldaVecTrans ;
+	eigenvectors.convertTo(ldaVecTrans, CV_32FC1);
+	gemm(pca.eigenvectors.reshape(0,pca.eigenvectors.cols), ldaVecTrans,1,Mat(), 0, ldaVec);
+	save("pcaLda.res", Mat(), ldaVec);
+	*/
+	Mat pcaLdaEigenvalues;
+	Mat pcaLdaEigenvectors;
+	loadModel("pcaLda.res", &pcaLdaEigenvalues, &pcaLdaEigenvectors);
+
+	Mat ldaRes;
+	string testName = "/home/yx/fr/project/imageParser/Ahmed_Chalabi_0001.jpg";
+	Mat testImg = imread(testName,0);
+	Mat testIn;
+	testImg.reshape(1, 1).convertTo(testIn, CV_32FC1, 1/255.);
+
+	Mat testRes;
+	gemm(testIn, pcaLdaEigenvectors, 1,  Mat(), 0, testRes);
+	cout<<"pcaLdaRes rows="<< testRes.rows<<" cols="<<testRes.cols<<endl<<testRes<<endl;
+
+	Mat res;
+	Mat pcaEigenvalues;
+	Mat pcaEigenvectors;
+	loadModel("pca.res", &pcaEigenvalues, &pcaEigenvectors);
+	cout<<"vectors rows="<<pcaEigenvectors.rows<<" cols="<<pcaEigenvectors.cols<<" pcaIN cols="<<pcaIn.row(0).cols<<endl;
+	//gemm(pcaIn.row(0), pca.eigenvectors.reshape(1,pca.eigenvectors.cols), 1, Mat(), 0, res);
+	Mat vectors ;
+	pcaEigenvectors.reshape(1, pcaEigenvectors.cols).convertTo(vectors, CV_32FC1);
+	gemm(testIn, vectors, 1, Mat(), 0, res);
+	cout<<"pcaRes rows="<<res.rows<<" cols="<<res.cols<<endl;
+
+	Mat ldaEigenvalues;
+	Mat ldaEigenvectors;
+	loadModel("lda.res", &ldaEigenvalues, &ldaEigenvectors);
+	Mat pcaLdaRes;
+	Mat ldaVec;
+	ldaEigenvectors.convertTo(ldaVec, CV_32FC1);
+	gemm(res, ldaVec, 1, Mat(), 0, pcaLdaRes);
+	cout<<"ldaRes rows="<<pcaLdaRes.rows<<" cols="<<pcaLdaRes.cols<<endl<<pcaLdaRes<<endl;
+	/*
+	Mat ldaIn;
+	cvtColor(srcImg,  ldaIn, CV_RGB2GRAY );
+	LDAMine lda=LDAMine(ldaIn,labels);
+	Mat eigenvector=lda.eigenvectors().clone();
+	cout <<"LDA eigenvectors:"<<endl<<eigenvector<<endl;
+	return eigenvector;
+	*/
+	return ldaRes;
+}

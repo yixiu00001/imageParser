@@ -1,0 +1,1 @@
+/usr/bin/c++  -fPIC  -O0 -Wall -g -ggdb   -shared -Wl,-soname,liblbp.so -o liblbp.so CMakeFiles/lbp.dir/lbp.cpp.o 

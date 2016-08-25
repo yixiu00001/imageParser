@@ -1,0 +1,61 @@
+tasm version 4.1.0
+Command: tasms -d test_tasmout -w ../tasm/shapes/muct77_short.shape
+Reading ../tasm/shapes/muct77_short.shape: 15 shapes
+Using all 15 shapes matching mask 0x700 0x0 (i000qa-fn ... i017qe-mg)
+(Mask0 0x700 is BadImg Cropped Obscured)
+--- Generating the shape model ---
+Reference shape i000qa-fn is at index 0 and has 77 landmarks
+11 (73%) of 15 shapes have all 77 points
+Percentage of points unused over all shapes:
+         0      1      2      3      4      5      6      7      8      9
+   0     .      .      .      .      .      .      .      .      .      .  
+  10     .      .      .      .      .      .      .      .      .      .  
+  20     .      .      .      .      .    26.67    .      .      .      .  
+  30     .      .      .      .      .      .      .      .      .      .  
+  40     .      .      .      .      .      .      .      .     6.67   6.67
+  50     .      .      .    13.33  13.33  20.00    .      .      .      .  
+  60     .      .      .      .      .      .      .      .      .      .  
+  70     .      .      .      .      .      .      .  
+Mean shape outermost points (1,11) angle 2.49 degrees, eye angle 4.26 degrees
+98% percent variance is explained by the first 10 shape eigs: 40 30 16 4 3 2 1 1 1 1%
+Generating mean shape aligned to the facedets 
+    100.00% of shapes with all landmarks have a facedet in the shapefile 
+    will not run the facedet on the actual images (will use just the facedets saved in the shapefile) 
+i000qa-fn:
+i000qb-fn:
+    i000qb-fn: shape does not have all landmarks... 
+i000qc-fn:
+    i000qc-fn: no facedet in the shapefile, skipping... 
+    i000qc-fn: shape does not have all landmarks... 
+i000qd-fn:
+i000qe-fn:
+i003sa-fn:
+i003sb-fn:
+i003sc-fn:
+    i003sc-fn: no facedet in the shapefile, skipping... 
+    i003sc-fn: shape does not have all landmarks... 
+i003sd-fn:
+i003se-f3:
+i017qa-mg:
+i017qb-mg:
+i017qc-mg:
+    i017qc-mg: shape does not have all landmarks... 
+i017qd-mg:
+i017qe-mg:
+Done generating mean shape aligned to the facedets
+    13 faces detected (86.67%), 13 facedets in the shapefile, 0 facedets in the images
+    0 facedet false positives, 4 shapes with missing landmarks
+    11 faces actually used (valid facedet and all points) (73.33% of the shapes in the shapefile)
+    0 missing both eyes, 0 missing just left eye, 0 missing just right eye, 0 missing mouth
+Imputing missing points
+3 imputation iters...
+5 imputation iters...
+3 imputation iters...
+3 imputation iters...
+Writing test_tasmout/log/imputed.shape [0.0 secs]
+Generating test_tasmout/mh/yaw00_shapemodel.mh
+[0.1 secs to generate the shape model]
+Open E:/faces/muct/org/jpg/i000qa-fn.jpg unsuccessful, trying next
+Open E:/faces/muct/org/jpg/i000qa-fn.bmp unsuccessful, trying next
+Open E:/faces/muct/org/jpg/i000qa-fn.pgm unsuccessful, trying next
+Open E:/faces/muct/org/jpg/i000qa-fn.png unsuccessful

@@ -1,0 +1,2 @@
+/home/yx/fr/project/imageParser/CMakeFiles/feature.dir
+/home/yx/fr/project/imageParser/CMakeFiles/imageParser.dir

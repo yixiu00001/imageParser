@@ -1,0 +1,14 @@
+/home/yx/fr/project/imageParser/vosm-0.3.3/modules/comalgs/CMakeFiles/comalgs.dir
+/home/yx/fr/project/imageParser/vosm-0.3.3/modules/cvcommon/CMakeFiles/cvcommon.dir
+/home/yx/fr/project/imageParser/vosm-0.3.3/modules/ensembletraining/CMakeFiles/ensembletraining.dir
+/home/yx/fr/project/imageParser/vosm-0.3.3/modules/featureextraction/CMakeFiles/featureextraction.dir
+/home/yx/fr/project/imageParser/vosm-0.3.3/modules/integraltransform/CMakeFiles/integraltransform.dir
+/home/yx/fr/project/imageParser/vosm-0.3.3/modules/smbuilding/CMakeFiles/smbuilding.dir
+/home/yx/fr/project/imageParser/vosm-0.3.3/modules/smfitting/CMakeFiles/smfitting.dir
+/home/yx/fr/project/imageParser/vosm-0.3.3/tests/test_ensembletraining/CMakeFiles/test_ensembletraining.dir
+/home/yx/fr/project/imageParser/vosm-0.3.3/tests/test_featureextraction/CMakeFiles/test_featureextraction.dir
+/home/yx/fr/project/imageParser/vosm-0.3.3/tests/test_integraltransform/CMakeFiles/test_integraltransform.dir
+/home/yx/fr/project/imageParser/vosm-0.3.3/tests/test_smbuilding/CMakeFiles/test_smbuilding.dir
+/home/yx/fr/project/imageParser/vosm-0.3.3/tests/test_smfitting/CMakeFiles/test_smfitting.dir
+/home/yx/fr/project/imageParser/vosm-0.3.3/CMakeFiles/uninstall.dir
+/home/yx/fr/project/imageParser/vosm-0.3.3/modules/common/CMakeFiles/utils.dir

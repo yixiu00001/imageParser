@@ -1,0 +1,1628 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ABS	stasm/misc.h	/^template <typename T> T ABS(const T x)           \/\/ define ABS(x)$/;"	f	namespace:stasm
+APP_NAME	apps/win/wasm.cpp	/^static const char* const APP_NAME      = "Wasm";$/;"	m	namespace:stasm	file:
+ARCHITECTURE_ID	CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	298;"	d	file:
+ARCHITECTURE_ID	CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	301;"	d	file:
+ARCHITECTURE_ID	CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	304;"	d	file:
+ARCHITECTURE_ID	CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	307;"	d	file:
+ARCHITECTURE_ID	CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	310;"	d	file:
+ARCHITECTURE_ID	CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	313;"	d	file:
+ARCHITECTURE_ID	CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	316;"	d	file:
+ARCHITECTURE_ID	CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	320;"	d	file:
+ARCHITECTURE_ID	CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	291;"	d	file:
+ARCHITECTURE_ID	CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	294;"	d	file:
+ARCHITECTURE_ID	CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	297;"	d	file:
+ARCHITECTURE_ID	CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	300;"	d	file:
+ARCHITECTURE_ID	CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	303;"	d	file:
+ARCHITECTURE_ID	CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	306;"	d	file:
+ARCHITECTURE_ID	CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	309;"	d	file:
+ARCHITECTURE_ID	CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	313;"	d	file:
+AT_Any	stasm/atface.h	/^static const unsigned AT_Any        = 0xFFFFFFFF; \/\/ special case, match any bit in Mask0$/;"	v
+AT_BadEye	stasm/atface.h	/^static const unsigned AT_BadEye     = 0x0800; \/\/ an eye is closed or obscured by hair etc.$/;"	v
+AT_BadImg	stasm/atface.h	/^static const unsigned AT_BadImg     = 0x0100; \/\/ image is "bad" in some way (blurred, duplicated, etc.)$/;"	v
+AT_BadTrain	stasm/atface.h	/^static const unsigned AT_BadTrain   = 0x8000; \/\/ face is not suitable for training face det$/;"	v
+AT_Beard	stasm/atface.h	/^static const unsigned AT_Beard      = 0x0008; \/\/ beard including possible mustache$/;"	v
+AT_Child	stasm/atface.h	/^static const unsigned AT_Child      = 0x0002; \/\/ child$/;"	v
+AT_Cropped	stasm/atface.h	/^static const unsigned AT_Cropped    = 0x0200; \/\/ a landmark would be off the page$/;"	v
+AT_EYAW00	stasm/atface.h	/^static const unsigned AT_EYAW00     = 0x81000000; \/\/ yaw00 face detector results, see DetPar$/;"	v
+AT_EYAW22	stasm/atface.h	/^static const unsigned AT_EYAW22     = 0x82000000;$/;"	v
+AT_EYAW45	stasm/atface.h	/^static const unsigned AT_EYAW45     = 0x83000000;$/;"	v
+AT_EYAW_22	stasm/atface.h	/^static const unsigned AT_EYAW_22    = 0x8A000000; \/\/ ms bit of nibble indicates negative yaw$/;"	v
+AT_EYAW_45	stasm/atface.h	/^static const unsigned AT_EYAW_45    = 0x8B000000;$/;"	v
+AT_Expression	stasm/atface.h	/^static const unsigned AT_Expression = 0x0040; \/\/ non-neutral expression on face$/;"	v
+AT_Eye	stasm/atface.h	/^static const unsigned AT_Eye        = 0x0080; \/\/ is eye landmark, used only during training$/;"	v
+AT_Glasses	stasm/atface.h	/^static const unsigned AT_Glasses    = 0x0004; \/\/ face is wearing specs$/;"	v
+AT_Hat	stasm/atface.h	/^static const unsigned AT_Hat        = 0x1000; \/\/ HAT desciptor (ignored if pyr lev > HAT_START_LEV)$/;"	v
+AT_Male	stasm/atface.h	/^static const unsigned AT_Male       = 0x0001; \/\/ gender, 1=male$/;"	v
+AT_Meta	stasm/atface.h	/^static const unsigned AT_Meta       = 0xFF000000; \/\/ "meta bits" used for face and pose detectors$/;"	v
+AT_MouthOpen	stasm/atface.h	/^static const unsigned AT_MouthOpen  = 0x0020; \/\/ mouth is open$/;"	v
+AT_MultiFace	stasm/atface.h	/^static const unsigned AT_MultiFace  = 0x4000; \/\/ multiple faces in the image$/;"	v
+AT_Mustache	stasm/atface.h	/^static const unsigned AT_Mustache   = 0x0010; \/\/ mustache$/;"	v
+AT_NAMES	stasm/atface.h	/^static const char* const AT_NAMES[] = \/\/ used only for information during training$/;"	v
+AT_Obscured	stasm/atface.h	/^static const unsigned AT_Obscured   = 0x0400; \/\/ face is obscured e.g. by subject's hand$/;"	v
+AT_Pose	stasm/atface.h	/^static const unsigned AT_Pose       = 0x80000000; \/\/ 4 elements: yaw, pitch, roll, estimated_err$/;"	v
+AdjustCropSoDivBy4	apps/appmisc.cpp	/^void AdjustCropSoDivBy4($/;"	f	namespace:stasm
+AlignMeanShapeToBothEyesEstMouth	stasm/startshape.cpp	/^static Shape AlignMeanShapeToBothEyesEstMouth($/;"	f	namespace:stasm
+AlignMeanShapeToBothEyesMouth	stasm/startshape.cpp	/^static Shape AlignMeanShapeToBothEyesMouth($/;"	f	namespace:stasm
+AlignMeanShapeToBothEyesNoMouth	stasm/startshape.cpp	/^static Shape AlignMeanShapeToBothEyesNoMouth($/;"	f	namespace:stasm
+AlignMeanShapeToFaceDet	stasm/startshape.cpp	/^static Shape AlignMeanShapeToFaceDet($/;"	f	namespace:stasm
+AlignMeanShapeToLeftEyeMouth	stasm/startshape.cpp	/^static Shape AlignMeanShapeToLeftEyeMouth($/;"	f	namespace:stasm
+AlignMeanShapeToRightEyeMouth	stasm/startshape.cpp	/^static Shape AlignMeanShapeToRightEyeMouth($/;"	f	namespace:stasm
+AlignShapeInPlace	tasm/src/tasmalignshapes.cpp	/^static void AlignShapeInPlace($/;"	f	namespace:stasm
+AlignShapeToDetFrame	tasm/src/tasmmeanshape.cpp	/^static Shape AlignShapeToDetFrame( \/\/ align shape to detpar$/;"	f	namespace:stasm
+AlignShapes	tasm/src/tasmalignshapes.cpp	/^static void AlignShapes($/;"	f	namespace:stasm
+AlignTrainingShapes	tasm/src/tasmalignshapes.cpp	/^void AlignTrainingShapes($/;"	f	namespace:stasm
+AlignmentMat	stasm/misc.cpp	/^const MAT AlignmentMat($/;"	f	namespace:stasm
+AlphaNumeric	apps/shapefile/stasm_regex.cpp	/^static bool AlphaNumeric(char c)$/;"	f	namespace:stasm
+AnnotateImg	apps/win/wasm.cpp	/^static void AnnotateImg(void) \/\/ update img_g$/;"	f	namespace:stasm
+AnnotateImg	tasm/marki/marki.cpp	/^static void AnnotateImg (void)$/;"	f	file:
+AnnotateSpecialPoints	tasm/marki/marki.cpp	/^static void AnnotateSpecialPoints (double Size,     \/\/ in$/;"	f	file:
+ApplyShapeModelHacks	stasm/shapehacks.cpp	/^void ApplyShapeModelHacks( \/\/ adjust shape by applying various hacks$/;"	f	namespace:stasm
+ArrayAsMat	stasm/misc.cpp	/^const MAT ArrayAsMat(    \/\/ create a MAT from a C array of doubles$/;"	f	namespace:stasm
+AsColVec	stasm/misc.h	/^static inline VEC AsColVec(const MAT& mat) \/\/ view entire matrix as a col vector$/;"	f	namespace:stasm
+AsImage	apps/appmisc.cpp	/^Image AsImage(const CImage& cimg) \/\/ convert a CImage to an Image$/;"	f	namespace:stasm
+AsRowVec	stasm/misc.h	/^static inline VEC AsRowVec(const MAT& mat) \/\/ view entire matrix as a row vector$/;"	f	namespace:stasm
+AsmSearch	apps/win/wasm.cpp	/^static const Shape AsmSearch($/;"	f	namespace:stasm
+AttrBitsToString	apps/appmisc.cpp	/^void AttrBitsToString($/;"	f	namespace:stasm
+BINS_PER_HIST	stasm/hat.cpp	/^static const int BINS_PER_HIST = 8;    \/\/ 8 gives a 45 degree range per bin$/;"	m	namespace:stasm	file:
+BORDER_FRAC	stasm/MOD_1/facedet.cpp	/^static const double BORDER_FRAC = .1; \/\/ fraction of image width or height$/;"	m	namespace:stasm	file:
+BUTTON_STANDARD	apps/win/wasm.cpp	79;"	d	file:
+BUTTON_STANDARD	apps/win/wasm.cpp	81;"	d	file:
+BackwardToNextTenPercentBoundary	tasm/marki/marki.cpp	/^static void BackwardToNextTenPercentBoundary (void)$/;"	f	file:
+Base	stasm/misc.cpp	/^const char* Base(const char* path)$/;"	f	namespace:stasm
+BaseDescMod	stasm/basedesc.h	/^class BaseDescMod \/\/ abstract base class for all descriptor models$/;"	c	namespace:stasm
+BaseExt	stasm/misc.cpp	/^const char* BaseExt(const char* path)$/;"	f	namespace:stasm
+Bisector	stasm/classicdesc.cpp	/^static const VEC Bisector( \/\/ return normalized bisector of three ordered points$/;"	f	namespace:stasm
+BmpPath	apps/win/writewind.cpp	/^static void BmpPath($/;"	f	namespace:stasm
+Buf	stasm/misc.h	/^static inline double* Buf(const MAT& mat) \/\/ access MAT data buffer$/;"	f	namespace:stasm
+CACHE	stasm/hatdesc.cpp	9;"	d	file:
+CFG	vc10/makefile	/^CFG=Release$/;"	m
+CFLAGS	mingw/Makefile	/^CFLAGS=-O3 -Wall -Wextra -pedantic\\$/;"	m
+CFLAGS	vc10/makefile	/^CFLAGS=-D$(MOD) $(CFLAGS_)$/;"	m
+CHILD_WND	apps/win/wasm.cpp	/^static const char* CHILD_WND = "WasmChild"; \/\/ name and class of child window$/;"	m	namespace:stasm	file:
+CHIN_DOWN_RATIO	stasm/shapehacks.cpp	/^static const double CHIN_DOWN_RATIO = 0.5; \/\/ chin must be this far from mouth$/;"	m	namespace:stasm	file:
+CHIN_DOWN_SHIFT	stasm/shapehacks.cpp	/^static const double CHIN_DOWN_SHIFT = 0.2;$/;"	m	namespace:stasm	file:
+CHIN_UP_RATIO	stasm/shapehacks.cpp	/^static const double CHIN_UP_RATIO   = 2.4; \/\/ chin cannot be further than this from mouth$/;"	m	namespace:stasm	file:
+CHIN_UP_SHIFT	stasm/shapehacks.cpp	/^static const double CHIN_UP_SHIFT   = 0.1;$/;"	m	namespace:stasm	file:
+CImage	stasm/misc.h	/^typedef cv::Mat_<RGBV> CImage;  \/\/ an RGB image (for apps and debugging, unneeded for ASM)$/;"	t	namespace:stasm
+CLASSIC_MAX_OFFSET	stasm/classicdesc.h	/^static const int CLASSIC_MAX_OFFSET = 2;   \/\/ search +-2 pixels along the whisker$/;"	m	namespace:stasm
+CLASSIC_SEARCH_RESOL	stasm/classicdesc.h	/^static const int CLASSIC_SEARCH_RESOL = 2; \/\/ search resolution, every 2nd pix$/;"	m	namespace:stasm
+CLASS_NAME	apps/win/usermsg.cpp	/^static const char* const CLASS_NAME = "UserMsg";$/;"	m	namespace:stasm	file:
+CMAKE_BINARY_DIR	Makefile	/^CMAKE_BINARY_DIR = \/home\/yx\/fr\/project\/imageParser\/stasm4.1.0$/;"	m
+CMAKE_COMMAND	Makefile	/^CMAKE_COMMAND = \/usr\/bin\/cmake$/;"	m
+CMAKE_SOURCE_DIR	Makefile	/^CMAKE_SOURCE_DIR = \/home\/yx\/fr\/project\/imageParser\/stasm4.1.0$/;"	m
+COMPILER_ID	CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	107;"	d	file:
+COMPILER_ID	CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	112;"	d	file:
+COMPILER_ID	CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	119;"	d	file:
+COMPILER_ID	CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	122;"	d	file:
+COMPILER_ID	CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	125;"	d	file:
+COMPILER_ID	CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	133;"	d	file:
+COMPILER_ID	CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	13;"	d	file:
+COMPILER_ID	CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	152;"	d	file:
+COMPILER_ID	CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	160;"	d	file:
+COMPILER_ID	CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	165;"	d	file:
+COMPILER_ID	CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	170;"	d	file:
+COMPILER_ID	CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	177;"	d	file:
+COMPILER_ID	CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	194;"	d	file:
+COMPILER_ID	CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	197;"	d	file:
+COMPILER_ID	CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	200;"	d	file:
+COMPILER_ID	CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	24;"	d	file:
+COMPILER_ID	CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	32;"	d	file:
+COMPILER_ID	CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	38;"	d	file:
+COMPILER_ID	CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	44;"	d	file:
+COMPILER_ID	CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	50;"	d	file:
+COMPILER_ID	CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	56;"	d	file:
+COMPILER_ID	CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	70;"	d	file:
+COMPILER_ID	CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	77;"	d	file:
+COMPILER_ID	CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	85;"	d	file:
+COMPILER_ID	CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	88;"	d	file:
+COMPILER_ID	CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	90;"	d	file:
+COMPILER_ID	CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	99;"	d	file:
+COMPILER_ID	CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	104;"	d	file:
+COMPILER_ID	CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	112;"	d	file:
+COMPILER_ID	CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	117;"	d	file:
+COMPILER_ID	CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	124;"	d	file:
+COMPILER_ID	CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	127;"	d	file:
+COMPILER_ID	CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	12;"	d	file:
+COMPILER_ID	CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	135;"	d	file:
+COMPILER_ID	CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	154;"	d	file:
+COMPILER_ID	CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	162;"	d	file:
+COMPILER_ID	CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	167;"	d	file:
+COMPILER_ID	CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	170;"	d	file:
+COMPILER_ID	CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	187;"	d	file:
+COMPILER_ID	CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	18;"	d	file:
+COMPILER_ID	CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	190;"	d	file:
+COMPILER_ID	CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	193;"	d	file:
+COMPILER_ID	CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	29;"	d	file:
+COMPILER_ID	CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	37;"	d	file:
+COMPILER_ID	CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	43;"	d	file:
+COMPILER_ID	CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	49;"	d	file:
+COMPILER_ID	CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	55;"	d	file:
+COMPILER_ID	CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	61;"	d	file:
+COMPILER_ID	CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	75;"	d	file:
+COMPILER_ID	CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	82;"	d	file:
+COMPILER_ID	CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	90;"	d	file:
+COMPILER_ID	CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	93;"	d	file:
+COMPILER_ID	CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	95;"	d	file:
+COMPILER_VERSION_MAJOR	CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	100;"	d	file:
+COMPILER_VERSION_MAJOR	CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	108;"	d	file:
+COMPILER_VERSION_MAJOR	CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	114;"	d	file:
+COMPILER_VERSION_MAJOR	CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	126;"	d	file:
+COMPILER_VERSION_MAJOR	CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	135;"	d	file:
+COMPILER_VERSION_MAJOR	CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	154;"	d	file:
+COMPILER_VERSION_MAJOR	CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	15;"	d	file:
+COMPILER_VERSION_MAJOR	CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	172;"	d	file:
+COMPILER_VERSION_MAJOR	CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	180;"	d	file:
+COMPILER_VERSION_MAJOR	CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	185;"	d	file:
+COMPILER_VERSION_MAJOR	CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	25;"	d	file:
+COMPILER_VERSION_MAJOR	CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	33;"	d	file:
+COMPILER_VERSION_MAJOR	CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	39;"	d	file:
+COMPILER_VERSION_MAJOR	CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	46;"	d	file:
+COMPILER_VERSION_MAJOR	CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	52;"	d	file:
+COMPILER_VERSION_MAJOR	CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	59;"	d	file:
+COMPILER_VERSION_MAJOR	CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	64;"	d	file:
+COMPILER_VERSION_MAJOR	CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	72;"	d	file:
+COMPILER_VERSION_MAJOR	CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	79;"	d	file:
+COMPILER_VERSION_MAJOR	CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	93;"	d	file:
+COMPILER_VERSION_MAJOR	CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	105;"	d	file:
+COMPILER_VERSION_MAJOR	CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	113;"	d	file:
+COMPILER_VERSION_MAJOR	CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	119;"	d	file:
+COMPILER_VERSION_MAJOR	CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	128;"	d	file:
+COMPILER_VERSION_MAJOR	CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	137;"	d	file:
+COMPILER_VERSION_MAJOR	CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	14;"	d	file:
+COMPILER_VERSION_MAJOR	CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	156;"	d	file:
+COMPILER_VERSION_MAJOR	CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	173;"	d	file:
+COMPILER_VERSION_MAJOR	CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	178;"	d	file:
+COMPILER_VERSION_MAJOR	CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	20;"	d	file:
+COMPILER_VERSION_MAJOR	CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	30;"	d	file:
+COMPILER_VERSION_MAJOR	CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	38;"	d	file:
+COMPILER_VERSION_MAJOR	CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	44;"	d	file:
+COMPILER_VERSION_MAJOR	CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	51;"	d	file:
+COMPILER_VERSION_MAJOR	CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	57;"	d	file:
+COMPILER_VERSION_MAJOR	CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	64;"	d	file:
+COMPILER_VERSION_MAJOR	CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	69;"	d	file:
+COMPILER_VERSION_MAJOR	CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	77;"	d	file:
+COMPILER_VERSION_MAJOR	CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	84;"	d	file:
+COMPILER_VERSION_MAJOR	CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	98;"	d	file:
+COMPILER_VERSION_MINOR	CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	101;"	d	file:
+COMPILER_VERSION_MINOR	CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	109;"	d	file:
+COMPILER_VERSION_MINOR	CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	115;"	d	file:
+COMPILER_VERSION_MINOR	CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	127;"	d	file:
+COMPILER_VERSION_MINOR	CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	136;"	d	file:
+COMPILER_VERSION_MINOR	CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	155;"	d	file:
+COMPILER_VERSION_MINOR	CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	16;"	d	file:
+COMPILER_VERSION_MINOR	CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	173;"	d	file:
+COMPILER_VERSION_MINOR	CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	181;"	d	file:
+COMPILER_VERSION_MINOR	CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	186;"	d	file:
+COMPILER_VERSION_MINOR	CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	26;"	d	file:
+COMPILER_VERSION_MINOR	CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	34;"	d	file:
+COMPILER_VERSION_MINOR	CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	40;"	d	file:
+COMPILER_VERSION_MINOR	CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	47;"	d	file:
+COMPILER_VERSION_MINOR	CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	53;"	d	file:
+COMPILER_VERSION_MINOR	CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	60;"	d	file:
+COMPILER_VERSION_MINOR	CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	65;"	d	file:
+COMPILER_VERSION_MINOR	CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	73;"	d	file:
+COMPILER_VERSION_MINOR	CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	80;"	d	file:
+COMPILER_VERSION_MINOR	CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	94;"	d	file:
+COMPILER_VERSION_MINOR	CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	106;"	d	file:
+COMPILER_VERSION_MINOR	CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	114;"	d	file:
+COMPILER_VERSION_MINOR	CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	120;"	d	file:
+COMPILER_VERSION_MINOR	CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	129;"	d	file:
+COMPILER_VERSION_MINOR	CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	138;"	d	file:
+COMPILER_VERSION_MINOR	CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	157;"	d	file:
+COMPILER_VERSION_MINOR	CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	15;"	d	file:
+COMPILER_VERSION_MINOR	CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	174;"	d	file:
+COMPILER_VERSION_MINOR	CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	179;"	d	file:
+COMPILER_VERSION_MINOR	CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	21;"	d	file:
+COMPILER_VERSION_MINOR	CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	31;"	d	file:
+COMPILER_VERSION_MINOR	CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	39;"	d	file:
+COMPILER_VERSION_MINOR	CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	45;"	d	file:
+COMPILER_VERSION_MINOR	CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	52;"	d	file:
+COMPILER_VERSION_MINOR	CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	58;"	d	file:
+COMPILER_VERSION_MINOR	CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	65;"	d	file:
+COMPILER_VERSION_MINOR	CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	70;"	d	file:
+COMPILER_VERSION_MINOR	CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	78;"	d	file:
+COMPILER_VERSION_MINOR	CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	85;"	d	file:
+COMPILER_VERSION_MINOR	CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	99;"	d	file:
+COMPILER_VERSION_PATCH	CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	103;"	d	file:
+COMPILER_VERSION_PATCH	CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	116;"	d	file:
+COMPILER_VERSION_PATCH	CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	129;"	d	file:
+COMPILER_VERSION_PATCH	CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	140;"	d	file:
+COMPILER_VERSION_PATCH	CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	143;"	d	file:
+COMPILER_VERSION_PATCH	CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	156;"	d	file:
+COMPILER_VERSION_PATCH	CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	174;"	d	file:
+COMPILER_VERSION_PATCH	CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	17;"	d	file:
+COMPILER_VERSION_PATCH	CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	182;"	d	file:
+COMPILER_VERSION_PATCH	CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	187;"	d	file:
+COMPILER_VERSION_PATCH	CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	28;"	d	file:
+COMPILER_VERSION_PATCH	CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	35;"	d	file:
+COMPILER_VERSION_PATCH	CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	41;"	d	file:
+COMPILER_VERSION_PATCH	CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	61;"	d	file:
+COMPILER_VERSION_PATCH	CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	66;"	d	file:
+COMPILER_VERSION_PATCH	CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	74;"	d	file:
+COMPILER_VERSION_PATCH	CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	81;"	d	file:
+COMPILER_VERSION_PATCH	CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	95;"	d	file:
+COMPILER_VERSION_PATCH	CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	100;"	d	file:
+COMPILER_VERSION_PATCH	CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	108;"	d	file:
+COMPILER_VERSION_PATCH	CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	121;"	d	file:
+COMPILER_VERSION_PATCH	CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	131;"	d	file:
+COMPILER_VERSION_PATCH	CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	142;"	d	file:
+COMPILER_VERSION_PATCH	CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	145;"	d	file:
+COMPILER_VERSION_PATCH	CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	158;"	d	file:
+COMPILER_VERSION_PATCH	CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	175;"	d	file:
+COMPILER_VERSION_PATCH	CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	180;"	d	file:
+COMPILER_VERSION_PATCH	CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	22;"	d	file:
+COMPILER_VERSION_PATCH	CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	33;"	d	file:
+COMPILER_VERSION_PATCH	CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	40;"	d	file:
+COMPILER_VERSION_PATCH	CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	46;"	d	file:
+COMPILER_VERSION_PATCH	CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	66;"	d	file:
+COMPILER_VERSION_PATCH	CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	71;"	d	file:
+COMPILER_VERSION_PATCH	CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	79;"	d	file:
+COMPILER_VERSION_PATCH	CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	86;"	d	file:
+COMPILER_VERSION_TWEAK	CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	147;"	d	file:
+COMPILER_VERSION_TWEAK	CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	20;"	d	file:
+COMPILER_VERSION_TWEAK	CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	149;"	d	file:
+COMPILER_VERSION_TWEAK	CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	25;"	d	file:
+CXX	mingw/Makefile	/^CXX=g++$/;"	m
+C_BLUE	stasm/misc.h	/^static const unsigned C_BLUE   = 0x0000ff;$/;"	m	namespace:stasm
+C_GREEN	stasm/misc.h	/^static const unsigned C_GREEN  = 0x00ff00;$/;"	m	namespace:stasm
+C_RED	stasm/misc.h	/^static const unsigned C_RED    = 0xff0000;$/;"	m	namespace:stasm
+C_YELLOW	stasm/misc.h	/^static const unsigned C_YELLOW = 0xffff00;$/;"	m	namespace:stasm
+CalcShapeCov	tasm/src/tasmshapemod.cpp	/^static MAT CalcShapeCov($/;"	f	namespace:stasm
+CanonicalEyeMouthDist	stasm/eyedist.cpp	/^static double CanonicalEyeMouthDist( \/\/ return 0 if pupils and mouth not avail$/;"	f	namespace:stasm
+CatchOpenCvErrs	stasm/err.cpp	/^void CatchOpenCvErrs(void) \/\/ makes CV_Assert work with LastErr and stasm_lasterr$/;"	f	namespace:stasm
+CenterOfEyeMouthTriangle	apps/swas/checkfacedet.cpp	/^static void CenterOfEyeMouthTriangle($/;"	f	namespace:stasm
+CentralizeShape	tasm/src/tasmalignshapes.cpp	/^static void CentralizeShape($/;"	f	namespace:stasm
+CheckAllShapesHaveSameNumberOfLandmarks	apps/shapefile/shapefile.cpp	/^void CheckAllShapesHaveSameNumberOfLandmarks($/;"	f	namespace:stasm
+CheckCov	tasm/src/tasmclassic.cpp	/^static bool CheckCov(   \/\/ true if everything ok with cov, else issue message and false$/;"	f	namespace:stasm
+CheckMem	apps/appmem.cpp	/^void CheckMem(void) \/\/ warn when memory used (by all processes) is over 80%$/;"	f	namespace:stasm
+CheckMode_NextImg	tasm/marki/marki.cpp	/^static void CheckMode_NextImg (void)$/;"	f	file:
+CheckNshapes	apps/shapefile/shapefile.cpp	/^static void CheckNshapes($/;"	f	namespace:stasm
+CheckPoseSpec	tasm/marki/marki.cpp	/^static void CheckPoseSpec ($/;"	f	file:
+CheckSameDim	tasm/src/tasmalignshapes.cpp	/^static void CheckSameDim($/;"	f	namespace:stasm
+CheckStasmInit	stasm/stasm_lib.cpp	/^static void CheckStasmInit(void)$/;"	f	namespace:stasm
+CheckUnusedPoints	tasm/src/tasmdescmod.cpp	/^static void CheckUnusedPoints($/;"	f	namespace:stasm
+CheckX	stasm/shape17.cpp	/^static void CheckX( \/\/ check that the point "left" is leftwards of the point "right"$/;"	f	namespace:stasm
+CheckY	stasm/shape17.cpp	/^static void CheckY( \/\/ check that the point "bot" is below the point "top"$/;"	f	namespace:stasm
+ChildWm_LButtonDown	tasm/marki/marki.cpp	/^static void ChildWm_LButtonDown (LPARAM lParam, bool fSaveForUndo)$/;"	f	file:
+ChildWm_LButtonUp	tasm/marki/marki.cpp	/^static void ChildWm_LButtonUp (LPARAM lParam)$/;"	f	file:
+ChildWm_MouseMove	tasm/marki/marki.cpp	/^static void ChildWm_MouseMove (LPARAM lParam)$/;"	f	file:
+ChildWm_Paint	apps/win/wasm.cpp	/^static void ChildWm_Paint(HWND hwnd)$/;"	f	namespace:stasm
+ChildWm_Paint	tasm/marki/marki.cpp	/^static void ChildWm_Paint (HWND hWnd)$/;"	f	file:
+ChildWm_RButtonDown	tasm/marki/marki.cpp	/^static void ChildWm_RButtonDown (void)$/;"	f	file:
+ChildWm_RButtonUp	tasm/marki/marki.cpp	/^static void ChildWm_RButtonUp (void)$/;"	f	file:
+ChildWndProc	apps/win/wasm.cpp	/^static LRESULT CALLBACK ChildWndProc( \/\/ for hwnd_child_g$/;"	f	namespace:stasm
+ChildWndProc	tasm/marki/marki.cpp	/^ChildWndProc (HWND hWnd, UINT nMsg, WPARAM wParam, LPARAM lParam)$/;"	f	file:
+Circle	tasm/src/tasmdraw.cpp	/^static void Circle(           \/\/ draw a circle and number at a landmark$/;"	f	namespace:stasm
+Clamp	stasm/misc.h	/^template <typename T> T Clamp(const T x, const T min, const T max)$/;"	f	namespace:stasm
+ClassicDescMod	stasm/classicdesc.h	/^    ClassicDescMod(                          \/\/ constructor$/;"	f	class:stasm::ClassicDescMod
+ClassicDescMod	stasm/classicdesc.h	/^class ClassicDescMod: public BaseDescMod$/;"	c	namespace:stasm
+ClassicDescSearch	stasm/classicdesc.cpp	/^void ClassicDescSearch(    \/\/ search along whisker for best profile match$/;"	f	namespace:stasm
+ClassicProf	stasm/classicdesc.cpp	/^VEC ClassicProf(           \/\/ currently used only when training a new model$/;"	f	namespace:stasm
+ClearLastErr	stasm/err.cpp	/^void ClearLastErr(void)$/;"	f	namespace:stasm
+CloseUserMsg	apps/win/usermsg.cpp	/^void CloseUserMsg(void)$/;"	f	namespace:stasm
+CmdLineAsSingleString	apps/appmisc.cpp	/^void CmdLineAsSingleString($/;"	f	namespace:stasm
+CompileRegex	apps/shapefile/stasm_regex.cpp	/^const regex CompileRegex(     \/\/ convert string sregex to case independent "regex"$/;"	f	namespace:stasm
+CompileRegex	apps/shapefile/stasm_regex.cpp	/^const regex CompileRegex(     \/\/ convert string sregex to case independent regex$/;"	f	namespace:stasm
+ConformShapeToMod	stasm/shapemod.cpp	/^Shape ConformShapeToMod( \/\/ Return a copy of inshape conformed to the model$/;"	f	namespace:stasm
+ConformShapeToMod_	stasm/shapemod.cpp	/^const Shape ShapeMod::ConformShapeToMod_( \/\/ return shape conformed to shape model$/;"	f	class:stasm::ShapeMod
+ConformShapeToMod_Pinned_	stasm/asm.h	/^    const Shape ConformShapeToMod_Pinned_( \/\/ wrapper around the func in ShapeMod$/;"	f	class:stasm::Mod
+ConformShapeToMod_Pinned_	stasm/shapemod.cpp	/^const Shape ShapeMod::ConformShapeToMod_Pinned_($/;"	f	class:stasm::ShapeMod
+ConvertBackslashesToForwardAndStripFinalSlash	stasm/misc.cpp	/^void ConvertBackslashesToForwardAndStripFinalSlash(char* s)$/;"	f	namespace:stasm
+ConvertDescs	tasm/src/tasmhat.cpp	/^static void ConvertDescs(    \/\/ type convert, add intercept, posssibly dup pos cases$/;"	f	namespace:stasm
+ConvertLandmarksAndDraw	tasm/src/tasmdraw.cpp	/^static void ConvertLandmarksAndDraw($/;"	f	namespace:stasm
+ConvertShape	stasm/convshape.cpp	/^Shape ConvertShape(          \/\/ return shape with nlandmarks, return no rows if can't$/;"	f	namespace:stasm
+CopyHistsToDesc	stasm/hat.cpp	/^static void CopyHistsToDesc(    \/\/ copy histograms to descriptor, skipping pad bins$/;"	f	namespace:stasm
+CopyLogFile	tasm/marki/marki.cpp	/^static void CopyLogFile (const char sOld[], const char sNew[])$/;"	f	file:
+CopyPoint	stasm/convshape.cpp	/^static void CopyPoint(     \/\/ copy a point from oldshape to shape$/;"	f	namespace:stasm
+CopyPoint	stasm/pinstart.cpp	/^static void CopyPoint(     \/\/ copy a point from oldshape to shape$/;"	f	namespace:stasm
+CopyShapeVec	tasm/src/tasmshapemod.cpp	/^void CopyShapeVec($/;"	f	namespace:stasm
+Copy_	apps/shapefile/shapefile.h	/^    void Copy_(const ShapeFile& sh)$/;"	f	class:stasm::ShapeFile
+CreateMyCursor	tasm/marki/marki.cpp	/^static void CreateMyCursor (HINSTANCE hInstance)$/;"	f	file:
+CreateOutputDirs	tasm/src/tasm.cpp	/^static void CreateOutputDirs($/;"	f	namespace:stasm
+CreatePyr	stasm/asm.cpp	/^static void CreatePyr(    \/\/ create image pyramid$/;"	f	namespace:stasm
+CropCimg	apps/appmisc.cpp	/^static void CropCimg(  \/\/ crop the given amounts off the edges of a color image$/;"	f	namespace:stasm
+CropCimgToShapeWithMargin	apps/appmisc.cpp	/^void CropCimgToShapeWithMargin( \/\/ crop the image so the shape fills the image$/;"	f	namespace:stasm
+CvErrorCallbackForStasm	stasm/err.cpp	/^static int CV_CDECL CvErrorCallbackForStasm($/;"	f	namespace:stasm
+DEC	CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	324;"	d	file:
+DEC	CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	317;"	d	file:
+DEPENDENCY_FILES	mingw/Makefile	/^DEPENDENCY_FILES=\\$/;"	m
+DET_FACE_WIDTH	stasm/startshape.h	/^static const int DET_FACE_WIDTH = 200;$/;"	m	namespace:stasm
+DISALLOW_COPY_AND_ASSIGN	apps/hat_example.cpp	20;"	d	file:
+DISALLOW_COPY_AND_ASSIGN	stasm/misc.h	101;"	d
+Dark	stasm/eyedet.cpp	/^static unsigned Dark(unsigned color) \/\/ return a dark version of color$/;"	f	namespace:stasm
+Dark	tasm/src/tasmdraw.cpp	/^static unsigned Dark(unsigned color) \/\/ return a dark version of color$/;"	f	namespace:stasm
+Dark1	stasm/eyedet.cpp	/^static unsigned Dark1(unsigned color, double scale)$/;"	f	namespace:stasm
+DarkenImg	stasm/misc.cpp	/^void DarkenImg(     \/\/ for apps and debugging, unneeded for ASM$/;"	f	namespace:stasm
+DataDirFromExePath	apps/win/wasm.cpp	/^static void DataDirFromExePath($/;"	f	namespace:stasm
+DataDir_	stasm/asm.h	/^    const char*  DataDir_(void)   const { return datadir_.c_str(); }$/;"	f	class:stasm::Mod
+DecreasingWidth	stasm/MOD_1/facedet.cpp	/^static bool DecreasingWidth( \/\/ compare predicate for std::sort$/;"	f	namespace:stasm
+DegreesAsEyaw	stasm/misc.cpp	/^EYAW DegreesAsEyaw( \/\/ this determines what model is best for a given yaw$/;"	f	namespace:stasm
+DesaturateImg	stasm/misc.cpp	/^void DesaturateImg( \/\/ for apps and debugging, unneeded for ASM$/;"	f	namespace:stasm
+DescMods_	stasm/asm.h	/^    const vec_vec_BaseDescMod DescMods_(        \/\/ utility for Mod constructor$/;"	f	class:stasm::Mod
+DescSearch_	stasm/classicdesc.h	/^    virtual void DescSearch_(double& x, double& y,                 \/\/ io$/;"	f	class:stasm::ClassicDescMod
+DescSearch_	stasm/hatdesc.h	/^    virtual void DescSearch_(double& x, double& y,       \/\/ io$/;"	f	class:stasm::HatDescMod
+Desc_	stasm/hat.cpp	/^VEC Hat::Desc_( \/\/ return HAT descriptor, Init_ must be called first$/;"	f	class:stasm::Hat
+DetOnFace	apps/swas/checkfacedet.cpp	/^bool DetOnFace(              \/\/ true if the face det rect is on the face$/;"	f	namespace:stasm
+DetPar	stasm/misc.h	/^    DetPar() \/\/ constructor sets all fields to INVALID$/;"	f	struct:stasm::DetPar
+DetPar	stasm/misc.h	/^struct DetPar              \/\/ face and feature detector parameters$/;"	s	namespace:stasm
+Detect	stasm/misc.cpp	/^vec_Rect Detect(                            \/\/ detect faces or facial features$/;"	f	namespace:stasm
+DetectAllEyes	stasm/eyedet.cpp	/^static void DetectAllEyes($/;"	f	namespace:stasm
+DetectAllMouths	stasm/eyedet.cpp	/^static void DetectAllMouths($/;"	f	namespace:stasm
+DetectEyesAndMouth	stasm/eyedet.cpp	/^void DetectEyesAndMouth(  \/\/ use OpenCV detectors to find the eyes and mouth$/;"	f	namespace:stasm
+DetectFaces	stasm/MOD_1/facedet.cpp	/^void DetectFaces(          \/\/ all face rects into detpars$/;"	f	namespace:stasm
+DetectFaces_	stasm/MOD_1/facedet.cpp	/^void FaceDet::DetectFaces_( \/\/ call once per image to find all the faces$/;"	f	class:stasm::FaceDet
+DimKeep	stasm/misc.cpp	/^MAT DimKeep(const MAT& mat, int nrows, int ncols)$/;"	f	namespace:stasm
+DirWriteable	apps/appmisc.cpp	/^bool DirWriteable(       \/\/ true if directory is writeable$/;"	f	namespace:stasm
+DiscardMissizedFaces	stasm/MOD_1/facedet.cpp	/^static void DiscardMissizedFaces($/;"	f	namespace:stasm
+DiscountSearchRegion	stasm/misc.cpp	/^static void DiscountSearchRegion($/;"	f	namespace:stasm
+DisplayButton	apps/win/wasm.cpp	/^static void DisplayButton(HWND hToolbar, int idm, int flag)$/;"	f	namespace:stasm
+DisplayButtons	apps/win/wasm.cpp	/^static void DisplayButtons(void)$/;"	f	namespace:stasm
+DisplayButtons	tasm/marki/marki.cpp	/^static void DisplayButtons (void)$/;"	f	file:
+DisplayCheckModeTitle	tasm/marki/marki.cpp	/^static void DisplayCheckModeTitle (const char sShapeType[],$/;"	f	file:
+DisplayImg	apps/win/wasm.cpp	/^static void DisplayImg($/;"	f	namespace:stasm
+DisplayNoImg	apps/win/wasm.cpp	/^static void DisplayNoImg(HDC hdc, HWND hwnd) \/\/ for hwnd_child_g$/;"	f	namespace:stasm
+DisplayStandardTitle	tasm/marki/marki.cpp	/^static void DisplayStandardTitle (bool fWmMouseMove,$/;"	f	file:
+DisplayTitle	apps/win/wasm.cpp	/^static void DisplayTitle(void)$/;"	f	namespace:stasm
+DisplayTitle	tasm/marki/marki.cpp	/^static void DisplayTitle (bool fWmMouseMove)$/;"	f	file:
+DlgProc	tasm/marki/marki.cpp	/^INT_PTR CALLBACK DlgProc (HWND hDlg, UINT msg, WPARAM wParam, LPARAM lParam)$/;"	f
+DlgWmCommand	tasm/marki/marki.cpp	/^static void DlgWmCommand (HWND hDlg, WPARAM wParam)$/;"	f	file:
+DrawEyes	stasm/eyedet.cpp	/^static void DrawEyes($/;"	f	namespace:stasm
+DrawFaceDetShape	tasm/marki/marki.cpp	/^static void DrawFaceDetShape ( \/\/ draws onto gImg$/;"	f	file:
+DrawFeat	stasm/eyedet.cpp	/^static void DrawFeat(          \/\/ draw eye (or mouth) at index i in the eyes vec$/;"	f	namespace:stasm
+DrawLandmark	tasm/src/tasmdraw.cpp	/^static void DrawLandmark(      \/\/ draw one landmark with its associated info$/;"	f	namespace:stasm
+DrawLandmarks	apps/test_stasm_lib.cpp	/^static void DrawLandmarks($/;"	f	file:
+DrawLandmarks	tasm/src/tasmdraw.cpp	/^static void DrawLandmarks(     \/\/ draw an image showing all landmarks, numbered$/;"	f	namespace:stasm
+DrawMouths	stasm/eyedet.cpp	/^static void DrawMouths($/;"	f	namespace:stasm
+DrawPointOrX	tasm/marki/marki.cpp	/^static void DrawPointOrX (int    iLandmark,$/;"	f	file:
+DrawRect	stasm/eyedet.cpp	/^static void DrawRect(           \/\/ draw a rectangle on an image$/;"	f	namespace:stasm
+DrawShape	stasm/misc.cpp	/^void DrawShape(             \/\/ draw a shape on an image$/;"	f	namespace:stasm
+EQUALS	Makefile	/^EQUALS = =$/;"	m
+ESTART	stasm/misc.h	/^enum ESTART \/\/ do we use the detected eyes or mouth to help position the startshape?$/;"	g	namespace:stasm
+ESTART_EYES	stasm/misc.h	/^    ESTART_EYES          = 2, \/\/ use eyes if available (as well as face rect)$/;"	e	enum:stasm::ESTART
+ESTART_EYE_AND_MOUTH	stasm/misc.h	/^    ESTART_EYE_AND_MOUTH = 4  \/\/ uses eye(s) and mouth if both available$/;"	e	enum:stasm::ESTART
+ESTART_RECT_ONLY	stasm/misc.h	/^    ESTART_RECT_ONLY     = 1, \/\/ use just the face det rect to align the start shape$/;"	e	enum:stasm::ESTART
+EXE	mingw/Makefile	/^EXE=.exe$/;"	m
+EXTRA_MOD_OBJ	vc10/makefile	/^EXTRA_MOD_OBJ=$(OUTDIR)\/initasm22.obj $(OUTDIR)\/initasm45.obj $(OUTDIR)\/MVFDCache.obj $(OUTDIR)\/MVFDCacheReader.obj $(OUTDIR)\/MVFDEmulator.obj$/;"	m
+EXTRA_MOD_OBJ	vc10/makefile	/^EXTRA_MOD_OBJ=$(OUTDIR)\/initasm22.obj $(OUTDIR)\/initasm45.obj $(OUTDIR)\/estpose.obj $(OUTDIR)\/stasm_svm.obj$/;"	m
+EXTRA_MOD_OBJ	vc10/makefile	/^EXTRA_MOD_OBJ=$(OUTDIR)\/initasm22.obj $(OUTDIR)\/initasm45.obj$/;"	m
+EXTRA_MOD_OBJ	vc10/makefile	/^EXTRA_MOD_OBJ=$/;"	m
+EYAW	stasm/misc.h	/^enum EYAW$/;"	g	namespace:stasm
+EYAW00	stasm/misc.h	/^    EYAW00  =  1, \/\/ yaw 0 degrees   (frontal pose)$/;"	e	enum:stasm::EYAW
+EYAW22	stasm/misc.h	/^    EYAW22  =  2, \/\/ yaw 22 degrees  (right facing mild three-quarter pose)$/;"	e	enum:stasm::EYAW
+EYAW45	stasm/misc.h	/^    EYAW45  =  3  \/\/ yaw 45 degrees  (right facing strong three-quarter pose)$/;"	e	enum:stasm::EYAW
+EYAW_22	stasm/misc.h	/^    EYAW_22 = -2, \/\/ yaw -22 degrees (left facing mild three-quarter pose)$/;"	e	enum:stasm::EYAW
+EYAW_45	stasm/misc.h	/^    EYAW_45 = -3, \/\/ yaw -45 degrees (left facing strong three-quarter pose)$/;"	e	enum:stasm::EYAW
+EYAW_TO_USE_DET22	stasm/misc.h	/^static const double EYAW_TO_USE_DET22 = 14; \/\/ what estimated yaw requires the yaw22 mod$/;"	m	namespace:stasm
+EYAW_TO_USE_DET45	stasm/misc.h	/^static const double EYAW_TO_USE_DET45 = 35; \/\/ ditto for yaw45 model$/;"	m	namespace:stasm
+EYEMOUTH_DIST	stasm/asm.h	/^static const int EYEMOUTH_DIST = 100;  \/\/ scale image to this before ASM search starts$/;"	m	namespace:stasm
+EigsOfSymMat	tasm/src/tasmshapemod.cpp	/^static void EigsOfSymMat($/;"	f	namespace:stasm
+EnborderImg	stasm/MOD_1/facedet.cpp	/^static Image EnborderImg(    \/\/ return the image with a border$/;"	f	namespace:stasm
+End_	apps/appmisc.h	/^    void End_(void) \/\/ print final 0$/;"	f	class:stasm::Pacifier
+Equal	stasm/misc.h	/^static inline bool Equal(const double x, const double y, const double max = 1e-7)$/;"	f	namespace:stasm
+EqualizeImgUnderShape	tasm/marki/marki.cpp	/^static void EqualizeImgUnderShape ($/;"	f	file:
+Err	apps/mdiff/mdiff.cpp	/^static void Err(const char* pArgs, ...)    \/\/ args like printf$/;"	f	file:
+Err	stasm/err.cpp	/^void Err(const char* format, ...) \/\/ args like printf, throws an exception$/;"	f	namespace:stasm
+EstRotAndYawFrom5PointShape	stasm/pinstart.cpp	/^static void EstRotAndYawFrom5PointShape($/;"	f	namespace:stasm
+EstYawFrom5PointShape	stasm/pinstart.cpp	/^static double EstYawFrom5PointShape(const double* x) \/\/ x has 10 elements (5 points)$/;"	f	namespace:stasm
+EstartEyeMouth	stasm/startshape.cpp	/^static Shape EstartEyeMouth($/;"	f	namespace:stasm
+EstartEyes	stasm/startshape.cpp	/^static Shape EstartEyes($/;"	f	namespace:stasm
+EstartRectOnly	stasm/startshape.cpp	/^static Shape EstartRectOnly($/;"	f	namespace:stasm
+Estart_	stasm/asm.h	/^    ESTART       Estart_(void)    const { return estart_; }$/;"	f	class:stasm::Mod
+Exit	apps/test_stasm_lib.cpp	/^static void Exit(const char* format, ...) \/\/ args like printf$/;"	f	file:
+Exit	apps/test_stasm_lib_err.cpp	/^static void Exit(const char* format, ...) \/\/ args like printf$/;"	f	file:
+EyawAsColor	stasm/misc.cpp	/^unsigned EyawAsColor(EYAW eyaw)$/;"	f	namespace:stasm
+EyawAsModIndex	stasm/misc.cpp	/^int EyawAsModIndex(      \/\/ note: returns a negative index for left facing yaws$/;"	f	namespace:stasm
+EyawAsString	stasm/misc.cpp	/^const char* EyawAsString(EYAW eyaw) \/\/ utility for debugging\/tracing$/;"	f	namespace:stasm
+EyeAngle	stasm/startshape.cpp	/^double EyeAngle(          \/\/ eye angle in degrees, INVALID if eye angle not available$/;"	f	namespace:stasm
+EyeAngle	stasm/startshape.cpp	/^double EyeAngle(        \/\/ eye angle in degrees, INVALID if eye angle not available$/;"	f	namespace:stasm
+EyeInnerRect	stasm/eyedet.cpp	/^static Rect EyeInnerRect($/;"	f	namespace:stasm
+EyeMouthDist	stasm/eyedist.cpp	/^double EyeMouthDist(    \/\/ eye-mouth distance of a face shape, return 1 if not a face$/;"	f	namespace:stasm
+EyeSearchRect	stasm/eyedet.cpp	/^static Rect EyeSearchRect($/;"	f	namespace:stasm
+FACERECT_SCALE_WHEN_NO_EYES	stasm/startshape.cpp	/^static const double FACERECT_SCALE_WHEN_NO_EYES = .95;$/;"	m	namespace:stasm	file:
+FA_BadImage	apps/shapefile/shapefile.h	/^static const unsigned FA_BadImage   = 0x01;   \/\/ image is "bad" in some way (blurred, face tilted, etc.)$/;"	m	namespace:stasm
+FA_Beard	apps/shapefile/shapefile.h	/^static const unsigned FA_Beard      = 0x04;   \/\/ beard including possible mustache$/;"	m	namespace:stasm
+FA_Expression	apps/shapefile/shapefile.h	/^static const unsigned FA_Expression = 0x40;   \/\/ non-neutral expression on face$/;"	m	namespace:stasm
+FA_EyesClosed	apps/shapefile/shapefile.h	/^static const unsigned FA_EyesClosed = 0x20;   \/\/ eyes closed (partially open is not considered closed)$/;"	m	namespace:stasm
+FA_Glasses	apps/shapefile/shapefile.h	/^static const unsigned FA_Glasses    = 0x02;   \/\/ face is wearing specs$/;"	m	namespace:stasm
+FA_Meta	apps/shapefile/shapefile.h	/^static const unsigned FA_Meta       = 0xF000; \/\/ "meta shape" (face detector results)$/;"	m	namespace:stasm
+FA_Mustache	apps/shapefile/shapefile.h	/^static const unsigned FA_Mustache   = 0x08;   \/\/ mustache but no beard occluding chin or cheeks$/;"	m	namespace:stasm
+FA_NnFailed	apps/shapefile/shapefile.h	/^static const unsigned FA_NnFailed   = 0x80;   \/\/ Rowley search failed (does not return 1 face with 2 eyes)$/;"	m	namespace:stasm
+FA_Obscured	apps/shapefile/shapefile.h	/^static const unsigned FA_Obscured   = 0x10;   \/\/ faces is obscured e.g. by subject's hand$/;"	m	namespace:stasm
+FA_Rowley	apps/shapefile/shapefile.h	/^static const unsigned FA_Rowley     = 0x2000; \/\/ Rowley detector results$/;"	m	namespace:stasm
+FA_Synthesize	apps/shapefile/shapefile.h	/^static const unsigned FA_Synthesize = 0x100;  \/\/ synthesize eye points from twin landmark$/;"	m	namespace:stasm
+FA_ViolaJones	apps/shapefile/shapefile.h	/^static const unsigned FA_ViolaJones = 0x1000; \/\/ Viola Jones detector results$/;"	m	namespace:stasm
+FA_VjFailed	apps/shapefile/shapefile.h	/^static const unsigned FA_VjFailed   = 0x200;  \/\/ Viola Jones detector failed (no face found)$/;"	m	namespace:stasm
+FINAL_SCALE	stasm/hat.cpp	/^static const double FINAL_SCALE = 10;  \/\/ arb but 10 is good for %g printing of descriptors$/;"	m	namespace:stasm	file:
+FINDFILE_FIRST	apps/win/findfile.h	/^static const int FINDFILE_FIRST = INT_MIN; \/\/ NextFile return first file in dir$/;"	m	namespace:stasm
+FINDFILE_LAST	apps/win/findfile.h	/^static const int FINDFILE_LAST  = INT_MAX; \/\/ NextFile return last file in dir$/;"	m	namespace:stasm
+FITPARAMS	apps/swas/fm29.cpp	/^static const FitParams FITPARAMS[] = \/\/ 77 landmarks$/;"	m	namespace:stasm	file:
+FaceDet	stasm/MOD_1/facedet.h	/^    FaceDet() {}                  \/\/ constructor$/;"	f	class:stasm::FaceDet
+FaceDet	stasm/MOD_1/facedet.h	/^class FaceDet$/;"	c	namespace:stasm
+FaceDetFalsePos	tasm/src/tasmconf.cpp	/^bool FaceDetFalsePos(     \/\/ true if given detpar is wrong (off the shape)$/;"	f	namespace:stasm
+FaceRoiAndDetPar	stasm/faceroi.cpp	/^void FaceRoiAndDetPar(        \/\/ get ROI around the face, rotate if necessary$/;"	f	namespace:stasm
+Fgets	apps/shapefile/shapefile.cpp	/^static const char* Fgets(char* s, int n, FILE* file)$/;"	f	namespace:stasm
+FillBorders	tasm/marki/marki.cpp	/^static void FillBorders (HDC hdc,$/;"	f	file:
+FillRect	tasm/marki/marki.cpp	/^static void FillRect (HDC hdc, HBRUSH hBrush,$/;"	f	file:
+FirstShapeWithAllPoints	tasm/src/tasmshapemod.cpp	/^static int FirstShapeWithAllPoints($/;"	f	namespace:stasm
+FitParams	apps/swas/fm29.cpp	/^FitParams;$/;"	t	namespace:stasm	typeref:struct:stasm::FitParams	file:
+FitParams	apps/swas/fm29.cpp	/^typedef struct FitParams \/\/ how each landmark affects overall fitness$/;"	s	namespace:stasm	file:
+FixEigSigns	tasm/src/tasmshapemod.cpp	/^static void FixEigSigns($/;"	f	namespace:stasm
+FlipDetPar	stasm/misc.cpp	/^DetPar FlipDetPar(          \/\/ mirror image of detpar$/;"	f	namespace:stasm
+FlipIfLeftFacing	stasm/startshape.cpp	/^static void FlipIfLeftFacing($/;"	f	namespace:stasm
+FlipImg	stasm/misc.cpp	/^Image FlipImg(const Image& img) \/\/ in: flip image horizontally (mirror image)$/;"	f	namespace:stasm
+FlipImgInPlace	stasm/misc.cpp	/^void FlipImgInPlace(Image& img) \/\/ io: flip image horizontally (mirror image)$/;"	f	namespace:stasm
+FlipPoint	apps/shapefile/shapemirror.cpp	/^static void FlipPoint($/;"	f	namespace:stasm
+FlipPoint	stasm/landmarks.cpp	/^static void FlipPoint($/;"	f	namespace:stasm
+FlipShape	stasm/landmarks.cpp	/^Shape FlipShape(           \/\/ flip shape horizontally$/;"	f	namespace:stasm
+FlipShapeExt	apps/shapefile/shapemirror.cpp	/^Shape FlipShapeExt( \/\/ flip shape horizontally, extended version$/;"	f	namespace:stasm
+Fm29	apps/swas/fm29.cpp	/^void Fm29(                 \/\/ this can be used only on 77 point shapes, else err$/;"	f	namespace:stasm
+ForcePinnedPoints	stasm/misc.cpp	/^double ForcePinnedPoints($/;"	f	namespace:stasm
+ForceRectIntoImg	stasm/misc.cpp	/^void ForceRectIntoImg(   \/\/ force rectangle into image$/;"	f	namespace:stasm
+ForwardToNextTenPercentBoundary	tasm/marki/marki.cpp	/^static void ForwardToNextTenPercentBoundary (void)$/;"	f	file:
+Fprintf	apps/appmisc.cpp	/^void Fprintf(                 \/\/ like fprintf but issue err if can't write$/;"	f	namespace:stasm
+FullProf	stasm/classicdesc.cpp	/^static VEC FullProf(          \/\/ return full profile$/;"	f	namespace:stasm
+Fwrite	apps/win/writewind.cpp	/^static void Fwrite(    \/\/ like fwrite but displays a message if write fails$/;"	f	namespace:stasm
+GRIDHEIGHT	stasm/hat.cpp	/^static const int GRIDHEIGHT = 4;       \/\/ 4 x 5 grid of histograms in descriptor$/;"	m	namespace:stasm	file:
+GRIDWIDTH	stasm/hat.cpp	/^static const int GRIDWIDTH  = 5;$/;"	m	namespace:stasm	file:
+GenAndWriteDescMods	tasm/src/tasmdescmod.cpp	/^void GenAndWriteDescMods( \/\/ generate the descriptor models and write them to .mh files$/;"	f	namespace:stasm
+GenAndWriteShapeMod	tasm/src/tasmshapemod.cpp	/^void GenAndWriteShapeMod(             \/\/ generate the shape model and write it to a .mh file$/;"	f	namespace:stasm
+GenClassicMod	tasm/src/tasmclassic.cpp	/^void GenClassicMod( \/\/ generate the classical descriptor model for one point at the given pyr level$/;"	f	namespace:stasm
+GenDescMods	tasm/src/tasmdescmod.cpp	/^static void GenDescMods( \/\/ generate descriptor models for all points and images for one pyr lev$/;"	f	namespace:stasm
+GenHatMod	tasm/src/tasmhat.cpp	/^void GenHatMod( \/\/ generate the HAT descriptor model for one point at the given pyr level$/;"	f	namespace:stasm
+GenIncludeFileFromLandTab	tasm/src/tasmlandtab.cpp	/^void GenIncludeFileFromLandTab( \/\/ generate yaw00.h from LANDMARK_INFO_TAB$/;"	f	namespace:stasm
+GenShapeMod	tasm/src/tasmshapemod.cpp	/^static void GenShapeMod($/;"	f	namespace:stasm
+GenTrainingDescsForOneImg	tasm/src/tasmdescmod.cpp	/^static void GenTrainingDescsForOneImg($/;"	f	namespace:stasm
+GetCropLeavingSpaceAroundFace	apps/shapefile/shapecrop.cpp	/^static void GetCropLeavingSpaceAroundFace($/;"	f	namespace:stasm
+GetHatFit	stasm/hatdesc.cpp	/^static double GetHatFit( \/\/ args same as non CACHE version, see below$/;"	f	namespace:stasm
+GetHatFit	stasm/hatdesc.cpp	/^static double GetHatFit($/;"	f	namespace:stasm
+GetHistograms	stasm/hat.cpp	/^void GetHistograms(                \/\/ get all histogram bins$/;"	f	namespace:stasm
+GetInvertedCovMat	tasm/src/tasmclassic.cpp	/^static void GetInvertedCovMat( \/\/ get the inverted cov mat from the descriptors$/;"	f	namespace:stasm
+GetMagsAndOrients	stasm/hat.cpp	/^void GetMagsAndOrients( \/\/ get mags and orients for patch at ix,iy$/;"	f	namespace:stasm
+GetMagsAndOrients_AllInImg	stasm/hat.cpp	/^static inline void GetMagsAndOrients_AllInImg($/;"	f	namespace:stasm
+GetMagsAndOrients_GeneralCase	stasm/hat.cpp	/^static void GetMagsAndOrients_GeneralCase($/;"	f	namespace:stasm
+GetOptions	apps/shapefile/shapeconvert.cpp	/^static void GetOptions($/;"	f	namespace:stasm
+GetOptions	apps/shapefile/shapecrop.cpp	/^static void GetOptions($/;"	f	namespace:stasm
+GetOptions	apps/shapefile/shapemirror.cpp	/^static void GetOptions($/;"	f	namespace:stasm
+GetOptions	apps/stasm_main.cpp	/^static void GetOptions($/;"	f	namespace:stasm
+GetPrescale	stasm/asm.cpp	/^static double GetPrescale(   \/\/ factor to scale face to standard size prior to search$/;"	f	namespace:stasm
+GetPrintMatFormat	stasm/misc.cpp	/^static void GetPrintMatFormat($/;"	f	namespace:stasm
+GetPyrScale	stasm/asm.h	/^static inline double GetPyrScale(  \/\/ return 1 for pyr lev 0, .5 for pyr lev 1, etc.$/;"	f	namespace:stasm
+GetShapeCentroid	tasm/src/tasmalignshapes.cpp	/^static void GetShapeCentroid( \/\/ this excludes unused points$/;"	f	namespace:stasm
+GetStateFromRegistry	tasm/marki/marki.cpp	/^static void GetStateFromRegistry ($/;"	f	file:
+GetTasmDetPar	tasm/src/tasmmeanshape.cpp	/^static void GetTasmDetPar($/;"	f	namespace:stasm
+GetTasmDetParFromImage	tasm/src/tasmmeanshape.cpp	/^static void GetTasmDetParFromImage($/;"	f	namespace:stasm
+GetTrainImg	tasm/src/tasmdescmod.cpp	/^static void GetTrainImg(     \/\/ read image from disk, and scale it$/;"	f	namespace:stasm
+GetTrainingDescs	tasm/src/tasmdescmod.cpp	/^static void GetTrainingDescs( \/\/ get the descriptors for all points and images for one pyr lev$/;"	f	namespace:stasm
+GetYawMap	apps/shapefile/shapefile.cpp	/^const map_mat* GetYawMap(     \/\/ get the appropriate yaw map from the shapefile$/;"	f	namespace:stasm
+HAT_MAX_OFFSET	stasm/hatdesc.h	/^static const int HAT_MAX_OFFSET = 4;   \/\/ search grid +-4 pixs from current posn$/;"	m	namespace:stasm
+HAT_PATCH_WIDTH	stasm/hatdesc.h	/^static const int HAT_PATCH_WIDTH = 9*2+1;$/;"	m	namespace:stasm
+HAT_PATCH_WIDTH_ADJ	stasm/hatdesc.h	/^static const int HAT_PATCH_WIDTH_ADJ = -6;$/;"	m	namespace:stasm
+HAT_SEARCH_RESOL	stasm/hatdesc.h	/^static const int HAT_SEARCH_RESOL = 2; \/\/ search resolution, search every 2nd pixel$/;"	m	namespace:stasm
+HAT_START_LEV	stasm/hatdesc.h	/^static const int HAT_START_LEV = 2;    \/\/ HAT descriptors are for pyr levs 0...2$/;"	m	namespace:stasm
+HAVE_REGEX	apps/shapefile/stasm_regex.h	10;"	d
+HEX	CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	335;"	d	file:
+HEX	CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	328;"	d	file:
+HandleJumpToLandmarkMouseMove	tasm/marki/marki.cpp	/^static void HandleJumpToLandmarkMouseMove (void)$/;"	f	file:
+HandleMouseMarkLandmark	tasm/marki/marki.cpp	/^static void HandleMouseMarkLandmark (LPARAM lParam) \/\/ left button down$/;"	f	file:
+Hat	stasm/hat.h	/^    Hat() {}                      \/\/ constructor$/;"	f	class:stasm::Hat
+Hat	stasm/hat.h	/^class Hat$/;"	c	namespace:stasm
+HatDesc	stasm/hatdesc.cpp	/^VEC HatDesc( \/\/ used only during training new models$/;"	f	namespace:stasm
+HatDescMod	stasm/hatdesc.h	/^    HatDescMod(const HatFit hatfit) \/\/ constructor$/;"	f	class:stasm::HatDescMod
+HatDescMod	stasm/hatdesc.h	/^class HatDescMod: public BaseDescMod$/;"	c	namespace:stasm
+HatDescSearch	stasm/hatdesc.cpp	/^void HatDescSearch(      \/\/ search in a grid around the current landmark$/;"	f	namespace:stasm
+HatFit	stasm/hatdesc.h	/^typedef double(*HatFit)(const double* const);$/;"	t	namespace:stasm
+HaveCanonical5Points	stasm/pinstart.cpp	/^static bool HaveCanonical5Points($/;"	f	namespace:stasm
+Header	apps/shapefile/shapefile.cpp	/^static void Header(         \/\/ read and check first line of shape file$/;"	f	namespace:stasm
+HelpProc	apps/win/wasm.cpp	/^static INT_PTR CALLBACK HelpProc(HWND hDlg, UINT msg, WPARAM wParam, LPARAM)$/;"	f	namespace:stasm
+HistIndex	stasm/hat.cpp	/^static inline int HistIndex(int row, int col, int iorient) \/\/ index into histbins$/;"	f	namespace:stasm
+IDC_README	apps/win/wasm.h	21;"	d
+IDC_STATIC	apps/win/wasm.h	19;"	d
+IDC_VERSION	apps/win/wasm.h	20;"	d
+IDC_WEBSITE	apps/win/wasm.h	22;"	d
+IDM_Blank	apps/win/wasm.h	17;"	d
+IDM_Crop	apps/win/wasm.h	13;"	d
+IDM_Gray	apps/win/wasm.h	14;"	d
+IDM_Help	apps/win/wasm.h	16;"	d
+IDM_NextImg	apps/win/wasm.h	12;"	d
+IDM_Open	apps/win/wasm.h	10;"	d
+IDM_PrevImg	apps/win/wasm.h	11;"	d
+IDM_WriteImg	apps/win/wasm.h	15;"	d
+IDR_TOOLBAR_BITMAP	apps/win/wasm.h	8;"	d
+ID_VOID_MAIN	CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	9;"	d	file:
+INCL	vc10/makefile	/^INCL=-I$(OPENCV_HOME)\/build\/include -I..\/stasm$/;"	m
+INCLUDES	mingw/Makefile	/^INCLUDES=-I$(OPENCV_HOME)\/include -I..\/stasm  -I..\/apps$/;"	m
+INVALID	stasm/misc.h	/^static const int INVALID = 99999; \/\/ used to specify unavail eye locations, etc$/;"	m	namespace:stasm
+IX	stasm/misc.h	/^static const int IX = 0;        \/\/ X,Y index in shape matrices.  For clarity by$/;"	m	namespace:stasm
+IY	stasm/misc.h	/^static const int IY = 1;        \/\/ convention we use these rather than 0 and 1.$/;"	m	namespace:stasm
+IdmCenter	tasm/marki/marki.cpp	/^static void IdmCenter (void)$/;"	f	file:
+IdmConnectDots	tasm/marki/marki.cpp	/^static void IdmConnectDots (void)$/;"	f	file:
+IdmDark	tasm/marki/marki.cpp	/^static void IdmDark (void)$/;"	f	file:
+IdmFirstImg	apps/win/wasm.cpp	/^static void IdmFirstImg(void)$/;"	f	namespace:stasm
+IdmGray	tasm/marki/marki.cpp	/^static void IdmGray (void)$/;"	f	file:
+IdmHelp	tasm/marki/marki.cpp	/^static void IdmHelp (void)$/;"	f	file:
+IdmLastImg	apps/win/wasm.cpp	/^static void IdmLastImg(void)$/;"	f	namespace:stasm
+IdmNextImg	apps/win/wasm.cpp	/^static void IdmNextImg(void)$/;"	f	namespace:stasm
+IdmNextPoint	tasm/marki/marki.cpp	/^static void IdmNextPoint (int nRepeats, bool fSelectableLandmarksOnly)$/;"	f	file:
+IdmOpen	apps/win/wasm.cpp	/^static void IdmOpen(void)$/;"	f	namespace:stasm
+IdmPrevImg	apps/win/wasm.cpp	/^static void IdmPrevImg(void)$/;"	f	namespace:stasm
+IdmPrevPoint	tasm/marki/marki.cpp	/^static void IdmPrevPoint (int nRepeats, bool fSelectableLandmarksOnly)$/;"	f	file:
+IdmShowActiveNbr	tasm/marki/marki.cpp	/^static void IdmShowActiveNbr (void)$/;"	f	file:
+IdmShowLandmarks	tasm/marki/marki.cpp	/^static void IdmShowLandmarks (void)$/;"	f	file:
+IdmShowNbrs	tasm/marki/marki.cpp	/^static void IdmShowNbrs (void)$/;"	f	file:
+IdmZoomIn	tasm/marki/marki.cpp	/^static void IdmZoomIn (void)$/;"	f	file:
+IdmZoomOut	tasm/marki/marki.cpp	/^static void IdmZoomOut (void)$/;"	f	file:
+IeeeNormal	tasm/src/tasmclassic.cpp	/^static bool IeeeNormal( \/\/ true if all elems of mat are "normal" IEEE numbers$/;"	f	namespace:stasm
+IeeeNormal	tasm/src/tasmclassic.cpp	/^static bool IeeeNormal( \/\/ true if x is a "normal" IEEE number$/;"	f	namespace:stasm
+Image	apps/hat_example.cpp	/^typedef cv::Mat_<byte> Image;   \/\/ a gray image (a matrix of bytes)$/;"	t	file:
+Image	stasm/misc.h	/^typedef cv::Mat_<byte> Image;   \/\/ a gray image (a matrix of bytes)$/;"	t	namespace:stasm
+Img4	apps/win/wasm.cpp	/^static RGBV* Img4($/;"	f	namespace:stasm
+ImgDetParToRoiFrame	stasm/faceroi.cpp	/^static DetPar ImgDetParToRoiFrame($/;"	f	namespace:stasm
+ImgDirs	apps/shapefile/shapefile.cpp	/^static void ImgDirs($/;"	f	namespace:stasm
+ImgPathFromUser	apps/win/wasm.cpp	/^static void ImgPathFromUser($/;"	f	namespace:stasm
+ImgPrintf	stasm/misc.cpp	/^void ImgPrintf(         \/\/ printf on image$/;"	f	namespace:stasm
+ImgShapeToRoiFrame	stasm/faceroi.cpp	/^Shape ImgShapeToRoiFrame(     \/\/ return shape in ROI frame$/;"	f	namespace:stasm
+ImputeMissingPoints	tasm/src/tasmimpute.cpp	/^void ImputeMissingPoints(            \/\/ impute missing points in a vector of Shapes$/;"	f	namespace:stasm
+ImputeMissingPointsForOneShape	tasm/src/tasmimpute.cpp	/^static Shape ImputeMissingPointsForOneShape($/;"	f	namespace:stasm
+InRect	stasm/misc.cpp	/^bool InRect(               \/\/ is the center of rect within the enclosing rect?$/;"	f	namespace:stasm
+InRect	stasm/misc.cpp	/^bool InRect(      \/\/ is x,y within the enclosing rect?$/;"	f	namespace:stasm
+InStrings	apps/win/findfile.cpp	/^static bool InStrings( \/\/ true if string is in semicolon-separated list of strings$/;"	f	namespace:stasm
+IncreasingLeftMargin	stasm/MOD_1/facedet.cpp	/^static bool IncreasingLeftMargin( \/\/ compare predicate for std::sort$/;"	f	namespace:stasm
+Init	apps/swas/swas.cpp	/^static void Init($/;"	f	namespace:stasm
+Init	apps/win/wasm.cpp	/^static void Init($/;"	f	namespace:stasm
+Init	tasm/marki/marki.cpp	/^static void Init ($/;"	f	file:
+InitDetParEyeMouthFromShape	stasm/pinstart.cpp	/^static void InitDetParEyeMouthFromShape( \/\/ fill in eye and mouth fields of detpar$/;"	f	namespace:stasm
+InitFindFile	apps/win/findfile.cpp	/^void InitFindFile(    \/\/ must be called before NextFile$/;"	f	namespace:stasm
+InitGlobals	tasm/marki/marki.cpp	/^static void InitGlobals (void)$/;"	f	file:
+InitGradMagAndOrientMats	stasm/hat.cpp	/^static void InitGradMagAndOrientMats($/;"	f	namespace:stasm
+InitHatLevData	stasm/hatdesc.cpp	/^void InitHatLevData(   \/\/ init the global HAT data needed for this pyr level$/;"	f	namespace:stasm
+InitIndices	stasm/hat.cpp	/^static inline void InitIndices($/;"	f	namespace:stasm
+InitMods	stasm/MOD_1/initasm.cpp	/^void InitMods(           \/\/ initialize ASM model$/;"	f	namespace:stasm
+Init_	stasm/hat.cpp	/^void Hat::Init_($/;"	f	class:stasm::Hat
+InterEyeDist	stasm/eyedist.cpp	/^double InterEyeDist(    \/\/ inter-pupil distance of a face shape$/;"	f	namespace:stasm
+InterPoint	stasm/convshape.cpp	/^static void InterPoint(    \/\/ interpolate a point from two nearby oldshape points$/;"	f	namespace:stasm
+IsEyeHorizOk	stasm/eyedet.cpp	/^static bool IsEyeHorizOk($/;"	f	namespace:stasm
+IsGray	apps/win/wasm.cpp	/^static bool IsGray(const CImage& img, int x, int y)$/;"	f	namespace:stasm
+IsImgLoaded	apps/win/wasm.cpp	/^static bool IsImgLoaded(void)$/;"	f	namespace:stasm
+IsLeftFacing	stasm/misc.cpp	/^bool IsLeftFacing(EYAW eyaw) \/\/ true if eyaw is for a left facing face$/;"	f	namespace:stasm
+IsRoiEntireImg	stasm/faceroi.cpp	/^static bool IsRoiEntireImg($/;"	f	namespace:stasm
+IsShapeValid	apps/win/wasm.cpp	/^static bool IsShapeValid(void) \/\/ true if successful AsmSearch$/;"	f	namespace:stasm
+IsSymmetric	tasm/src/tasmshapemod.cpp	/^static bool IsSymmetric( \/\/ true if mat is symmetric$/;"	f	namespace:stasm
+IsTasmHatDesc	tasm/src/tasmconf.cpp	/^bool IsTasmHatDesc( \/\/ true if the given point uses a HAT descriptor (not a classical descriptor)$/;"	f	namespace:stasm
+IsZero	stasm/misc.h	/^static inline bool IsZero(const double x, const double max = 1e-7)$/;"	f	namespace:stasm
+IssueCheckModeResults	tasm/marki/marki.cpp	/^static void IssueCheckModeResults (void)$/;"	f	file:
+IssueElapsedTimeMsg	tasm/marki/marki.cpp	/^static void IssueElapsedTimeMsg (void)$/;"	f	file:
+IssueMarkMsg	tasm/marki/marki.cpp	/^static void IssueMarkMsg (void)$/;"	f	file:
+JitterPointsAt00	stasm/misc.cpp	/^Shape JitterPointsAt00($/;"	f	namespace:stasm
+JitterPointsAt00InPlace	stasm/misc.cpp	/^void JitterPointsAt00InPlace($/;"	f	namespace:stasm
+Key	stasm/hatdesc.cpp	/^static unsigned Key(int x, int y) \/\/ pack x,y into 32 bits for cache key$/;"	f	namespace:stasm
+L17_CBotOfBotLip	stasm/shape17.h	/^    L17_CBotOfBotLip   \/\/ 16$/;"	e	enum:stasm::LANDMARKS_17
+L17_CNoseTip	stasm/shape17.h	/^    L17_CNoseTip,      \/\/ 12$/;"	e	enum:stasm::LANDMARKS_17
+L17_CTopOfTopLip	stasm/shape17.h	/^    L17_CTopOfTopLip,  \/\/ 15$/;"	e	enum:stasm::LANDMARKS_17
+L17_LEyeInner	stasm/shape17.h	/^    L17_LEyeInner,     \/\/  9$/;"	e	enum:stasm::LANDMARKS_17
+L17_LEyeOuter	stasm/shape17.h	/^    L17_LEyeOuter,     \/\/  8$/;"	e	enum:stasm::LANDMARKS_17
+L17_LEyebrowInner	stasm/shape17.h	/^    L17_LEyebrowInner, \/\/  5$/;"	e	enum:stasm::LANDMARKS_17
+L17_LEyebrowOuter	stasm/shape17.h	/^    L17_LEyebrowOuter, \/\/  4$/;"	e	enum:stasm::LANDMARKS_17
+L17_LMouthCorner	stasm/shape17.h	/^    L17_LMouthCorner,  \/\/  2$/;"	e	enum:stasm::LANDMARKS_17
+L17_LNostril	stasm/shape17.h	/^    L17_LNostril,      \/\/ 13$/;"	e	enum:stasm::LANDMARKS_17
+L17_LPupil	stasm/shape17.h	/^    L17_LPupil,        \/\/  0$/;"	e	enum:stasm::LANDMARKS_17
+L17_REyeInner	stasm/shape17.h	/^    L17_REyeInner,     \/\/ 10$/;"	e	enum:stasm::LANDMARKS_17
+L17_REyeOuter	stasm/shape17.h	/^    L17_REyeOuter,     \/\/ 11$/;"	e	enum:stasm::LANDMARKS_17
+L17_REyebrowInner	stasm/shape17.h	/^    L17_REyebrowInner, \/\/  6$/;"	e	enum:stasm::LANDMARKS_17
+L17_REyebrowOuter	stasm/shape17.h	/^    L17_REyebrowOuter, \/\/  7$/;"	e	enum:stasm::LANDMARKS_17
+L17_RMouthCorner	stasm/shape17.h	/^    L17_RMouthCorner,  \/\/  3$/;"	e	enum:stasm::LANDMARKS_17
+L17_RNostril	stasm/shape17.h	/^    L17_RNostril,      \/\/ 14$/;"	e	enum:stasm::LANDMARKS_17
+L17_RPupil	stasm/shape17.h	/^    L17_RPupil,        \/\/  1$/;"	e	enum:stasm::LANDMARKS_17
+LANDMARKS_17	stasm/shape17.h	/^enum LANDMARKS_17       \/\/ the 17 points that make up a Shape17 shape$/;"	g	namespace:stasm
+LANDMARK_INFO	stasm/landmarks.h	/^struct LANDMARK_INFO  \/\/ landmark information$/;"	s	namespace:stasm
+LANDMARK_INFO_TAB	stasm/landtab_muct77.h	/^static const LANDMARK_INFO LANDMARK_INFO_TAB[77] = \/\/ stasm77 points$/;"	v
+LANDMARK_INFO_TAB	tasm/landtab/landtab_aflw21.h	/^static const LANDMARK_INFO LANDMARK_INFO_TAB[21] = \/\/ 21 points$/;"	v
+LANDMARK_INFO_TAB	tasm/landtab/landtab_hands.h	/^static const LANDMARK_INFO LANDMARK_INFO_TAB[56] = \/\/ 56 points$/;"	v
+LANDMARK_INFO_TAB	tasm/landtab/landtab_muct68.h	/^static const LANDMARK_INFO LANDMARK_INFO_TAB[68] = \/\/ 68 points$/;"	v
+LANDMARK_INFO_TAB	tasm/landtab/landtab_muct76.h	/^static const LANDMARK_INFO LANDMARK_INFO_TAB[76] = \/\/ 76 points$/;"	v
+LANDMARK_INFO_TAB	tasm/landtab/landtab_put199.h	/^static const LANDMARK_INFO LANDMARK_INFO_TAB[199] = \/\/ 199 points$/;"	v
+LIBRARIES	mingw/Makefile	/^LIBRARIES=\\$/;"	m
+LIBS	vc10/makefile	/^LIBS=$(OPENCV_LIBDIR)\/opencv_core$(OPENCV_N).lib\\$/;"	m
+LIBS	vc10/makefile	/^LIBS=$(OPENCV_LIBDIR)\/opencv_core$(OPENCV_N)d.lib\\$/;"	m
+LIBSUFFIX	vc10/makefile	/^LIBSUFFIX = d$/;"	m
+L_CBotOfBotLip	stasm/stasm_landmarks.h	/^    L_CBotOfBotLip,     \/\/ 74$/;"	e	enum:stasm_LANDMARKS_77
+L_CBotOfTopLip	stasm/stasm_landmarks.h	/^    L_CBotOfTopLip,     \/\/ 67$/;"	e	enum:stasm_LANDMARKS_77
+L_CForehead	stasm/stasm_landmarks.h	/^    L_CForehead,        \/\/ 14$/;"	e	enum:stasm_LANDMARKS_77
+L_CNoseBase	stasm/stasm_landmarks.h	/^    L_CNoseBase,        \/\/ 56$/;"	e	enum:stasm_LANDMARKS_77
+L_CNoseMid	stasm/stasm_landmarks.h	/^    L_CNoseMid,         \/\/ 49$/;"	e	enum:stasm_LANDMARKS_77
+L_CNoseTip	stasm/stasm_landmarks.h	/^    L_CNoseTip,         \/\/ 52$/;"	e	enum:stasm_LANDMARKS_77
+L_CTipOfChin	stasm/stasm_landmarks.h	/^    L_CTipOfChin,       \/\/ 06$/;"	e	enum:stasm_LANDMARKS_77
+L_CTopOfBotLip	stasm/stasm_landmarks.h	/^    L_CTopOfBotLip,     \/\/ 70$/;"	e	enum:stasm_LANDMARKS_77
+L_CTopOfTopLip	stasm/stasm_landmarks.h	/^    L_CTopOfTopLip,     \/\/ 62$/;"	e	enum:stasm_LANDMARKS_77
+L_LEye31	stasm/stasm_landmarks.h	/^    L_LEye31,           \/\/ 31$/;"	e	enum:stasm_LANDMARKS_77
+L_LEye33	stasm/stasm_landmarks.h	/^    L_LEye33,           \/\/ 33$/;"	e	enum:stasm_LANDMARKS_77
+L_LEye35	stasm/stasm_landmarks.h	/^    L_LEye35,           \/\/ 35$/;"	e	enum:stasm_LANDMARKS_77
+L_LEye37	stasm/stasm_landmarks.h	/^    L_LEye37,           \/\/ 37$/;"	e	enum:stasm_LANDMARKS_77
+L_LEyeBot	stasm/stasm_landmarks.h	/^    L_LEyeBot,          \/\/ 36$/;"	e	enum:stasm_LANDMARKS_77
+L_LEyeInner	stasm/stasm_landmarks.h	/^    L_LEyeInner,        \/\/ 30$/;"	e	enum:stasm_LANDMARKS_77
+L_LEyeOuter	stasm/stasm_landmarks.h	/^    L_LEyeOuter,        \/\/ 34$/;"	e	enum:stasm_LANDMARKS_77
+L_LEyeTop	stasm/stasm_landmarks.h	/^    L_LEyeTop,          \/\/ 32$/;"	e	enum:stasm_LANDMARKS_77
+L_LEyebrowBotInner	stasm/stasm_landmarks.h	/^    L_LEyebrowBotInner, \/\/ 20$/;"	e	enum:stasm_LANDMARKS_77
+L_LEyebrowBotOuter	stasm/stasm_landmarks.h	/^    L_LEyebrowBotOuter, \/\/ 19$/;"	e	enum:stasm_LANDMARKS_77
+L_LEyebrowInner	stasm/stasm_landmarks.h	/^    L_LEyebrowInner,    \/\/ 21$/;"	e	enum:stasm_LANDMARKS_77
+L_LEyebrowOuter	stasm/stasm_landmarks.h	/^    L_LEyebrowOuter,    \/\/ 18$/;"	e	enum:stasm_LANDMARKS_77
+L_LEyebrowTopInner	stasm/stasm_landmarks.h	/^    L_LEyebrowTopInner, \/\/ 16$/;"	e	enum:stasm_LANDMARKS_77
+L_LEyebrowTopOuter	stasm/stasm_landmarks.h	/^    L_LEyebrowTopOuter, \/\/ 17$/;"	e	enum:stasm_LANDMARKS_77
+L_LEyelid	stasm/stasm_landmarks.h	/^    L_LEyelid,          \/\/ 29$/;"	e	enum:stasm_LANDMARKS_77
+L_LForehead	stasm/stasm_landmarks.h	/^    L_LForehead,        \/\/ 15$/;"	e	enum:stasm_LANDMARKS_77
+L_LJaw01	stasm/stasm_landmarks.h	/^    L_LJaw01,           \/\/ 01$/;"	e	enum:stasm_LANDMARKS_77
+L_LJaw04	stasm/stasm_landmarks.h	/^    L_LJaw04,           \/\/ 04$/;"	e	enum:stasm_LANDMARKS_77
+L_LJaw05	stasm/stasm_landmarks.h	/^    L_LJaw05,           \/\/ 05$/;"	e	enum:stasm_LANDMARKS_77
+L_LJawMouthline	stasm/stasm_landmarks.h	/^    L_LJawMouthline,    \/\/ 03 mouth line on left jaw$/;"	e	enum:stasm_LANDMARKS_77
+L_LJawNoseline	stasm/stasm_landmarks.h	/^    L_LJawNoseline,     \/\/ 02 nose line on left jaw$/;"	e	enum:stasm_LANDMARKS_77
+L_LMouth60	stasm/stasm_landmarks.h	/^    L_LMouth60,         \/\/ 60$/;"	e	enum:stasm_LANDMARKS_77
+L_LMouth68	stasm/stasm_landmarks.h	/^    L_LMouth68,         \/\/ 68$/;"	e	enum:stasm_LANDMARKS_77
+L_LMouth69	stasm/stasm_landmarks.h	/^    L_LMouth69,         \/\/ 69$/;"	e	enum:stasm_LANDMARKS_77
+L_LMouth75	stasm/stasm_landmarks.h	/^    L_LMouth75,         \/\/ 75$/;"	e	enum:stasm_LANDMARKS_77
+L_LMouth76	stasm/stasm_landmarks.h	/^    L_LMouth76          \/\/ 76$/;"	e	enum:stasm_LANDMARKS_77
+L_LMouthCorner	stasm/stasm_landmarks.h	/^    L_LMouthCorner,     \/\/ 59$/;"	e	enum:stasm_LANDMARKS_77
+L_LMouthCupid	stasm/stasm_landmarks.h	/^    L_LMouthCupid,      \/\/ 61$/;"	e	enum:stasm_LANDMARKS_77
+L_LNoseMid	stasm/stasm_landmarks.h	/^    L_LNoseMid,         \/\/ 50$/;"	e	enum:stasm_LANDMARKS_77
+L_LNoseSide	stasm/stasm_landmarks.h	/^    L_LNoseSide,        \/\/ 58$/;"	e	enum:stasm_LANDMARKS_77
+L_LNostrilBot	stasm/stasm_landmarks.h	/^    L_LNostrilBot,      \/\/ 57$/;"	e	enum:stasm_LANDMARKS_77
+L_LNostrilTop	stasm/stasm_landmarks.h	/^    L_LNostrilTop,      \/\/ 51$/;"	e	enum:stasm_LANDMARKS_77
+L_LPupil	stasm/stasm_landmarks.h	/^    L_LPupil,           \/\/ 38$/;"	e	enum:stasm_LANDMARKS_77
+L_LTemple	stasm/stasm_landmarks.h	/^    L_LTemple,          \/\/ 00$/;"	e	enum:stasm_LANDMARKS_77
+L_REye41	stasm/stasm_landmarks.h	/^    L_REye41,           \/\/ 41$/;"	e	enum:stasm_LANDMARKS_77
+L_REye43	stasm/stasm_landmarks.h	/^    L_REye43,           \/\/ 43$/;"	e	enum:stasm_LANDMARKS_77
+L_REye45	stasm/stasm_landmarks.h	/^    L_REye45,           \/\/ 45$/;"	e	enum:stasm_LANDMARKS_77
+L_REye47	stasm/stasm_landmarks.h	/^    L_REye47,           \/\/ 47$/;"	e	enum:stasm_LANDMARKS_77
+L_REyeBot	stasm/stasm_landmarks.h	/^    L_REyeBot,          \/\/ 46$/;"	e	enum:stasm_LANDMARKS_77
+L_REyeInner	stasm/stasm_landmarks.h	/^    L_REyeInner,        \/\/ 40$/;"	e	enum:stasm_LANDMARKS_77
+L_REyeOuter	stasm/stasm_landmarks.h	/^    L_REyeOuter,        \/\/ 44$/;"	e	enum:stasm_LANDMARKS_77
+L_REyeTop	stasm/stasm_landmarks.h	/^    L_REyeTop,          \/\/ 42$/;"	e	enum:stasm_LANDMARKS_77
+L_REyebrowBotInner	stasm/stasm_landmarks.h	/^    L_REyebrowBotInner, \/\/ 27$/;"	e	enum:stasm_LANDMARKS_77
+L_REyebrowBotOuter	stasm/stasm_landmarks.h	/^    L_REyebrowBotOuter, \/\/ 26$/;"	e	enum:stasm_LANDMARKS_77
+L_REyebrowInner	stasm/stasm_landmarks.h	/^    L_REyebrowInner,    \/\/ 22$/;"	e	enum:stasm_LANDMARKS_77
+L_REyebrowOuter	stasm/stasm_landmarks.h	/^    L_REyebrowOuter,    \/\/ 25$/;"	e	enum:stasm_LANDMARKS_77
+L_REyebrowTopInner	stasm/stasm_landmarks.h	/^    L_REyebrowTopInner, \/\/ 23$/;"	e	enum:stasm_LANDMARKS_77
+L_REyebrowTopOuter	stasm/stasm_landmarks.h	/^    L_REyebrowTopOuter, \/\/ 24$/;"	e	enum:stasm_LANDMARKS_77
+L_REyelid	stasm/stasm_landmarks.h	/^    L_REyelid,          \/\/ 28$/;"	e	enum:stasm_LANDMARKS_77
+L_RForehead	stasm/stasm_landmarks.h	/^    L_RForehead,        \/\/ 13$/;"	e	enum:stasm_LANDMARKS_77
+L_RJaw07	stasm/stasm_landmarks.h	/^    L_RJaw07,           \/\/ 07$/;"	e	enum:stasm_LANDMARKS_77
+L_RJaw08	stasm/stasm_landmarks.h	/^    L_RJaw08,           \/\/ 08$/;"	e	enum:stasm_LANDMARKS_77
+L_RJaw11	stasm/stasm_landmarks.h	/^    L_RJaw11,           \/\/ 11$/;"	e	enum:stasm_LANDMARKS_77
+L_RJawMouthline	stasm/stasm_landmarks.h	/^    L_RJawMouthline,    \/\/ 09$/;"	e	enum:stasm_LANDMARKS_77
+L_RJawNoseline	stasm/stasm_landmarks.h	/^    L_RJawNoseline,     \/\/ 10$/;"	e	enum:stasm_LANDMARKS_77
+L_RMouth64	stasm/stasm_landmarks.h	/^    L_RMouth64,         \/\/ 64$/;"	e	enum:stasm_LANDMARKS_77
+L_RMouth66	stasm/stasm_landmarks.h	/^    L_RMouth66,         \/\/ 66$/;"	e	enum:stasm_LANDMARKS_77
+L_RMouth71	stasm/stasm_landmarks.h	/^    L_RMouth71,         \/\/ 71$/;"	e	enum:stasm_LANDMARKS_77
+L_RMouth72	stasm/stasm_landmarks.h	/^    L_RMouth72,         \/\/ 72$/;"	e	enum:stasm_LANDMARKS_77
+L_RMouth73	stasm/stasm_landmarks.h	/^    L_RMouth73,         \/\/ 73$/;"	e	enum:stasm_LANDMARKS_77
+L_RMouthCorner	stasm/stasm_landmarks.h	/^    L_RMouthCorner,     \/\/ 65$/;"	e	enum:stasm_LANDMARKS_77
+L_RMouthCupid	stasm/stasm_landmarks.h	/^    L_RMouthCupid,      \/\/ 63$/;"	e	enum:stasm_LANDMARKS_77
+L_RNoseMid	stasm/stasm_landmarks.h	/^    L_RNoseMid,         \/\/ 48$/;"	e	enum:stasm_LANDMARKS_77
+L_RNoseSide	stasm/stasm_landmarks.h	/^    L_RNoseSide,        \/\/ 54$/;"	e	enum:stasm_LANDMARKS_77
+L_RNostrilBot	stasm/stasm_landmarks.h	/^    L_RNostrilBot,      \/\/ 55$/;"	e	enum:stasm_LANDMARKS_77
+L_RNostrilTop	stasm/stasm_landmarks.h	/^    L_RNostrilTop,      \/\/ 53$/;"	e	enum:stasm_LANDMARKS_77
+L_RPupil	stasm/stasm_landmarks.h	/^    L_RPupil,           \/\/ 39$/;"	e	enum:stasm_LANDMARKS_77
+L_RTemple	stasm/stasm_landmarks.h	/^    L_RTemple,          \/\/ 12$/;"	e	enum:stasm_LANDMARKS_77
+LandmarksAsShape	apps/appmisc.cpp	/^const Shape LandmarksAsShape( \/\/ convert an array of landmarks to a shape$/;"	f	namespace:stasm
+LandmarksAsShape	stasm/stasm_lib.cpp	/^static const Shape LandmarksAsShape( \/\/ return a Shape$/;"	f	namespace:stasm
+LastErr	stasm/err.cpp	/^const char* LastErr(void) \/\/ return the last error message, called by stasm_lasterr$/;"	f	namespace:stasm
+LevSearch_	stasm/asm.cpp	/^void Mod::LevSearch_(         \/\/ do an ASM search at one level in the image pyr$/;"	f	class:stasm::Mod
+LimitB	stasm/shapemod.cpp	/^static void LimitB($/;"	f	namespace:stasm
+LinSolve	apps/linsolve.cpp	/^const VEC LinSolve(  \/\/ solve for x in A x = b, returns x as a column vector$/;"	f	namespace:stasm
+LinSolveLu	stasm/misc.cpp	/^static const VEC LinSolveLu($/;"	f	namespace:stasm
+LinSolveSvd	apps/linsolve.cpp	/^static const VEC LinSolveSvd($/;"	f	namespace:stasm
+Line	tasm/src/tasmdraw.cpp	/^static void Line(          \/\/ draw a line from point1 to point2$/;"	f	namespace:stasm
+LineNbr	apps/shapefile/shapefile.cpp	/^static int LineNbr(FILE* file)$/;"	f	namespace:stasm
+LoadCurrentImg	tasm/marki/marki.cpp	/^static void LoadCurrentImg (void)$/;"	f	file:
+LogShape	stasm/misc.cpp	/^void LogShape( \/\/ print mat to log file, this is mostly for debugging and testing$/;"	f	namespace:stasm
+LogShapeAsCsv	apps/appmisc.cpp	/^void LogShapeAsCsv(   \/\/ print shape in CSV format to log file$/;"	f	namespace:stasm
+MARKED	tasm/marki/marki.cpp	/^static const MFLOAT MARKED = INVALID;$/;"	v	file:
+MAT	apps/hat_example.cpp	/^typedef cv::Mat_<double> MAT;   \/\/ a matrix with double elements$/;"	t	file:
+MAT	stasm/misc.h	/^typedef cv::Mat_<double> MAT;   \/\/ a matrix with double elements$/;"	t	namespace:stasm
+MAX_DIFFS	apps/mdiff/mdiff.cpp	/^static const int MAX_DIFFS = 10;$/;"	v	file:
+MAX_LEN	apps/mdiff/mdiff.cpp	/^static const int MAX_LEN   = 10000;$/;"	v	file:
+MAX_MAT_DIM	apps/shapefile/shapefile.h	/^static const int MAX_MAT_DIM = 1000;   \/\/ arb, for sanity checking$/;"	m	namespace:stasm
+MOD	vc10/makefile	/^MOD=MOD_1$/;"	m
+MOD_DEPENDENCIES	vc10/makefile	/^MOD_DEPENDENCIES=\\$/;"	m
+MOD_DIR	vc10/makefile	/^MOD_DIR=MOD_1$/;"	m
+MOD_DIR	vc10/makefile	/^MOD_DIR=MOD_3$/;"	m
+MOD_DIR	vc10/makefile	/^MOD_DIR=MOD_A$/;"	m
+MOD_DIR	vc10/makefile	/^MOD_DIR=MOD_A1$/;"	m
+MOD_DIR	vc10/makefile	/^MOD_DIR=MOD_E$/;"	m
+MarkPointAsUnused	tasm/marki/marki.cpp	/^static void MarkPointAsUnused (void)$/;"	f	file:
+Mat33TimesVec	stasm/misc.cpp	/^static void Mat33TimesVec($/;"	f	namespace:stasm
+MatchPose	apps/shapefile/shapefile.cpp	/^bool ShapeFile::MatchPose(        \/\/ shape is in given pose range?$/;"	f	class:stasm::ShapeFile
+MatchRegex	apps/shapefile/stasm_regex.cpp	/^bool MatchRegex(              \/\/ true if regex is in the given string$/;"	f	namespace:stasm
+MatchingExt	apps/win/findfile.cpp	/^static bool MatchingExt( \/\/ true if FindData matches one of given extensions$/;"	f	namespace:stasm
+MaxAbsElem	apps/appmisc.cpp	/^double MaxAbsElem( \/\/ maximum absolute value of matrix elements$/;"	f	namespace:stasm
+MaxElem	apps/appmisc.cpp	/^double MaxElem(      \/\/ maximum matrix element$/;"	f	namespace:stasm
+Me17	apps/swas/fitmeas.cpp	/^double Me17(               \/\/ me17 fitness measure, return NOFIT if can't get it$/;"	f	namespace:stasm
+MeanFitOverInterEye	apps/swas/fitmeas.cpp	/^double MeanFitOverInterEye( \/\/ mean landmark distance divided by intereye$/;"	f	namespace:stasm
+MeanFitOverInterEye1	apps/swas/fitmeas.cpp	/^static double MeanFitOverInterEye1( \/\/ mean landmark distance divided by intereye$/;"	f	namespace:stasm
+MeanPoint	stasm/landmarks.cpp	/^double MeanPoint($/;"	f	namespace:stasm
+MeanShapeAlignedToFaceDets	tasm/src/tasmmeanshape.cpp	/^void MeanShapeAlignedToFaceDets($/;"	f	namespace:stasm
+MeanShape_	stasm/asm.h	/^    const Shape  MeanShape_(void) const { return shapemod_.meanshape_; }$/;"	f	class:stasm::Mod
+MkDir	apps/appmisc.cpp	/^void MkDir(           \/\/ create the given directory if it doesn't exist$/;"	f	namespace:stasm
+Mod	stasm/asm.h	/^    Mod(EYAW                eyaw,          \/\/ constructor$/;"	f	class:stasm::Mod
+Mod	stasm/asm.h	/^class Mod \/\/ An ASM model for finding landmarks.$/;"	c	namespace:stasm
+ModSearch_	stasm/asm.cpp	/^Shape Mod::ModSearch_(            \/\/ returns coords of the facial landmarks$/;"	f	class:stasm::Mod
+MouseToImgCoords	tasm/marki/marki.cpp	/^static void MouseToImgCoords ($/;"	f	file:
+MouthInnerRect	stasm/eyedet.cpp	/^static Rect MouthInnerRect($/;"	f	namespace:stasm
+MouthOnNose	stasm/eyedet.cpp	/^static bool MouthOnNose(   \/\/ true if mouth is probably a mouth false detect on the nostrils$/;"	f	namespace:stasm
+MouthRectShift	stasm/eyedet.cpp	/^static void MouthRectShift($/;"	f	namespace:stasm
+MouthSearchRect	stasm/eyedet.cpp	/^static Rect MouthSearchRect(     \/\/ will search for mouth in this rectangle$/;"	f	namespace:stasm
+MouthVerticalShift	stasm/eyedet.cpp	/^static int MouthVerticalShift($/;"	f	namespace:stasm
+MustSearchImgIfFaceDetNotInShapefile	tasm/src/tasmmeanshape.cpp	/^static bool MustSearchImgIfFaceDetNotInShapefile($/;"	f	namespace:stasm
+NELEMS	stasm/misc.h	/^template <typename T> int NELEMS(const T& x)     \/\/ number of elems in an array$/;"	f	namespace:stasm
+NOFIT	apps/swas/fitmeas.h	/^static const double NOFIT = .99999; \/\/ indicate that the fit is not avail$/;"	m	namespace:stasm
+NSIZE	stasm/misc.h	/^static inline int NSIZE(const MAT& m)            \/\/ nrows * ncols$/;"	f	namespace:stasm
+NSIZE	stasm/misc.h	/^template <typename T> int NSIZE(const T& x)      \/\/ size of any STL container$/;"	f	namespace:stasm
+N_PYR_LEVS	stasm/asm.h	/^static const int N_PYR_LEVS = 4;       \/\/ number of levs in image pyramid$/;"	m	namespace:stasm
+NbrShapesWithMissingPoints	tasm/src/tasmshapemod.cpp	/^static int NbrShapesWithMissingPoints( \/\/ number of shapes with a missing point$/;"	f	namespace:stasm
+NbrUsedPoints	tasm/src/tasmshapemod.cpp	/^int NbrUsedPoints(      \/\/ return the number of used points in shape$/;"	f	namespace:stasm
+NbrUsedPointsVec	tasm/src/tasmshapemod.cpp	/^static void NbrUsedPointsVec(   \/\/ nbr of used points in each shape$/;"	f	namespace:stasm
+Nchar	apps/shapefile/shapefile.cpp	/^static int Nchar($/;"	f	namespace:stasm
+NeedEyes	stasm/eyedet.cpp	/^bool NeedEyes(           \/\/ true if we need the eye detectors for the given mods$/;"	f	namespace:stasm
+NeedMouth	stasm/eyedet.cpp	/^bool NeedMouth(          \/\/ true if we need the mouth detector for the given mods$/;"	f	namespace:stasm
+NegOffsets	tasm/src/tasmdescmod.cpp	/^static void NegOffsets( \/\/ random x and y offset from the true landmark position$/;"	f	namespace:stasm
+NewBits	apps/shapefile/shapefromstasm31.cpp	/^static unsigned NewBits(unsigned bits) \/\/ convert tag bits from Stasm 3.1 format$/;"	f	namespace:stasm
+NewBits	apps/shapefile/shapetostasm31.cpp	/^static unsigned NewBits(unsigned bits) \/\/ convert tag bits to Stasm 3.1 format$/;"	f	namespace:stasm
+NextFace_	stasm/MOD_1/facedet.cpp	/^const DetPar FaceDet::NextFace_(void)$/;"	f	class:stasm::FaceDet
+NextFile	apps/win/findfile.cpp	/^bool NextFile(    \/\/ updates ipath_g,  return true if more than one image$/;"	f	namespace:stasm
+NextFile1	apps/win/findfile.cpp	/^static int NextFile1( \/\/ return new file index$/;"	f	namespace:stasm
+NextFilePeek	apps/win/findfile.cpp	/^void NextFilePeek( \/\/ does not update ipath_g$/;"	f	namespace:stasm
+NextImg	tasm/marki/marki.cpp	/^static void NextImg (int iMissingLandmarkJump = -1)$/;"	f	file:
+NextStartShapeAndRoi	stasm/startshape.cpp	/^bool NextStartShapeAndRoi(     \/\/ use face detector results to estimate start shape$/;"	f	namespace:stasm
+NormalizeDesc	stasm/hat.cpp	/^static void NormalizeDesc( \/\/ take sqrt of elems and divide by L2 norm$/;"	f	namespace:stasm
+NormalizeMat	stasm/classicdesc.cpp	/^static void NormalizeMat($/;"	f	namespace:stasm
+NotifyUserIfWrappedToFirstImg	tasm/marki/marki.cpp	/^static void NotifyUserIfWrappedToFirstImg (void)$/;"	f	file:
+NthString	apps/appmisc.cpp	/^static const char* NthString($/;"	f	namespace:stasm
+NumDigits	stasm/misc.h	/^static inline int NumDigits($/;"	f	namespace:stasm
+OBJ	vc10/makefile	/^OBJ=\\$/;"	m
+OBJFILES	mingw/Makefile	/^OBJFILES=$(patsubst %.cpp,obj\/%.o,$(SRC))$/;"	m
+OBJFILES_MINIMAL	mingw/Makefile	/^OBJFILES_MINIMAL=\\$/;"	m
+OBJFILES_MINIMAL2	mingw/Makefile	/^OBJFILES_MINIMAL2=\\$/;"	m
+OBJFILES_STASM_MAIN	mingw/Makefile	/^OBJFILES_STASM_MAIN=\\$/;"	m
+OBJFILES_SWAS	mingw/Makefile	/^OBJFILES_SWAS=\\$/;"	m
+OBJFILES_TASM	mingw/Makefile	/^OBJFILES_TASM=\\$/;"	m
+OBJFILES_TEST_STASM_LIB	mingw/Makefile	/^OBJFILES_TEST_STASM_LIB=\\$/;"	m
+OBJFILES_TEST_STASM_LIB_ERR	mingw/Makefile	/^OBJFILES_TEST_STASM_LIB_ERR=\\$/;"	m
+OPENCV_HOME	mingw/Makefile	/^OPENCV_HOME=E:\/opencv2.4.0\/build$/;"	m
+OPENCV_HOME	vc10/make_hat_example.bat	/^set OPENCV_HOME=E:\/OpenCV2.4.0$/;"	v
+OPENCV_HOME	vc10/make_minimal.bat	/^set OPENCV_HOME=E:\/OpenCV2.4.0$/;"	v
+OPENCV_HOME	vc10/make_wasm.bat	/^set OPENCV_HOME=E:\/OpenCV2.4.0$/;"	v
+OPENCV_HOME	vc10/makefile	/^OPENCV_HOME=E:\/OpenCV2.4.0$/;"	m
+OPENCV_HOME	vc10x64/make_minimal.bat	/^set OPENCV_HOME=E:\/OpenCV2.4.0$/;"	v
+OPENCV_HOME	vc9/make_minimal.bat	/^set OPENCV_HOME=E:\/OpenCV2.4.0$/;"	v
+OPENCV_LIBDIR	vc10/make_hat_example.bat	/^set OPENCV_LIBDIR=%OPENCV_HOME%\/build\/x86\/vc10\/lib$/;"	v
+OPENCV_LIBDIR	vc10/make_minimal.bat	/^set OPENCV_LIBDIR=%OPENCV_HOME%\/build\/x86\/vc10\/lib$/;"	v
+OPENCV_LIBDIR	vc10/make_wasm.bat	/^set OPENCV_LIBDIR=%OPENCV_HOME%\/build\/x86\/vc10\/lib$/;"	v
+OPENCV_LIBDIR	vc10x64/make_minimal.bat	/^set OPENCV_LIBDIR=%OPENCV_HOME%\/build\/x64\/vc10\/lib$/;"	v
+OPENCV_LIBDIR	vc9/make_minimal.bat	/^set OPENCV_LIBDIR=%OPENCV_HOME%\/build\/x86\/vc10\/lib$/;"	v
+OPENCV_N	mingw/Makefile	/^OPENCV_N=240$/;"	m
+OPENCV_N	vc10/make_hat_example.bat	/^set OPENCV_N=240$/;"	v
+OPENCV_N	vc10/make_minimal.bat	/^set OPENCV_N=240$/;"	v
+OPENCV_N	vc10/make_wasm.bat	/^set OPENCV_N=240$/;"	v
+OPENCV_N	vc10/makefile	/^OPENCV_N=240$/;"	m
+OPENCV_N	vc10x64/make_minimal.bat	/^set OPENCV_N=240$/;"	v
+OPENCV_N	vc9/make_minimal.bat	/^set OPENCV_N=240$/;"	v
+OUTDIR	vc10/makefile	/^OUTDIR=.\/Debug$/;"	m
+OUTDIR	vc10/makefile	/^OUTDIR=.\/Release$/;"	m
+OUTDIR	vc10/makefile	/^OUTDIR=.\/ReleaseWithSymbols$/;"	m
+OpenDetector	stasm/misc.cpp	/^void OpenDetector( \/\/ open face or feature detector from its XML file$/;"	f	namespace:stasm
+OpenEyeMouthDetectors	stasm/eyedet.cpp	/^void OpenEyeMouthDetectors(    \/\/ open eye and mouth detectors, if necessary$/;"	f	namespace:stasm
+OpenEyeMouthDetectors	stasm/eyedet.cpp	/^void OpenEyeMouthDetectors( \/\/ open eye and mouth detectors, if necessary for given mods$/;"	f	namespace:stasm
+OpenFaceDetector_	stasm/MOD_1/facedet.cpp	/^void FaceDet::OpenFaceDetector_( \/\/ called by stasm_init, init face det from XML file$/;"	f	class:stasm::FaceDet
+OpenFitFile	apps/shapefile/shapefile.cpp	/^static void OpenFitFile($/;"	f	namespace:stasm
+OpenImg	apps/win/wasm.cpp	/^static void OpenImg(void)$/;"	f	namespace:stasm
+OpenLogFile	stasm/print.cpp	/^void OpenLogFile(     \/\/ also inits the global variable logfile_g$/;"	f	namespace:stasm
+OpenWithShell	apps/win/wasm.cpp	/^static bool OpenWithShell(const char* path) \/\/ returns true if successful$/;"	f	namespace:stasm
+Open_	apps/shapefile/shapefile.cpp	/^void ShapeFile::Open_(     \/\/ read shape file from disk$/;"	f	class:stasm::ShapeFile
+PATH	mingw/make.bat	/^@set PATH=C:\\Rtools\\gcc-4.6.3\\bin;%PATH%$/;"	v
+PATH	vc10x64/make.bat	/^@set PATH=C:\\OpenCV2.4.0\\build\\x64\\vc10\\bin;C:\\OpenCV2.4.0\\build\\common\\tbb\\intel64\\vc10;%PATH%$/;"	v
+PLATFORM_ID	CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	212;"	d	file:
+PLATFORM_ID	CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	215;"	d	file:
+PLATFORM_ID	CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	218;"	d	file:
+PLATFORM_ID	CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	221;"	d	file:
+PLATFORM_ID	CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	224;"	d	file:
+PLATFORM_ID	CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	227;"	d	file:
+PLATFORM_ID	CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	230;"	d	file:
+PLATFORM_ID	CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	233;"	d	file:
+PLATFORM_ID	CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	236;"	d	file:
+PLATFORM_ID	CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	239;"	d	file:
+PLATFORM_ID	CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	242;"	d	file:
+PLATFORM_ID	CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	245;"	d	file:
+PLATFORM_ID	CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	248;"	d	file:
+PLATFORM_ID	CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	251;"	d	file:
+PLATFORM_ID	CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	254;"	d	file:
+PLATFORM_ID	CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	257;"	d	file:
+PLATFORM_ID	CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	260;"	d	file:
+PLATFORM_ID	CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	263;"	d	file:
+PLATFORM_ID	CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	266;"	d	file:
+PLATFORM_ID	CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	269;"	d	file:
+PLATFORM_ID	CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	272;"	d	file:
+PLATFORM_ID	CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	275;"	d	file:
+PLATFORM_ID	CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	278;"	d	file:
+PLATFORM_ID	CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	281;"	d	file:
+PLATFORM_ID	CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	284;"	d	file:
+PLATFORM_ID	CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	287;"	d	file:
+PLATFORM_ID	CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	205;"	d	file:
+PLATFORM_ID	CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	208;"	d	file:
+PLATFORM_ID	CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	211;"	d	file:
+PLATFORM_ID	CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	214;"	d	file:
+PLATFORM_ID	CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	217;"	d	file:
+PLATFORM_ID	CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	220;"	d	file:
+PLATFORM_ID	CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	223;"	d	file:
+PLATFORM_ID	CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	226;"	d	file:
+PLATFORM_ID	CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	229;"	d	file:
+PLATFORM_ID	CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	232;"	d	file:
+PLATFORM_ID	CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	235;"	d	file:
+PLATFORM_ID	CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	238;"	d	file:
+PLATFORM_ID	CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	241;"	d	file:
+PLATFORM_ID	CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	244;"	d	file:
+PLATFORM_ID	CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	247;"	d	file:
+PLATFORM_ID	CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	250;"	d	file:
+PLATFORM_ID	CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	253;"	d	file:
+PLATFORM_ID	CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	256;"	d	file:
+PLATFORM_ID	CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	259;"	d	file:
+PLATFORM_ID	CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	262;"	d	file:
+PLATFORM_ID	CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	265;"	d	file:
+PLATFORM_ID	CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	268;"	d	file:
+PLATFORM_ID	CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	271;"	d	file:
+PLATFORM_ID	CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	274;"	d	file:
+PLATFORM_ID	CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	277;"	d	file:
+PLATFORM_ID	CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	280;"	d	file:
+PRINTMAT	stasm/misc.h	359;"	d
+PYR_RATIO	stasm/asm.h	/^static const double PYR_RATIO = 2;     \/\/ scale image by 2 at each pyramid level$/;"	m	namespace:stasm
+Pacifier	apps/appmisc.h	/^    Pacifier(int n, int nmin=50) \/\/ constructor$/;"	f	class:stasm::Pacifier
+Pacifier	apps/appmisc.h	/^class Pacifier \/\/ print pacifier when i is at every 10% of n$/;"	c	namespace:stasm
+PatchWidth	stasm/hatdesc.cpp	/^static int PatchWidth( \/\/ patchwidth at the given pyramid level$/;"	f	namespace:stasm
+PathGivenDirs	apps/appmisc.cpp	/^char* PathGivenDirs(         \/\/ like above but base is given as a string$/;"	f	namespace:stasm
+PathGivenDirs	apps/appmisc.cpp	/^char* PathGivenDirs(         \/\/ return the full path of the image with basename base$/;"	f	namespace:stasm
+PeakMemThisProcess	apps/appmem.cpp	/^size_t PeakMemThisProcess(void) \/\/ peak memory used by the current process$/;"	f	namespace:stasm
+PercentPhysicalMemory	apps/appmem.cpp	/^int PercentPhysicalMemory(void) \/\/ percentage of memory currently used (all processes)$/;"	f	namespace:stasm
+PinMeanShape	stasm/pinstart.cpp	/^static Shape PinMeanShape(  \/\/ align mean shape to the pinned points$/;"	f	namespace:stasm
+PinnedStartShapeAndRoi	stasm/pinstart.cpp	/^void PinnedStartShapeAndRoi(   \/\/ use the pinned landmarks to init the start shape$/;"	f	namespace:stasm
+Pix	stasm/classicdesc.cpp	/^static inline int Pix( \/\/ get pixel at ix and iy, forcing ix and iy in range$/;"	f	namespace:stasm
+PointDist	stasm/misc.h	/^static inline double PointDist($/;"	f	namespace:stasm
+PointUsableForTraining	tasm/src/tasmconf.cpp	/^bool PointUsableForTraining( \/\/ true if a point is not obscured or otherwise bad$/;"	f	namespace:stasm
+PointUsed	stasm/misc.h	/^static inline bool PointUsed(const Shape& shape, int ipoint)$/;"	f	namespace:stasm
+PointUsed	stasm/misc.h	/^static inline bool PointUsed(const double x, const double y)$/;"	f	namespace:stasm
+PointWeights	stasm/shapemod.cpp	/^VEC PointWeights(void) \/\/ return point weights from LANDMARK_INFO_TAB$/;"	f	namespace:stasm
+PosDef	tasm/src/tasmclassic.cpp	/^static bool PosDef( \/\/ true if mat is positive definite$/;"	f	namespace:stasm
+PoseSubset_	apps/shapefile/shapefile.cpp	/^void ShapeFile::PoseSubset_( \/\/ select a subset of the shapes based on pose$/;"	f	class:stasm::ShapeFile
+Pose_	apps/shapefile/shapefile.h	/^    const VEC Pose_(             \/\/ return all INVALID if pose not available$/;"	f	class:stasm::ShapeFile
+PossiblyDetectEyesAndMouth	tasm/src/tasmmeanshape.cpp	/^static void PossiblyDetectEyesAndMouth($/;"	f	namespace:stasm
+PossiblyEnterDebugger	stasm/err.cpp	/^static void PossiblyEnterDebugger(void)$/;"	f	namespace:stasm
+PossiblyInitCacheImg	apps/win/wasm.cpp	/^static void PossiblyInitCacheImg(void)$/;"	f	namespace:stasm
+PossiblyInitFindFile	apps/win/wasm.cpp	/^static void PossiblyInitFindFile(void)$/;"	f	namespace:stasm
+PossiblyInitSpecialPoints	tasm/marki/marki.cpp	/^static void PossiblyInitSpecialPoints (void)$/;"	f	file:
+PossiblyIssueAlreadyGrayMsg	apps/win/wasm.cpp	/^static void PossiblyIssueAlreadyGrayMsg(void)$/;"	f	namespace:stasm
+PossiblyPrint	stasm/shapehacks.cpp	/^static void PossiblyPrint(const char* s) \/\/ debugging print$/;"	f	namespace:stasm
+PossiblySetRotToZero	stasm/faceroi.cpp	/^void PossiblySetRotToZero( \/\/ this is to avoid rotating the image unnecessarily$/;"	f	namespace:stasm
+PreloadImg	tasm/marki/marki.cpp	/^static void PreloadImg (void)$/;"	f	file:
+PrematureEndOfFile	apps/shapefile/shapefile.cpp	/^static void PrematureEndOfFile(FILE* file, const char* path)$/;"	f	namespace:stasm
+PreprocessImg	tasm/marki/marki.cpp	/^static void PreprocessImg (void)$/;"	f	file:
+PrevAndNextLandmarks	stasm/landmarks.cpp	/^void PrevAndNextLandmarks($/;"	f	namespace:stasm
+PrevImg	tasm/marki/marki.cpp	/^static void PrevImg (void)$/;"	f	file:
+Print	apps/shapefile/shapeconvert.cpp	/^static void Print(FILE* file, double x, const char* msg)$/;"	f	namespace:stasm
+Print	apps/shapefile/shapecrop.cpp	/^static void Print(FILE* file, double x, const char* msg)$/;"	f	namespace:stasm
+Print	apps/shapefile/shapefile.cpp	/^static void Print(FILE* file, double x, const char* msg)$/;"	f	namespace:stasm
+Print	apps/shapefile/shapefromstasm31.cpp	/^static void Print(FILE* file, double x, const char* msg)$/;"	f	namespace:stasm
+Print	apps/shapefile/shapemirror.cpp	/^static void Print(FILE* file, double x, const char* msg)$/;"	f	namespace:stasm
+Print	apps/shapefile/shapetostasm31.cpp	/^static void Print(FILE* file, double x, const char* msg)$/;"	f	namespace:stasm
+PrintErr	apps/mdiff/mdiff.cpp	/^static void PrintErr(int linenbr,$/;"	f	file:
+PrintLandmarkInfo	tasm/src/tasmdraw.cpp	/^static void PrintLandmarkInfo($/;"	f	namespace:stasm
+PrintLandmarks	apps/test_stasm_lib.cpp	/^static void PrintLandmarks(const float* landmarks, const char* msg)$/;"	f	file:
+PrintMat	stasm/misc.cpp	/^void PrintMat(       \/\/ utility to print a matrix$/;"	f	namespace:stasm
+PrintOnce	stasm/print.cpp	/^void PrintOnce($/;"	f	namespace:stasm
+Print_	apps/appmisc.h	/^    void Print_(int i) \/\/ print pacifier if i has reached next 10% boundary$/;"	f	class:stasm::Pacifier
+ProcessCmdLine	apps/win/wasm.cpp	/^static void ProcessCmdLine(LPSTR lpCmdLine)$/;"	f	namespace:stasm
+ProcessFace	apps/stasm_main.cpp	/^static void ProcessFace($/;"	f	namespace:stasm
+ProcessFace	apps/swas/swas.cpp	/^static void ProcessFace($/;"	f	namespace:stasm
+ProcessFaceDetMat	tasm/marki/marki.cpp	/^static SHAPE ProcessFaceDetMat (void)$/;"	f	file:
+ProcessFaceDets	apps/shapefile/shapemirror.cpp	/^static void ProcessFaceDets($/;"	f	namespace:stasm
+ProcessImg	apps/stasm_main.cpp	/^static void ProcessImg($/;"	f	namespace:stasm
+ProcessPoses	apps/shapefile/shapecrop.cpp	/^static void ProcessPoses($/;"	f	namespace:stasm
+ProcessPoses	apps/shapefile/shapemirror.cpp	/^static void ProcessPoses($/;"	f	namespace:stasm
+ProcessShapeFileArg	apps/shapefile/shapefile.cpp	/^void ProcessShapeFileArg($/;"	f	namespace:stasm
+ProcessShapes	apps/shapefile/shapecrop.cpp	/^static void ProcessShapes($/;"	f	namespace:stasm
+ProcessShapes	apps/shapefile/shapemirror.cpp	/^static void ProcessShapes($/;"	f	namespace:stasm
+ProcessShapes	apps/swas/swas.cpp	/^static void ProcessShapes($/;"	f	namespace:stasm
+PseudoDetParFromStartShape	stasm/pinstart.cpp	/^static DetPar PseudoDetParFromStartShape($/;"	f	namespace:stasm
+REF17	stasm/shape17.cpp	/^static const double REF17[] = \/\/ mean frontal shape (data from mean MUCT shape)$/;"	m	namespace:stasm	file:
+REGISTRY_IMG	apps/win/wasm.cpp	/^static const char* const REGISTRY_IMG  = "ImageName";$/;"	m	namespace:stasm	file:
+REGISTRY_KEY	apps/win/wasm.cpp	/^static const char* const REGISTRY_KEY  = "Software\\\\\\\\Wasm";$/;"	m	namespace:stasm	file:
+REGISTRY_NAME	apps/win/wasm.cpp	/^static const char* const REGISTRY_NAME = "Config";$/;"	m	namespace:stasm	file:
+RGBV	stasm/misc.h	/^typedef cv::Vec3b RGBV;         \/\/ a vec of three bytes: red(0), green(1), and blue(2)$/;"	t	namespace:stasm
+RM	Makefile	/^RM = \/usr\/bin\/cmake -E remove -f$/;"	m
+ROI_FRAC	stasm/faceroi.h	/^static const double ROI_FRAC = 1.0; \/\/ ROI is double the face detector width$/;"	m	namespace:stasm
+ROT_TREAT_AS_ZERO	stasm/faceroi.cpp	/^static const double ROT_TREAT_AS_ZERO = 5;$/;"	m	namespace:stasm	file:
+RadsToDegrees	stasm/misc.h	/^static inline double RadsToDegrees(const double rads)$/;"	f	namespace:stasm
+RandInts	apps/shapefile/shapefile.cpp	/^static void RandInts($/;"	f	namespace:stasm
+ReadCmdLine	tasm/marki/marki.cpp	/^static void ReadCmdLine ($/;"	f	file:
+ReadMat	apps/shapefile/shapefile.cpp	/^static bool ReadMat(  \/\/ true if read the mat, false if no (more) mats in file$/;"	f	namespace:stasm
+ReadMatData	apps/shapefile/shapefile.cpp	/^static void ReadMatData($/;"	f	namespace:stasm
+RectToImgFrame	stasm/eyedet.cpp	/^static void RectToImgFrame($/;"	f	namespace:stasm
+Redisplay	tasm/marki/marki.cpp	/^static void Redisplay (void)$/;"	f	file:
+Redo	tasm/marki/marki.cpp	/^static void Redo (void)$/;"	f	file:
+RegexToLegalFilename	apps/shapefile/stasm_regex.cpp	/^void RegexToLegalFilename( \/\/ Example:  [^ab]|c   becomes   ~ab_c$/;"	f	namespace:stasm
+RememberUnusedPoints	tasm/src/tasmalignshapes.cpp	/^    RememberUnusedPoints(   \/\/ constructor$/;"	f	class:stasm::RememberUnusedPoints
+RememberUnusedPoints	tasm/src/tasmalignshapes.cpp	/^class RememberUnusedPoints$/;"	c	namespace:stasm	file:
+Restore_	tasm/src/tasmalignshapes.cpp	/^    void Restore_(    \/\/ set points marked true in unused_ to 0,0$/;"	f	class:stasm::RememberUnusedPoints
+Revert	tasm/marki/marki.cpp	/^static void Revert (void)$/;"	f	file:
+RgbToGray	stasm/misc.cpp	/^static byte RgbToGray( \/\/ CIE conversion to gray using integer arithmetic$/;"	f	namespace:stasm
+RoiRect	stasm/faceroi.cpp	/^static Rect RoiRect($/;"	f	namespace:stasm
+RoiShapeToImgFrame	stasm/faceroi.cpp	/^Shape RoiShapeToImgFrame(     \/\/ return shape in image frame$/;"	f	namespace:stasm
+RotShapeInPlace	stasm/pinstart.cpp	/^static void RotShapeInPlace($/;"	f	namespace:stasm
+RoundMat	stasm/misc.cpp	/^MAT RoundMat(        \/\/ return mat with entries rounded to integers$/;"	f	namespace:stasm
+SBIG	stasm/misc.h	/^static const int SBIG = 10000;  \/\/ long string length, enough for big printfs$/;"	m	namespace:stasm
+SCALE_NBRS	tasm/src/tasmdraw.cpp	/^const double SCALE_NBRS = .3; \/\/ size of landmark numbers in images showing landmarks$/;"	m	namespace:stasm	file:
+SHAPEHACKS_DEFAULT	stasm/shapehacks.h	/^static const unsigned SHAPEHACKS_DEFAULT          = 0x01;$/;"	m	namespace:stasm
+SHAPEHACKS_SHIFT_TEMPLE_OUT	stasm/shapehacks.h	/^static const unsigned SHAPEHACKS_SHIFT_TEMPLE_OUT = 0x10; \/\/ for frontal models$/;"	m	namespace:stasm
+SHAPEHACK_MINPYRLEV	stasm/shapemod.cpp	/^static const int SHAPEHACK_MINPYRLEV = 2; \/\/ allow hacks only at coarse pyr levs$/;"	m	namespace:stasm	file:
+SHAPEMODEL_ITERS	stasm/asm.h	/^static const int SHAPEMODEL_ITERS = 4; \/\/ shape model iterations per pyr level$/;"	m	namespace:stasm
+SHELL	Makefile	/^SHELL = \/bin\/sh$/;"	m
+SHIFT_MOUTH_FROM_NOSE_FRAC	stasm/shapehacks.cpp	/^static const double SHIFT_MOUTH_FROM_NOSE_FRAC = 0.06; \/\/ .06 from tuning on D1 set$/;"	m	namespace:stasm	file:
+SLEN	stasm/misc.h	/^static const int SLEN = 260;    \/\/ generic string length$/;"	m	namespace:stasm
+SQ	stasm/misc.h	/^template <typename T> T SQ(const T x)            \/\/ define SQ(x)$/;"	f	namespace:stasm
+SRC	mingw/Makefile	/^SRC=\\$/;"	m
+STASM_APPMEM_H	apps/appmem.h	6;"	d
+STASM_APPMISC_H	apps/appmisc.h	6;"	d
+STASM_ASM_H	stasm/asm.h	13;"	d
+STASM_ATFACE_HPP	stasm/atface.h	16;"	d
+STASM_BASEDESC_H	stasm/basedesc.h	30;"	d
+STASM_CLASSICDESC_H	stasm/classicdesc.h	6;"	d
+STASM_CONVSHAPE_H	stasm/convshape.h	6;"	d
+STASM_ERR_H	stasm/err.h	6;"	d
+STASM_EYEDET_H	stasm/eyedet.h	6;"	d
+STASM_EYEDIST_H	stasm/eyedist.h	6;"	d
+STASM_FACEDET_H	stasm/MOD_1/facedet.h	6;"	d
+STASM_FACEROI_H	stasm/faceroi.h	6;"	d
+STASM_FINDFILE_H	apps/win/findfile.h	7;"	d
+STASM_FITMEAS_H	apps/swas/fitmeas.h	6;"	d
+STASM_FM29_H	apps/swas/fm29.h	6;"	d
+STASM_H	stasm/stasm.h	6;"	d
+STASM_HATPATCH_H	stasm/hatdesc.h	7;"	d
+STASM_HAT_H	stasm/hat.h	6;"	d
+STASM_INITASM_H	stasm/MOD_1/initasm.h	6;"	d
+STASM_LANDMARKS_H	stasm/landmarks.h	6;"	d
+STASM_LANDTAB_AFLW21_H	tasm/landtab/landtab_aflw21.h	6;"	d
+STASM_LANDTAB_AFLW21_H	tasm/landtab/landtab_hands.h	6;"	d
+STASM_LANDTAB_MUCT68_H	tasm/landtab/landtab_muct68.h	6;"	d
+STASM_LANDTAB_MUCT76_H	tasm/landtab/landtab_muct76.h	6;"	d
+STASM_LANDTAB_MUCT77_H	stasm/landtab_muct77.h	6;"	d
+STASM_LANDTAB_PUT199_H	tasm/landtab/landtab_put199.h	6;"	d
+STASM_LIB_EXT_H	stasm/stasm_lib_ext.h	5;"	d
+STASM_LIB_H	stasm/stasm_lib.h	63;"	d
+STASM_LIB_OBJ	vc10/makefile	/^STASM_LIB_OBJ=\\$/;"	m
+STASM_MISC_H	stasm/misc.h	6;"	d
+STASM_PINSTART_H	stasm/pinstart.h	6;"	d
+STASM_PRINT_H	stasm/print.h	6;"	d
+STASM_REGEX_H	apps/shapefile/stasm_regex.h	6;"	d
+STASM_SHAPE17_H	stasm/shape17.h	6;"	d
+STASM_SHAPEFILE_H	apps/shapefile/shapefile.h	6;"	d
+STASM_SHAPEHACKS_H	stasm/shapehacks.h	6;"	d
+STASM_SHAPEMODEL_H	stasm/shapemod.h	6;"	d
+STASM_STARTSHAPE_H	stasm/startshape.h	6;"	d
+STASM_STASM_LANDMARKS_H	stasm/stasm_landmarks.h	6;"	d
+STASM_TASMDRAW_HPP	tasm/src/tasmdraw.h	6;"	d
+STASM_TASMLANDTAB_HPP	tasm/src/tasmlandtab.h	6;"	d
+STASM_USERMSG_H	apps/win/usermsg.h	6;"	d
+STASM_VERSION	stasm/stasm.h	/^static const char* const STASM_VERSION = "4.1.0"$/;"	v
+STASM_WRITEWIND_H	apps/win/writewind.h	6;"	d
+STRCAT	stasm/misc.h	64;"	d
+STRCAT	stasm/misc.h	80;"	d
+STRCPY	stasm/misc.h	59;"	d
+STRCPY	stasm/misc.h	75;"	d
+STRNLEN	stasm/misc.h	/^static inline int STRNLEN(const char* s, int n)$/;"	f	namespace:stasm
+SUFFIXES	Makefile	/^SUFFIXES =$/;"	m
+SanityCheckLandTab	tasm/src/tasmlandtab.cpp	/^void SanityCheckLandTab(void)$/;"	f	namespace:stasm
+SanityCheckShape17	stasm/shape17.cpp	/^void SanityCheckShape17( \/\/ check that left pupil is to the left of the right pupil, etc$/;"	f	namespace:stasm
+SaveForUndo	tasm/marki/marki.cpp	/^static void SaveForUndo (void)$/;"	f	file:
+SaveForUndo1	tasm/marki/marki.cpp	/^static void SaveForUndo1 (vector<UNDO> &u)$/;"	f	file:
+SaveState	tasm/marki/marki.cpp	/^static void SaveState (void)$/;"	f	file:
+SaveStateToRegistry	tasm/marki/marki.cpp	/^static void SaveStateToRegistry (void)$/;"	f	file:
+SelectEyes	stasm/eyedet.cpp	/^static void SelectEyes($/;"	f	namespace:stasm
+SelectMouth	stasm/eyedet.cpp	/^static void SelectMouth( \/\/ return index of the best mouth in the list of mouths$/;"	f	namespace:stasm
+SetChildCursor	tasm/marki/marki.cpp	/^static void SetChildCursor (void)$/;"	f	file:
+SetImgNbr	tasm/marki/marki.cpp	/^static void SetImgNbr (int iImg)$/;"	f	file:
+SetLandmarkNbr	tasm/marki/marki.cpp	/^static void SetLandmarkNbr (int iLandmark)$/;"	f	file:
+SetLandmarkPosition	tasm/marki/marki.cpp	/^static void SetLandmarkPosition ($/;"	f	file:
+SetShowMetaData	tasm/marki/marki.cpp	/^static void SetShowMetaData (unsigned uShow)$/;"	f	file:
+Shape	stasm/misc.h	/^typedef cv::Mat_<double> Shape; \/\/ by convention an N x 2 matrix holding a shape$/;"	t	namespace:stasm
+Shape17	stasm/shape17.cpp	/^Shape Shape17( \/\/ convert an arb face shape to a 17 point shape, err if can't$/;"	f	namespace:stasm
+Shape17OrEmpty	stasm/shape17.cpp	/^Shape Shape17OrEmpty(   \/\/ like Shape17 but return zero point shape if can't convert$/;"	f	namespace:stasm
+Shape17Tab	stasm/shape17.cpp	/^static const int* Shape17Tab( \/\/ get appropriate tab to convert to a 17 point shape$/;"	f	namespace:stasm
+Shape5	stasm/pinstart.cpp	/^static Shape Shape5(        \/\/ return a 5 point shape$/;"	f	namespace:stasm
+Shape77As20	stasm/convshape.cpp	/^static Shape Shape77As20( \/\/ return an approximated BioID 20 point shape$/;"	f	namespace:stasm
+Shape77As22	stasm/convshape.cpp	/^static Shape Shape77As22( \/\/ return an approximated AR 22 point shape$/;"	f	namespace:stasm
+Shape77As68	stasm/convshape.cpp	/^static Shape Shape77As68( \/\/ return an approximated XM2VTS 68 point shape$/;"	f	namespace:stasm
+Shape77As76	stasm/convshape.cpp	/^static Shape Shape77As76( \/\/ return an approximated MUCT 76 point shape$/;"	f	namespace:stasm
+Shape77AsXm2vts68	stasm/convshape.cpp	/^static Shape Shape77AsXm2vts68( \/\/ return an approximated XM2VTS 68 point shape$/;"	f	namespace:stasm
+ShapeFile	apps/shapefile/shapefile.h	/^    ShapeFile()                                \/\/ default constructor$/;"	f	class:stasm::ShapeFile
+ShapeFile	apps/shapefile/shapefile.h	/^    ShapeFile(const ShapeFile& sh)             \/\/ copy constructor$/;"	f	class:stasm::ShapeFile
+ShapeFile	apps/shapefile/shapefile.h	/^class ShapeFile                        \/\/ all the data from a shape file$/;"	c	namespace:stasm
+ShapeHeight	stasm/misc.cpp	/^double ShapeHeight(const Shape& shape) \/\/ height of shape in pixels$/;"	f	namespace:stasm
+ShapeMinMax	stasm/misc.cpp	/^void ShapeMinMax(       \/\/ get min and max ccords in the given shape$/;"	f	namespace:stasm
+ShapeMod	stasm/shapemod.h	/^    ShapeMod(                       \/\/ constructor$/;"	f	class:stasm::ShapeMod
+ShapeMod	stasm/shapemod.h	/^class ShapeMod$/;"	c	namespace:stasm
+ShapeToLandmarks	stasm/stasm_lib.cpp	/^static void ShapeToLandmarks( \/\/ convert Shape to landmarks (float *)$/;"	f	namespace:stasm
+ShapeWidth	stasm/misc.cpp	/^double ShapeWidth(const Shape& shape) \/\/ width of shape in pixels$/;"	f	namespace:stasm
+ShiftShape	stasm/misc.cpp	/^Shape ShiftShape(         \/\/ like above but shifts are doubles not ints$/;"	f	namespace:stasm
+ShiftShape	stasm/misc.cpp	/^Shape ShiftShape( \/\/ add xshift and yshift to shape coords, skipping unused points$/;"	f	namespace:stasm
+ShowDetStats	tasm/src/tasmmeanshape.cpp	/^static void ShowDetStats($/;"	f	namespace:stasm
+ShowEigs	tasm/src/tasmshapemod.cpp	/^static void ShowEigs(const MAT& eigvals)$/;"	f	namespace:stasm
+ShowPercentagePointsMissing	tasm/src/tasmshapemod.cpp	/^static void ShowPercentagePointsMissing($/;"	f	namespace:stasm
+ShowShapeAngles	tasm/src/tasmalignshapes.cpp	/^static void ShowShapeAngles($/;"	f	namespace:stasm
+Signed	tasm/marki/marki.cpp	/^static MFLOAT Signed (unsigned u)$/;"	f	file:
+SkipToEndOfLine	apps/shapefile/shapefile.cpp	/^static void SkipToEndOfLine(FILE* file, const char* path)$/;"	f	namespace:stasm
+SkipToNextSpecialPoint	tasm/marki/marki.cpp	/^static void SkipToNextSpecialPoint (void)$/;"	f	file:
+SkipToPrevSpecialPoint	tasm/marki/marki.cpp	/^static void SkipToPrevSpecialPoint (void)$/;"	f	file:
+StartShapeAndRoi	stasm/startshape.cpp	/^static void StartShapeAndRoi(  \/\/ we have the facerect, now get the rest$/;"	f	namespace:stasm
+StartShapeFromDetPar	stasm/startshape.cpp	/^static Shape StartShapeFromDetPar($/;"	f	namespace:stasm
+StateFromRegistry	apps/win/wasm.cpp	/^static void StateFromRegistry($/;"	f	namespace:stasm
+StateToRegistry	apps/win/wasm.cpp	/^static void StateToRegistry(HWND hwndMain)$/;"	f	namespace:stasm
+Step	stasm/classicdesc.cpp	/^static inline int Step( \/\/ return x coord at the given offset along whisker$/;"	f	namespace:stasm
+StripQuotesAndBackQuote	tasm/marki/marki.cpp	/^static void StripQuotesAndBackQuote (char sStripped[], const char *sQuoted)$/;"	f	file:
+SubProf	stasm/classicdesc.cpp	/^static VEC SubProf(      \/\/ return the profile at given offset within fullprof$/;"	f	namespace:stasm
+SubsetMask_	apps/shapefile/shapefile.cpp	/^void ShapeFile::SubsetMask_( \/\/ select shapes matching mask0 and mask1$/;"	f	class:stasm::ShapeFile
+SubsetN_	apps/shapefile/shapefile.cpp	/^void ShapeFile::SubsetN_(     \/\/ select nshapes$/;"	f	class:stasm::ShapeFile
+SubsetRegex_	apps/shapefile/shapefile.cpp	/^void ShapeFile::SubsetRegex_( \/\/ select shapes matching regex$/;"	f	class:stasm::ShapeFile
+Subset_	apps/shapefile/shapefile.cpp	/^void ShapeFile::Subset_( \/\/ select a subset of the shapes$/;"	f	class:stasm::ShapeFile
+SuggestShape_	stasm/asm.cpp	/^void Mod::SuggestShape_( \/\/ args same as non OpenMP version, see below$/;"	f	class:stasm::Mod
+SuggestShape_	stasm/asm.cpp	/^void Mod::SuggestShape_( \/\/ estimate shape by matching descr at each point$/;"	f	class:stasm::Mod
+SumAbsElems	stasm/classicdesc.cpp	/^static double SumAbsElems( \/\/ return the sum of the abs values of the elems of mat$/;"	f	namespace:stasm
+SumElems	stasm/misc.h	/^static inline double SumElems($/;"	f	namespace:stasm
+SumShapes	tasm/src/tasmalignshapes.cpp	/^static void SumShapes($/;"	f	namespace:stasm
+System	apps/appmisc.cpp	/^void System($/;"	f	namespace:stasm
+TASM_1D_PROFLEN	tasm/src/tasmconf.h	/^static const int TASM_1D_PROFLEN = 9;$/;"	m	namespace:stasm
+TASM_BALANCE_NUMBER_OF_CASES	tasm/src/tasmconf.h	/^static const bool TASM_BALANCE_NUMBER_OF_CASES = false;$/;"	m	namespace:stasm
+TASM_BINARY_DISTANCE	tasm/src/tasmconf.h	/^static const int TASM_BINARY_DISTANCE = false;$/;"	m	namespace:stasm
+TASM_DATADIR	tasm/src/tasmconf.h	/^static const char* const TASM_DATADIR = "..\/data";$/;"	m	namespace:stasm
+TASM_DET_EYES_AND_MOUTH	tasm/src/tasmconf.h	/^static const bool TASM_DET_EYES_AND_MOUTH = true;$/;"	m	namespace:stasm
+TASM_DISALLOWED_ATTR_BITS	tasm/src/tasmconf.h	/^static const unsigned TASM_DISALLOWED_ATTR_BITS = AT_BadImg|AT_Cropped|AT_Obscured;$/;"	m	namespace:stasm
+TASM_FACEDET_MINWIDTH	tasm/src/tasmconf.h	/^static const int TASM_FACEDET_MINWIDTH = 25; \/\/ as a percentage$/;"	m	namespace:stasm
+TASM_MEANSHAPE_USES_SHAPES_WITH_MISSING_POINTS	tasm/src/tasmconf.h	/^static const bool TASM_MEANSHAPE_USES_SHAPES_WITH_MISSING_POINTS = false;$/;"	m	namespace:stasm
+TASM_MODNAME	tasm/src/tasmconf.h	/^static const char* const TASM_MODNAME = "yaw00";$/;"	m	namespace:stasm
+TASM_NEGTRAIN_SEED	tasm/src/tasmconf.h	/^static const int TASM_NEGTRAIN_SEED = 2013; \/\/ seed for random generation of neg offsets$/;"	m	namespace:stasm
+TASM_NEG_MAX_OFFSET	tasm/src/tasmconf.h	/^static const int TASM_NEG_MAX_OFFSET = 6;   \/\/ max x or y displacement of a neg desc$/;"	m	namespace:stasm
+TASM_NEG_MIN_OFFSET	tasm/src/tasmconf.h	/^static const int TASM_NEG_MIN_OFFSET = 1;   \/\/ min x or y displacement of a neg desc$/;"	m	namespace:stasm
+TASM_NNEG_TRAIN_DESCS	tasm/src/tasmconf.h	/^static const int TASM_NNEG_TRAIN_DESCS = 1; \/\/ nbr of neg descs per landmark per shape$/;"	m	namespace:stasm
+TASM_REBUILD_SUBSET	tasm/src/tasmconf.h	/^static const char* const TASM_REBUILD_SUBSET = NULL;$/;"	m	namespace:stasm
+TASM_SUBSET_DESC_MODS	tasm/src/tasmconf.h	/^static const bool TASM_SUBSET_DESC_MODS = true;$/;"	m	namespace:stasm
+TEMPLE_RATIO	stasm/shapehacks.cpp	/^static const double TEMPLE_RATIO = .1; \/\/ temple must be this far from eye, 0 disables$/;"	m	namespace:stasm	file:
+TEMPLE_SHIFT	stasm/shapehacks.cpp	/^static const double TEMPLE_SHIFT = 3;$/;"	m	namespace:stasm	file:
+TOOLBAR_BUTTONS	apps/win/wasm.cpp	/^static const TBBUTTON TOOLBAR_BUTTONS[] =$/;"	m	namespace:stasm	file:
+TOOLBAR_HEIGHT	apps/win/wasm.cpp	/^static const int TOOLBAR_HEIGHT = 30; \/\/ in pixels$/;"	m	namespace:stasm	file:
+TOOLTIPS	apps/win/wasm.cpp	/^static const char* const TOOLTIPS[] =$/;"	m	namespace:stasm	file:
+TRACE_CACHE	stasm/hatdesc.cpp	/^static const bool TRACE_CACHE = 0;      \/\/ for checking cache hit rate$/;"	m	namespace:stasm	file:
+TRACE_IMAGES	stasm/stasm.h	22;"	d
+TRAIN_DESCS	tasm/src/tasmdescmod.cpp	/^typedef vector<vector<VEC> >    TRAIN_DESCS; \/\/ [npoints] [ndesc] of descriptors$/;"	t	namespace:stasm	file:
+TRAIN_DISTS	tasm/src/tasmdescmod.cpp	/^typedef vector<vector<double> > TRAIN_DISTS; \/\/ [npoints] [ndesc] distances from true landmark$/;"	t	namespace:stasm	file:
+TabPoint	apps/swas/checkfacedet.cpp	/^static int TabPoint(    \/\/ return first used point in tab, -1 if none$/;"	f	namespace:stasm
+TabPoint	stasm/eyedist.cpp	/^static int TabPoint(    \/\/ return first used point in tab, -1 if none$/;"	f	namespace:stasm
+TagCurrentShape	tasm/marki/marki.cpp	/^static void TagCurrentShape (bool fTag)$/;"	f	file:
+TasmDraw	tasm/src/tasmdraw.cpp	/^void TasmDraw( \/\/ draw images for checking tasm parameters and landmark table$/;"	f	namespace:stasm
+TasmSanityChecks	tasm/src/tasm.cpp	/^static void TasmSanityChecks($/;"	f	namespace:stasm
+TimedUserMsg	apps/win/usermsg.cpp	/^void TimedUserMsg($/;"	f	namespace:stasm
+TimedUserMsg1	apps/win/usermsg.cpp	/^static void TimedUserMsg1($/;"	f	namespace:stasm
+TimedUserMsg_WndProc	apps/win/usermsg.cpp	/^static LRESULT CALLBACK TimedUserMsg_WndProc($/;"	f	namespace:stasm
+ToCvColor	stasm/misc.cpp	/^CvScalar ToCvColor(unsigned color)$/;"	f	namespace:stasm
+ToLowerCase	stasm/misc.cpp	/^void ToLowerCase($/;"	f	namespace:stasm
+ToUpper	apps/appmisc.cpp	/^void ToUpper(char s[])$/;"	f	namespace:stasm
+TraceEyeMouthImg	stasm/eyedet.cpp	/^static void TraceEyeMouthImg($/;"	f	namespace:stasm
+TraceEyesMouth	stasm/startshape.cpp	/^static void TraceEyesMouth($/;"	f	namespace:stasm
+TraceFaces	stasm/MOD_1/facedet.cpp	/^static void TraceFaces(        \/\/ write image showing detected face rects$/;"	f	namespace:stasm
+TraceShape	stasm/asm.cpp	/^static void TraceShape(  \/\/ write an image file showing current shape on the image$/;"	f	namespace:stasm
+TransformShape	stasm/misc.cpp	/^Shape TransformShape(                 \/\/ return transformed shape, affine transform$/;"	f	namespace:stasm
+TransformShape	stasm/misc.cpp	/^Shape TransformShape(                \/\/ return transformed shape$/;"	f	namespace:stasm
+TransformShapeInPlace	stasm/misc.cpp	/^void TransformShapeInPlace($/;"	f	namespace:stasm
+TrilinearAccumulate	stasm/hat.cpp	/^static inline void TrilinearAccumulate($/;"	f	namespace:stasm
+TweakAflw	stasm/shape17.cpp	/^static void TweakAflw( \/\/ hacks to more closely approximate a me17 shape from an AFLW shape$/;"	f	namespace:stasm
+TweakHelen	stasm/shape17.cpp	/^static void TweakHelen( \/\/ hacks to more closely approximate a me17 shape from a Helen shape$/;"	f	namespace:stasm
+TweakMouthPosition	stasm/eyedet.cpp	/^static void TweakMouthPosition($/;"	f	namespace:stasm
+UNDO	tasm/marki/marki.cpp	/^UNDO;$/;"	t	typeref:struct:UNDO	file:
+UNDO	tasm/marki/marki.cpp	/^typedef struct UNDO$/;"	s	file:
+USER_MSG_TIMER	apps/win/usermsg.cpp	/^static const int USER_MSG_TIMER = 10;$/;"	m	namespace:stasm	file:
+UncatchOpenCvErrs	stasm/err.cpp	/^void UncatchOpenCvErrs(void) \/\/ restore handler that was active before CatchOpenCvErrs$/;"	f	namespace:stasm
+Undo	tasm/marki/marki.cpp	/^static void Undo (void)$/;"	f	file:
+UpdateDlgWnd	tasm/marki/marki.cpp	/^static void UpdateDlgWnd (void)$/;"	f	file:
+UpdateEyeMouthStats	tasm/src/tasmmeanshape.cpp	/^static void UpdateEyeMouthStats($/;"	f	namespace:stasm
+UpdateGlobalCoords	tasm/marki/marki.cpp	/^static void UpdateGlobalCoords (void)$/;"	f	file:
+UserMsg	apps/win/usermsg.cpp	/^void UserMsg($/;"	f	namespace:stasm
+VEC	apps/hat_example.cpp	/^typedef cv::Mat_<double> VEC;   \/\/ by convention indicates one-dim matrix$/;"	t	file:
+VEC	stasm/misc.h	/^typedef cv::Mat_<double> VEC;   \/\/ by convention indicates one-dim matrix$/;"	t	namespace:stasm
+VSPRINTF	stasm/misc.h	69;"	d
+VSPRINTF	stasm/misc.h	85;"	d
+Valid	stasm/misc.h	/^template <typename T> bool Valid(const T x)$/;"	f	namespace:stasm
+VecAsDetPar	tasm/src/tasmmeanshape.cpp	/^static DetPar VecAsDetPar($/;"	f	namespace:stasm
+VerticalOverlap	stasm/eyedet.cpp	/^static bool VerticalOverlap( \/\/ do the two eye rectangles overlap vertically?$/;"	f	namespace:stasm
+VeryDark	stasm/eyedet.cpp	/^static unsigned VeryDark(unsigned color) \/\/ return a very dark version of color$/;"	f	namespace:stasm
+WASM_OBJ	vc10/makefile	/^WASM_OBJ=\\$/;"	m
+WEB_ADDR	apps/win/wasm.cpp	/^static const char* const WEB_ADDR      = "http:\/\/www.milbo.users.sonic.net\/stasm";$/;"	m	namespace:stasm	file:
+WINDOW_SIGMA	stasm/hat.cpp	/^static const double WINDOW_SIGMA = .5; \/\/ gaussian window as frac of patch width$/;"	m	namespace:stasm	file:
+WINLIBS	vc10/makefile	/^WINLIBS=advapi32.lib comctl32.lib comdlg32.lib gdi32.lib shell32.lib user32.lib$/;"	m
+WhiskerStep	stasm/classicdesc.cpp	/^static void WhiskerStep($/;"	f	namespace:stasm
+WinMain	apps/win/wasm.cpp	/^int WINAPI WinMain($/;"	f
+WinMain	tasm/marki/marki.cpp	/^int WINAPI WinMain ($/;"	f
+WinMain1	apps/win/wasm.cpp	/^static void WinMain1($/;"	f	namespace:stasm
+WinMain1	tasm/marki/marki.cpp	/^static void WinMain1 (const LPSTR sCmdLine)$/;"	f	file:
+WmNotify	apps/win/wasm.cpp	/^static void WmNotify($/;"	f	namespace:stasm
+Wm_Char	tasm/marki/marki.cpp	/^static void Wm_Char (HWND hWnd, WPARAM wParam)$/;"	f	file:
+Wm_Command	apps/win/wasm.cpp	/^void Wm_Command(HWND hwnd, UINT, WPARAM wParam, LPARAM)$/;"	f	namespace:stasm
+Wm_Command	tasm/marki/marki.cpp	/^static void Wm_Command (HWND hWnd, UINT nMsg, WPARAM wParam, LPARAM lParam)$/;"	f	file:
+Wm_Create	apps/win/wasm.cpp	/^static void Wm_Create(HWND hwnd)$/;"	f	namespace:stasm
+Wm_Create	tasm/marki/marki.cpp	/^static void Wm_Create (HWND hWnd)$/;"	f	file:
+Wm_Keydown	apps/win/wasm.cpp	/^static void Wm_Keydown(HWND, WPARAM wParam)$/;"	f	namespace:stasm
+Wm_Keydown	tasm/marki/marki.cpp	/^static void Wm_Keydown (HWND hWnd, WPARAM wParam)$/;"	f	file:
+Wm_Move	tasm/marki/marki.cpp	/^static void Wm_Move (HWND hWnd, LPARAM lParam)$/;"	f	file:
+Wm_NotifyMarki	tasm/marki/marki.cpp	/^static void Wm_NotifyMarki (HWND hWnd, UINT nMsg, WPARAM wParam, LPARAM lParam,$/;"	f	file:
+Wm_Size	apps/win/wasm.cpp	/^static void Wm_Size(HWND, LPARAM lParam)$/;"	f	namespace:stasm
+Wm_Size	tasm/marki/marki.cpp	/^static void Wm_Size (HWND hWnd, LPARAM lParam)$/;"	f	file:
+WndProc	apps/win/wasm.cpp	/^static LRESULT CALLBACK WndProc( \/\/ for hwnd_main_g$/;"	f	namespace:stasm
+WndProc	tasm/marki/marki.cpp	/^WndProc (HWND hWnd, UINT nMsg, WPARAM wParam, LPARAM lParam)$/;"	f	file:
+WrapHistograms	stasm/hat.cpp	/^static void WrapHistograms($/;"	f	namespace:stasm
+WriteClassicMod	tasm/src/tasmclassic.cpp	/^static void WriteClassicMod( \/\/ write a classical model to a .mh file as C++ code$/;"	f	namespace:stasm
+WriteDetPar	tasm/src/tasmmeanshape.cpp	/^static void WriteDetPar(           \/\/ write detpar to facedet.shape$/;"	f	namespace:stasm
+WriteHatMod	tasm/src/tasmhat.cpp	/^static void WriteHatMod(    \/\/ write a hat model to a .mh file as C++ code$/;"	f	namespace:stasm
+WriteImgs	apps/swas/swas.cpp	/^static void WriteImgs($/;"	f	namespace:stasm
+WriteImputedShapes	tasm/src/tasmshapemod.cpp	/^static void WriteImputedShapes($/;"	f	namespace:stasm
+WriteLandmarkedImg	apps/swas/swas.cpp	/^static void WriteLandmarkedImg($/;"	f	namespace:stasm
+WriteMatAsArray	apps/appmisc.cpp	/^void WriteMatAsArray($/;"	f	namespace:stasm
+WriteShapeMod	tasm/src/tasmshapemod.cpp	/^static void WriteShapeMod(  \/\/ write a shape model to a .mh file as C++ code$/;"	f	namespace:stasm
+WriteTrainDescs	tasm/src/tasmdescmod.cpp	/^static void WriteTrainDescs($/;"	f	namespace:stasm
+WriteWindowAsBmp	apps/win/writewind.cpp	/^void WriteWindowAsBmp(   \/\/ write image in window hwnd to disk$/;"	f	namespace:stasm
+WriteWindowAsBmp1	apps/win/writewind.cpp	/^static void WriteWindowAsBmp1( \/\/ write BMP file of the given window$/;"	f	namespace:stasm
+Write_	apps/shapefile/shapefile.cpp	/^void ShapeFile::Write_(      \/\/ create a shapefile$/;"	f	class:stasm::ShapeFile
+XJITTER	stasm/misc.h	/^static const double XJITTER = .1;$/;"	m	namespace:stasm
+YAW00	apps/swas/checkfacedet.cpp	9;"	d	file:
+YAW22	apps/swas/checkfacedet.cpp	10;"	d	file:
+YAW_22	apps/swas/checkfacedet.cpp	11;"	d	file:
+Yaw00_	apps/shapefile/shapefile.h	/^    const VEC Yaw00_(            \/\/ return all INVALID if yaw00 facedet not avail$/;"	f	class:stasm::ShapeFile
+ZapSmallEigs	tasm/src/tasmshapemod.cpp	/^static void ZapSmallEigs($/;"	f	namespace:stasm
+_	apps/swas/fm29.cpp	104;"	d	file:
+_	apps/swas/fm29.cpp	21;"	d	file:
+_CRT_SECURE_NO_WARNINGS	apps/mdiff/mdiff.cpp	18;"	d	file:
+_MAX_DIR	stasm/misc.h	43;"	d
+_MAX_DRIVE	stasm/misc.h	42;"	d
+_MAX_EXT	stasm/misc.h	45;"	d
+_MAX_FNAME	stasm/misc.h	44;"	d
+_MAX_PATH	stasm/misc.h	41;"	d
+bases_	apps/shapefile/shapefile.h	/^    vec_string       bases_;           \/\/ basename of each shape$/;"	m	class:stasm::ShapeFile
+bits	stasm/landmarks.h	/^    unsigned bits;    \/\/ used only during training (AT_Glasses, etc.)$/;"	m	struct:stasm::LANDMARK_INFO
+bits_	apps/shapefile/shapefile.h	/^    vector<unsigned> bits_;            \/\/ set of bits for each shape e.g. AT_Pose$/;"	m	class:stasm::ShapeFile
+bmax_	stasm/shapemod.h	/^    const double   bmax_;      \/\/ eigvec weight limit, for LimitB()$/;"	m	class:stasm::ShapeMod
+boundary_	apps/appmisc.h	/^    int n_, nmin_, boundary_;$/;"	m	class:stasm::Pacifier
+byte	stasm/misc.h	/^typedef unsigned char byte;$/;"	t	namespace:stasm
+cache_g	stasm/hatdesc.cpp	/^static hash_map<unsigned, VEC> cache_g; \/\/ cached descriptors$/;"	m	namespace:stasm	file:
+cache_offset_g	apps/win/wasm.cpp	/^static int         cache_offset_g = 1; \/\/ guess of which direction user is moving$/;"	m	namespace:stasm	file:
+cache_path_g	apps/win/wasm.cpp	/^static char        cache_path_g[SLEN];$/;"	m	namespace:stasm	file:
+cache_rawimg_g	apps/win/wasm.cpp	/^static CImage      cache_rawimg_g;$/;"	m	namespace:stasm	file:
+cache_shape_g	apps/win/wasm.cpp	/^static Shape       cache_shape_g;$/;"	m	namespace:stasm	file:
+col_fracs_	stasm/hat.h	/^    vec_double col_fracs_;$/;"	m	class:stasm::Hat
+col_indices_	stasm/hat.h	/^    vec_int    col_indices_;$/;"	m	class:stasm::Hat
+covi_	stasm/classicdesc.h	/^    const MAT covi_;     \/\/ inverse of the covariance of the training profiles$/;"	m	class:stasm::ClassicDescMod
+crop_g	apps/swas/swas.cpp	/^static bool crop_g;                         \/\/ -c flag$/;"	m	namespace:stasm	file:
+crop_g	apps/win/wasm.cpp	/^static bool        crop_g;             \/\/ crop button$/;"	m	namespace:stasm	file:
+csv_g	apps/stasm_main.cpp	/^static bool csv_g;                            \/\/ -c flag$/;"	m	namespace:stasm	file:
+datadir_	stasm/asm.h	/^    const string   datadir_;  \/\/ directory of face detector files$/;"	m	class:stasm::Mod
+datadir_g	apps/win/wasm.cpp	/^static char        datadir_g[SLEN];    \/\/ directory of face detector files$/;"	m	namespace:stasm	file:
+descmods_	stasm/asm.h	/^    const vec_vec_BaseDescMod descmods_;$/;"	m	class:stasm::Mod
+detpars_	stasm/MOD_1/facedet.h	/^    vector<DetPar>  detpars_;     \/\/ all the valid faces in the current image$/;"	m	class:stasm::FaceDet
+dirs_	apps/shapefile/shapefile.h	/^    char             dirs_[SBIG];      \/\/ image dirs at start of shape file$/;"	m	class:stasm::ShapeFile
+doit	mingw/make.bat	/^:doit$/;"	l
+doit	vc10/make.bat	/^:doit$/;"	l
+doit	vc9/make.bat	/^:doit$/;"	l
+done_initfind_g	apps/win/wasm.cpp	/^static bool        done_initfind_g;$/;"	m	namespace:stasm	file:
+eigvals_	stasm/shapemod.h	/^    const VEC      eigvals_;   \/\/ neigs x 1 vector$/;"	m	class:stasm::ShapeMod
+eigvecs_	stasm/shapemod.h	/^    const MAT      eigvecs_;   \/\/ 2n x neigs matrix where n is nbr of landmarks$/;"	m	class:stasm::ShapeMod
+eigvecsi_	stasm/shapemod.h	/^    const MAT      eigvecsi_;  \/\/ neigs x 2n matrix, inverse of eigvecs_$/;"	m	class:stasm::ShapeMod
+err_g	stasm/err.cpp	/^static char err_g[SBIG]; \/\/ err msg saved for retrieval by LastErr and stasm_lasterr$/;"	m	namespace:stasm	file:
+error	apps/minimal2.cpp	/^static void error(const char* s1, const char* s2)$/;"	f	file:
+estart_	stasm/asm.h	/^    const ESTART   estart_;   \/\/ use the mouth\/eyes to position the start shape?$/;"	m	class:stasm::Mod
+eyaw	stasm/misc.h	/^    EYAW   eyaw;           \/\/ yaw as an enum$/;"	m	struct:stasm::DetPar
+eyaw_	stasm/asm.h	/^    const EYAW     eyaw_;     \/\/ model is for this yaw range$/;"	m	class:stasm::Mod
+fAPointWasMarked	tasm/marki/marki.cpp	/^static bool fAPointWasMarked (void)$/;"	f	file:
+fCheckCheckMode	tasm/marki/marki.cpp	/^static bool fCheckCheckMode (void)$/;"	f	file:
+fCheckSaveState	tasm/marki/marki.cpp	/^static bool fCheckSaveState (bool fAllowCancel) \/\/ return true if not cancel$/;"	f	file:
+fFaceDetMat	tasm/marki/marki.cpp	/^static bool fFaceDetMat (void)$/;"	f	file:
+facedet_g	stasm/MOD_1/facedet.cpp	/^static cv::CascadeClassifier facedet_g;  \/\/ the face detector$/;"	m	namespace:stasm	file:
+facedet_g	stasm/stasm_lib.cpp	/^static FaceDet facedet_g; \/\/ the face detector$/;"	v	file:
+fgAllButtons	tasm/marki/marki.cpp	/^static bool fgAllButtons;               \/\/ -B$/;"	v	file:
+fgAutoNextImg	tasm/marki/marki.cpp	/^static bool fgAutoNextImg;$/;"	v	file:
+fgAutoNextPoint	tasm/marki/marki.cpp	/^static bool fgAutoNextPoint;        \/\/ requires fgAllButtons = true$/;"	v	file:
+fgBigH	tasm/marki/marki.cpp	/^static bool fgBigH;                             \/\/ -H flag was used$/;"	v	file:
+fgBigHLandmarks	tasm/marki/marki.cpp	/^static bool fgBigHLandmarks[ngMaxNbrLandmarks]; \/\/ landmarks selected by -H$/;"	v	file:
+fgCenter	tasm/marki/marki.cpp	/^static bool     fgCenter;       \/\/ true if must center active landmark$/;"	v	file:
+fgChangesSaved	tasm/marki/marki.cpp	/^static bool fgChangesSaved = true; \/\/ landmark changes saved?$/;"	v	file:
+fgCheckMode	tasm/marki/marki.cpp	/^static bool fgCheckMode;         \/\/ check mode on (user started Marki with -C)$/;"	v	file:
+fgConnectDots	tasm/marki/marki.cpp	/^static bool fgConnectDots = true;$/;"	v	file:
+fgCtrlKeyDown	tasm/marki/marki.cpp	/^static bool fgCtrlKeyDown;      \/\/ set when the control key is down$/;"	v	file:
+fgDark	tasm/marki/marki.cpp	/^static bool fgDark;$/;"	v	file:
+fgEqualize	tasm/marki/marki.cpp	/^static bool fgEqualize;$/;"	v	file:
+fgForceRecenter	tasm/marki/marki.cpp	/^static bool fgForceRecenter;$/;"	v	file:
+fgGoBackOnEsc	tasm/marki/marki.cpp	/^static bool fgGoBackOnEsc = true; \/\/ when user pushes ESC do we go back or forward?$/;"	v	file:
+fgGray	tasm/marki/marki.cpp	/^static bool fgGray;$/;"	v	file:
+fgIgnoreClick	tasm/marki/marki.cpp	/^static bool fgIgnoreClick = false;$/;"	v	file:
+fgInvertPoseSpec	tasm/marki/marki.cpp	/^static bool fgInvertPoseSpec;           \/\/ true if bang after -q$/;"	v	file:
+fgIssueEscMsg	tasm/marki/marki.cpp	/^static bool fgIssueEscMsg;$/;"	v	file:
+fgJumpToLandmark	tasm/marki/marki.cpp	/^static bool fgJumpToLandmark;$/;"	v	file:
+fgLButtonDown	tasm/marki/marki.cpp	/^static bool fgLButtonDown;      \/\/ true while left mouse button is down$/;"	v	file:
+fgLastWasRedo	tasm/marki/marki.cpp	/^static bool fgLastWasRedo;  \/\/ last command was a redo$/;"	v	file:
+fgLastWasUndo	tasm/marki/marki.cpp	/^static bool fgLastWasUndo;  \/\/ last command was an undo (used by Ctrl-Z handling)$/;"	v	file:
+fgLock	tasm/marki/marki.cpp	/^static bool fgLock;$/;"	v	file:
+fgMoreThanOneLandmarkNbrChanged	tasm/marki/marki.cpp	/^static bool fgMoreThanOneLandmarkNbrChanged;$/;"	v	file:
+fgMustGetZoomedWidth	tasm/marki/marki.cpp	/^static bool fgMustGetZoomedWidth; \/\/ must update gEyeMouthDist and gZoomedWidth$/;"	v	file:
+fgPauseCheck	tasm/marki/marki.cpp	/^static bool fgPauseCheck;        \/\/ pause -C check with space bar$/;"	v	file:
+fgPendingMarkMsg	tasm/marki/marki.cpp	/^static bool fgPendingMarkMsg;   \/\/ need to issue "Mark" msg for active landmark$/;"	v	file:
+fgPoseSpecifiedByUser	tasm/marki/marki.cpp	/^static bool fgPoseSpecifiedByUser;$/;"	v	file:
+fgPrepareRawImg	tasm/marki/marki.cpp	/^static bool  fgPrepareRawImg = true;$/;"	v	file:
+fgShiftKeyDown	tasm/marki/marki.cpp	/^static bool fgShiftKeyDown;     \/\/ set when the shift key is down$/;"	v	file:
+fgShowActiveNbr	tasm/marki/marki.cpp	/^static bool fgShowActiveNbr = true; \/\/ show index of the active landmark$/;"	v	file:
+fgShowAllDots	tasm/marki/marki.cpp	/^static bool fgShowAllDots = true;   \/\/ IDM_ShowAllDots$/;"	v	file:
+fgShowNbrs	tasm/marki/marki.cpp	/^static bool fgShowNbrs;$/;"	v	file:
+fgShowPoseData	tasm/marki/marki.cpp	/^static bool fgShowPoseData;$/;"	v	file:
+fgSmallH	tasm/marki/marki.cpp	/^static bool fgSmallH;                             \/\/ -h flag was used$/;"	v	file:
+fgSmallHLandmarks	tasm/marki/marki.cpp	/^static bool fgSmallHLandmarks[ngMaxNbrLandmarks]; \/\/ landmarks selected by -h$/;"	v	file:
+fgSmallPoints	tasm/marki/marki.cpp	/^static bool fgSmallPoints;$/;"	v	file:
+fgSmoothInEffect	tasm/marki/marki.cpp	/^static bool fgSmoothInEffect;    \/\/ set dynamically$/;"	v	file:
+fgSpecialPoints	tasm/marki/marki.cpp	/^static bool fgSpecialPoints; \/\/ true if there any special points$/;"	v	file:
+fgTrace	tasm/marki/marki.cpp	/^static bool fgTrace;            \/\/ Ctrl-T, for debugging$/;"	v	file:
+fgUseRegEntries	tasm/marki/marki.cpp	/^static bool fgUseRegEntries = true;     \/\/ -F$/;"	v	file:
+fgViewMode	tasm/marki/marki.cpp	/^static bool fgViewMode;                 \/\/ -V$/;"	v	file:
+fgets1	apps/mdiff/mdiff.cpp	/^static char* fgets1(char* s, int n, FILE *stream) \/\/ like fgets but discards \\r$/;"	f	file:
+fitprefix_g	apps/swas/swas.cpp	/^static bool fitprefix_g = true;             \/\/ -f flag$/;"	m	namespace:stasm	file:
+freshstart_g	apps/win/wasm.cpp	/^static bool        freshstart_g;       \/\/ -F flag$/;"	m	namespace:stasm	file:
+gChildHeight	tasm/marki/marki.cpp	/^static MFLOAT     gChildWidth, gChildHeight;   \/\/ window dims, for effecient mouse moves$/;"	v	file:
+gChildWidth	tasm/marki/marki.cpp	/^static MFLOAT     gChildWidth, gChildHeight;   \/\/ window dims, for effecient mouse moves$/;"	v	file:
+gDestHeight	tasm/marki/marki.cpp	/^static MFLOAT gDestHeight, gDestWidth;$/;"	v	file:
+gDestWidth	tasm/marki/marki.cpp	/^static MFLOAT gDestHeight, gDestWidth;$/;"	v	file:
+gEyeMouthDist	tasm/marki/marki.cpp	/^static MFLOAT   gEyeMouthDist;  \/\/ eye-mouth distance of current face$/;"	v	file:
+gImg	tasm/marki/marki.cpp	/^static CIMAGE gImg;         \/\/ current image$/;"	v	file:
+gMarked	tasm/marki/marki.cpp	/^static vec_SHAPE    gMarked;    \/\/ track which points marked by user, only IX used$/;"	v	file:
+gPreloadedImg	tasm/marki/marki.cpp	/^static CIMAGE gPreloadedImg;       \/\/ preloaded image, see LoadCurrentImg$/;"	v	file:
+gRedo	tasm/marki/marki.cpp	/^static vector<UNDO> gRedo;  \/\/ redo buffer$/;"	v	file:
+gShapes	tasm/marki/marki.cpp	/^static vec_SHAPE    gShapes;    \/\/ ditto, but modified by user mouse clicks$/;"	v	file:
+gShapesOrg	tasm/marki/marki.cpp	/^static vec_SHAPE    gShapesOrg; \/\/ original training shapes, possibly compacted$/;"	v	file:
+gSpecialPoints	tasm/marki/marki.cpp	/^static MAT  gSpecialPoints;  \/\/ points which had SPECIAL_X_OFFSET offset$/;"	v	file:
+gSrcHeight	tasm/marki/marki.cpp	/^static MFLOAT xgSrc, ygSrc, gSrcWidth, gSrcHeight;$/;"	v	file:
+gSrcWidth	tasm/marki/marki.cpp	/^static MFLOAT xgSrc, ygSrc, gSrcWidth, gSrcHeight;$/;"	v	file:
+gStartTime	tasm/marki/marki.cpp	/^static clock_t  gStartTime;     \/\/ the time this program started$/;"	v	file:
+gTags	tasm/marki/marki.cpp	/^static vec_string   gTags;      \/\/ array[ngShapes] of string preceding each shape$/;"	v	file:
+gToolbarButtons	tasm/marki/marki.cpp	/^static TBBUTTON gToolbarButtons[] =$/;"	v	file:
+gToolbarButtonsAll	tasm/marki/marki.cpp	/^static TBBUTTON gToolbarButtonsAll[] = \/\/ use if -B flag is in effect$/;"	v	file:
+gUndo	tasm/marki/marki.cpp	/^static vector<UNDO> gUndo;  \/\/ undo buffer$/;"	v	file:
+gZoomAmount	tasm/marki/marki.cpp	/^static MFLOAT   gZoomAmount=.5; \/\/ amount of zoom, applicable only if fgCenter$/;"	v	file:
+gZoomedWidth	tasm/marki/marki.cpp	/^static MFLOAT   gZoomedWidth;   \/\/ the width of the image rectangle to display$/;"	v	file:
+gray_g	apps/win/wasm.cpp	/^static bool        gray_g = true;      \/\/ gray (monochrome) button$/;"	m	namespace:stasm	file:
+hCreateToolbar	apps/win/wasm.cpp	/^HWND hCreateToolbar($/;"	f	namespace:stasm
+hackbits_	stasm/shapemod.h	/^    const unsigned hackbits_;  \/\/ allowable shape model hacks (e.g. SHAPEHACKS_DEFAULT)$/;"	m	class:stasm::ShapeMod
+hat_g	stasm/hatdesc.cpp	/^static Hat hat_g;$/;"	m	namespace:stasm	file:
+hatfit_	stasm/hatdesc.h	/^    HatFit const hatfit_; \/\/ func to estimate HAT descriptor match$/;"	m	class:stasm::HatDescMod
+height	stasm/misc.h	/^    double width, height;  \/\/ width and height of detector shape$/;"	m	struct:stasm::DetPar
+hgChildWnd	tasm/marki/marki.cpp	/^static HWND       hgChildWnd;                  \/\/ child window, displays the image$/;"	v	file:
+hgDlgWnd	tasm/marki/marki.cpp	/^static HWND       hgDlgWnd;     \/\/ dialog window$/;"	v	file:
+hgGrayCursor	tasm/marki/marki.cpp	/^static HCURSOR    hgGrayCursor; \/\/ the cursor we use when fgGray is true$/;"	v	file:
+hgToolbar	tasm/marki/marki.cpp	/^static HWND       hgToolbar;$/;"	v	file:
+hgToolbarBmp	tasm/marki/marki.cpp	/^static HBITMAP    hgToolbarBmp; \/\/ toolbar bitmap$/;"	v	file:
+hwnd_child_g	apps/win/wasm.cpp	/^static HWND        hwnd_child_g;            \/\/ child window, displays the image$/;"	m	namespace:stasm	file:
+hwnd_g	apps/win/usermsg.cpp	/^static HWND hwnd_g;      \/\/ the window used to display the user mesage$/;"	m	namespace:stasm	file:
+hwnd_main_g	apps/win/wasm.cpp	/^static HWND        hwnd_main_g;        \/\/ the main window$/;"	m	namespace:stasm	file:
+iGetClosestLandmark	tasm/marki/marki.cpp	/^static int iGetClosestLandmark (void)$/;"	f	file:
+iImg	tasm/marki/marki.cpp	/^    int iImg;$/;"	m	struct:UNDO	file:
+iLandmark	tasm/marki/marki.cpp	/^    int iLandmark;$/;"	m	struct:UNDO	file:
+iface_	stasm/MOD_1/facedet.h	/^    int             iface_;       \/\/ index of current face for NextFace_$/;"	m	class:stasm::FaceDet
+igAutoNextMissingLandmark	tasm/marki/marki.cpp	/^static int  igAutoNextMissingLandmark = -1; \/\/ currently always -1$/;"	v	file:
+igCenterLandmark	tasm/marki/marki.cpp	/^static int  igCenterLandmark = -1;  \/\/ landmark specified by -c cmd line flag$/;"	v	file:
+igCmdLineLandmark	tasm/marki/marki.cpp	/^static int  igCmdLineLandmark = -1; \/\/ landmark specified by -l cmd line flag$/;"	v	file:
+igDebug	tasm/marki/marki.cpp	/^static int  igDebug;            \/\/ used only when fgTrace is on$/;"	v	file:
+igFirstImg	tasm/marki/marki.cpp	/^static int  igFirstImg;          \/\/ first image checked$/;"	v	file:
+igImg	tasm/marki/marki.cpp	/^static int    igImg = -1;   \/\/ index of current image in gTags$/;"	v	file:
+igLandmark	tasm/marki/marki.cpp	/^static int  igLandmark = -1;        \/\/ the active landmark$/;"	v	file:
+igLastClosestLandmark	tasm/marki/marki.cpp	/^static int  igLastClosestLandmark = -1; \/\/ to minimize redisplays when jumping$/;"	v	file:
+igPreloadedImg	tasm/marki/marki.cpp	/^static int    igPreloadedImg = -1; \/\/ index of preloaded image, -1 means none$/;"	v	file:
+ignore_multiface_imgs_g	apps/swas/swas.cpp	/^static bool ignore_multiface_imgs_g = true; \/\/ -M flag$/;"	m	namespace:stasm	file:
+img_g	apps/win/wasm.cpp	/^static CImage      img_g;              \/\/ current image with shape drawn$/;"	m	namespace:stasm	file:
+img_g	stasm/stasm_lib.cpp	/^static Image img_g;     \/\/ the current image$/;"	m	namespace:stasm	file:
+img_path_g	apps/win/wasm.cpp	/^static char        img_path_g[SLEN];   \/\/ path of current image$/;"	m	namespace:stasm	file:
+imgpath_g	stasm/startshape.cpp	/^char imgpath_g[SLEN]; \/\/ the filepath of the current image, used for debugging$/;"	m	namespace:stasm	file:
+info_arch	CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	/^char const* info_arch = "INFO" ":" "arch[" ARCHITECTURE_ID "]";$/;"	v
+info_arch	CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^char const* info_arch = "INFO" ":" "arch[" ARCHITECTURE_ID "]";$/;"	v
+info_compiler	CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	/^char const* info_compiler = "INFO" ":" "compiler[" COMPILER_ID "]";$/;"	v
+info_compiler	CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^char const* info_compiler = "INFO" ":" "compiler[" COMPILER_ID "]";$/;"	v
+info_platform	CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	/^char const* info_platform = "INFO" ":" "platform[" PLATFORM_ID "]";$/;"	v
+info_platform	CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^char const* info_platform = "INFO" ":" "platform[" PLATFORM_ID "]";$/;"	v
+info_version	CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	/^char const info_version[] = {$/;"	v
+info_version	CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^char const info_version[] = {$/;"	v
+ipath_g	apps/win/findfile.cpp	/^static int            ipath_g;  \/\/ index into circular buffer$/;"	m	namespace:stasm	file:
+isReturn	tasm/marki/marki.cpp	1487;"	d	file:
+istack_g	stasm/err.cpp	/^static int istack_g;                          \/\/ index into stack_g$/;"	m	namespace:stasm	file:
+label_1	vc10x64/make.bat	/^:label_1$/;"	l
+label_2	vc10x64/make.bat	/^:label_2$/;"	l
+lex	stasm/misc.h	/^    double lex, ley;       \/\/ center of left eye (left and right are wrt the viewer)$/;"	m	struct:stasm::DetPar
+ley	stasm/misc.h	/^    double lex, ley;       \/\/ center of left eye (left and right are wrt the viewer)$/;"	m	struct:stasm::DetPar
+leye_det_g	stasm/eyedet.cpp	/^static cv::CascadeClassifier leye_det_g;  \/\/ left eye detector$/;"	m	namespace:stasm	file:
+logfile_g	stasm/print.cpp	/^static FILE* logfile_g;  \/\/ lprintfs go to this log file as well as stdout$/;"	m	namespace:stasm	file:
+logprintf	stasm/print.cpp	/^void logprintf(const char* format, ...) \/\/ args like printf$/;"	f	namespace:stasm
+lprintf	stasm/print.cpp	/^void lprintf(const char* format, ...)   \/\/ args like printf$/;"	f	namespace:stasm
+lprintf_always	stasm/print.cpp	/^void lprintf_always(const char* format, ...)$/;"	f	namespace:stasm
+lputs	stasm/print.cpp	/^void lputs(const char* s)$/;"	f	namespace:stasm
+magmat_	stasm/hat.h	/^    MAT        magmat_;           \/\/ grad mag of the current image (face ROI)$/;"	m	class:stasm::Hat
+main	CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	/^int main(int argc, char* argv[])$/;"	f
+main	CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c	/^void main() {}$/;"	f
+main	CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^int main(int argc, char* argv[])$/;"	f
+main	apps/hat_example.cpp	/^int main()$/;"	f
+main	apps/mdiff/mdiff.cpp	/^int main(int argc, char* argv[])$/;"	f
+main	apps/minimal.cpp	/^int main()$/;"	f
+main	apps/minimal2.cpp	/^int main()$/;"	f
+main	apps/shapefile/shapeconvert.cpp	/^int main(int argc, const char** argv)$/;"	f
+main	apps/shapefile/shapecrop.cpp	/^int main(int argc, const char** argv)$/;"	f
+main	apps/shapefile/shapefromstasm31.cpp	/^int main(int argc, const char** argv)$/;"	f
+main	apps/shapefile/shapemirror.cpp	/^int main(int argc, const char** argv)$/;"	f
+main	apps/shapefile/shapetostasm31.cpp	/^int main(int argc, const char** argv)$/;"	f
+main	apps/stasm_main.cpp	/^int main(int argc, const char** argv)$/;"	f
+main	apps/swas/swas.cpp	/^int main(int argc, const char** argv)$/;"	f
+main	apps/test_stasm_lib.cpp	/^int main(int argc, const char** argv)$/;"	f
+main	apps/test_stasm_lib_err.cpp	/^int main(void)$/;"	f
+main	external/minimal.cpp	/^int main()$/;"	f
+main	tasm/src/tasm.cpp	/^int main(int argc, const char** argv)$/;"	f
+main1	apps/shapefile/shapeconvert.cpp	/^static void main1(int argc, const char** argv)$/;"	f	namespace:stasm
+main1	apps/shapefile/shapecrop.cpp	/^static void main1(int argc, const char** argv)$/;"	f	namespace:stasm
+main1	apps/shapefile/shapefromstasm31.cpp	/^static void main1(int argc, const char** argv)$/;"	f	namespace:stasm
+main1	apps/shapefile/shapemirror.cpp	/^static void main1(int argc, const char** argv)$/;"	f	namespace:stasm
+main1	apps/shapefile/shapetostasm31.cpp	/^static void main1(int argc, const char** argv)$/;"	f	namespace:stasm
+main1	apps/stasm_main.cpp	/^static void main1(int argc, const char** argv)$/;"	f	namespace:stasm
+main1	apps/swas/swas.cpp	/^static void main1(int argc, const char** argv)$/;"	f	namespace:stasm
+main1	tasm/src/tasm.cpp	/^static void main1($/;"	f	namespace:stasm
+makepath	stasm/misc.cpp	/^void makepath($/;"	f	namespace:stasm
+map_mat	apps/shapefile/shapefile.h	/^typedef hash_map<string, MAT> map_mat;$/;"	t	namespace:stasm
+meanprof_	stasm/classicdesc.h	/^    const MAT meanprof_; \/\/ mean of the training profiles for this point$/;"	m	class:stasm::ClassicDescMod
+meanshape_	stasm/shapemod.h	/^    const Shape    meanshape_; \/\/ mean shape aligned to face det frame$/;"	m	class:stasm::ShapeMod
+minwidth_g	apps/stasm_main.cpp	/^static int  minwidth_g = 25;                  \/\/ -s flag$/;"	m	namespace:stasm	file:
+minwidth_g	apps/swas/swas.cpp	/^static int  minwidth_g = 25;                \/\/ -s -S flags$/;"	m	namespace:stasm	file:
+mods_g	stasm/stasm_lib.cpp	/^static vec_Mod mods_g;    \/\/ the ASM model(s)$/;"	v	file:
+mouth_det_g	stasm/eyedet.cpp	/^static cv::CascadeClassifier mouth_det_g; \/\/ mouth detector$/;"	m	namespace:stasm	file:
+mouthx	stasm/misc.h	/^    double mouthx, mouthy; \/\/ center of mouth$/;"	m	struct:stasm::DetPar
+mouthy	stasm/misc.h	/^    double mouthx, mouthy; \/\/ center of mouth$/;"	m	struct:stasm::DetPar
+msg_g	apps/win/usermsg.cpp	/^static char msg_g[SBIG]; \/\/ the displayed user message$/;"	m	namespace:stasm	file:
+multiface_g	apps/stasm_main.cpp	/^static bool multiface_g;                      \/\/ -m flag$/;"	m	namespace:stasm	file:
+must_initfind_g	apps/win/wasm.cpp	/^static bool        must_initfind_g;$/;"	m	namespace:stasm	file:
+n_	apps/appmisc.h	/^    int n_, nmin_, boundary_;$/;"	m	class:stasm::Pacifier
+ncalls_g	stasm/hatdesc.cpp	/^static int ncalls_g, nhits_g;           \/\/ only used if TRACE_CACHE$/;"	m	namespace:stasm	file:
+nchar_	apps/shapefile/shapefile.h	/^    int              nchar_;           \/\/ number of chars in longest basename$/;"	m	class:stasm::ShapeFile
+next	stasm/landmarks.h	/^    int   prev, next; \/\/ previous and next point$/;"	m	struct:stasm::LANDMARK_INFO
+ngBadEyeMouth	tasm/marki/marki.cpp	/^static int  ngBadEyeMouth;       \/\/ number of images could not estimate eye-mouth dist$/;"	v	file:
+ngBadImgs	tasm/marki/marki.cpp	/^static int  ngBadImgs;           \/\/ number of bad images so far$/;"	v	file:
+ngBadShapes	tasm/marki/marki.cpp	/^static int  ngBadShapes;$/;"	v	file:
+ngDlgHeight	tasm/marki/marki.cpp	/^static const int    ngDlgHeight = 300;$/;"	v	file:
+ngDlgWidth	tasm/marki/marki.cpp	/^static const int    ngDlgWidth  = 230; \/\/ dialog window width and height$/;"	v	file:
+ngEyeMouthDistForSmooth	tasm/marki/marki.cpp	/^static const int ngEyeMouthDistForSmooth = 80; \/\/ will blur if dist less than this$/;"	v	file:
+ngImgs	tasm/marki/marki.cpp	/^static int    ngImgs;       \/\/ total number of images$/;"	v	file:
+ngLandmarksUpdated	tasm/marki/marki.cpp	/^static int  ngLandmarksUpdated;     \/\/ number of landmarks updated by the user$/;"	v	file:
+ngMaxNbrLandmarks	tasm/marki/marki.cpp	/^static const int    ngMaxNbrLandmarks = 77;$/;"	v	file:
+ngPreloadOffset	tasm/marki/marki.cpp	/^static int    ngPreloadOffset = 1; \/\/ estimated index offset of next image$/;"	v	file:
+ngSmoothAmount	tasm/marki/marki.cpp	/^static int ngSmoothAmount = 1;$/;"	v	file:
+ngToolbarHeight	tasm/marki/marki.cpp	/^static const int    ngToolbarHeight = 32;$/;"	v	file:
+nhits_g	stasm/hatdesc.cpp	/^static int ncalls_g, nhits_g;           \/\/ only used if TRACE_CACHE$/;"	m	namespace:stasm	file:
+nlandmarks_g	apps/shapefile/shapeconvert.cpp	/^static int nlandmarks_g = stasm_NLANDMARKS;  \/\/ -n flag$/;"	v	file:
+nlandmarks_g	apps/stasm_main.cpp	/^static int  nlandmarks_g = stasm_NLANDMARKS;  \/\/ -n flag$/;"	m	namespace:stasm	file:
+nmin_	apps/appmisc.h	/^    int n_, nmin_, boundary_;$/;"	m	class:stasm::Pacifier
+nshapes_	apps/shapefile/shapefile.h	/^    int              nshapes_;         \/\/ number of shapes$/;"	m	class:stasm::ShapeFile
+operator =	apps/shapefile/shapefile.h	/^    ShapeFile& operator=(const ShapeFile& rhs) \/\/ assignment operator$/;"	f	class:stasm::ShapeFile
+orientmat_	stasm/hat.h	/^    MAT        orientmat_;        \/\/ grad orient of the current image (face ROI)$/;"	m	class:stasm::Hat
+pGetImg4	tasm/marki/marki.cpp	/^pGetImg4 (int   &nWidth4,   \/\/ out: the new image width (often same as original)$/;"	f	file:
+partner	stasm/landmarks.h	/^    int   partner;    \/\/ symmetrical partner point, -1 means no partner$/;"	m	struct:stasm::LANDMARK_INFO
+patchwidth_	stasm/hat.h	/^    int        patchwidth_;       \/\/ image patch is patchwidth x patchwidth pixels$/;"	m	class:stasm::Hat
+paths_g	apps/win/findfile.cpp	/^static vector<string> paths_g;  \/\/ circular buffer of file paths$/;"	m	namespace:stasm	file:
+pixelweights_	stasm/hat.h	/^    vec_double pixelweights_;     \/\/ weight pixel by closeness to center of patch$/;"	m	class:stasm::Hat
+plural	apps/appmisc.h	/^inline const char* plural(int n)$/;"	f	namespace:stasm
+poses_	apps/shapefile/shapefile.h	/^    map_mat          poses_;           \/\/ pose of each shape$/;"	m	class:stasm::ShapeFile
+prev	stasm/landmarks.h	/^    int   prev, next; \/\/ previous and next point$/;"	m	struct:stasm::LANDMARK_INFO
+print_g	stasm/print.cpp	/^bool print_g;   \/\/ true to allow output to stdout (but error msgs always printed)$/;"	m	namespace:stasm	file:
+printf_g	apps/swas/swas.cpp	/^static void (*printf_g)(const char* pArgs, ...) = &lprintf;$/;"	m	namespace:stasm	file:
+quiet_g	apps/shapefile/shapecrop.cpp	/^static bool quiet_g;            \/\/ -q flag$/;"	m	namespace:stasm	file:
+quiet_g	apps/shapefile/shapemirror.cpp	/^static bool quiet_g;            \/\/ -q flag$/;"	m	namespace:stasm	file:
+quiet_g	apps/swas/swas.cpp	/^static bool quiet_g;                        \/\/ -q flag$/;"	m	namespace:stasm	file:
+rawimg_g	apps/win/wasm.cpp	/^static CImage      rawimg_g;           \/\/ current image before drawing onto it$/;"	m	namespace:stasm	file:
+rex	stasm/misc.h	/^    double rex, rey;       \/\/ center of right eye$/;"	m	struct:stasm::DetPar
+rey	stasm/misc.h	/^    double rex, rey;       \/\/ center of right eye$/;"	m	struct:stasm::DetPar
+reye_det_g	stasm/eyedet.cpp	/^static cv::CascadeClassifier reye_det_g;  \/\/ right eye detector$/;"	m	namespace:stasm	file:
+rot	stasm/misc.h	/^    double rot;            \/\/ in-plane rotation$/;"	m	struct:stasm::DetPar
+round2	stasm/asm.cpp	68;"	d	file:
+round2	stasm/hatdesc.cpp	/^static int round2(double x) \/\/ return closest int to x that is divisible by 2$/;"	f	namespace:stasm
+row_fracs_	stasm/hat.h	/^    vec_double row_fracs_;        \/\/ to the corresponding histogram grid row,col$/;"	m	class:stasm::Hat
+row_indices_	stasm/hat.h	/^    vec_int    row_indices_;      \/\/ histogram indices: these map a patch row,col$/;"	m	class:stasm::Hat
+sFormatElapsedTime	tasm/marki/marki.cpp	/^sFormatElapsedTime (double ElapsedTime)$/;"	f	file:
+sGetBackupName	tasm/marki/marki.cpp	/^static const char *sGetBackupName ($/;"	f	file:
+sGetCurrentBase	tasm/marki/marki.cpp	/^static const char *sGetCurrentBase (void) \/\/ basename of current image$/;"	f	file:
+sGetFirstBase	tasm/marki/marki.cpp	/^static const char *sGetFirstBase (void) \/\/ basename of first image loaded, for -C$/;"	f	file:
+searching_g	apps/win/wasm.cpp	/^static bool        searching_g;        \/\/ true while in AsmSearch$/;"	m	namespace:stasm	file:
+sgChildWnd	tasm/marki/marki.cpp	/^static const char sgChildWnd[] = "MarkiChild"; \/\/ name and class of child window$/;"	v	file:
+sgFirstBadImg	tasm/marki/marki.cpp	/^static char sgFirstBadImg[SLEN]; \/\/ name of first bad image, if any$/;"	v	file:
+sgFirstBadShape	tasm/marki/marki.cpp	/^static char sgFirstBadShape[SLEN];$/;"	v	file:
+sgHelp	tasm/marki/marki.cpp	/^static const char sgHelp[] =$/;"	v	file:
+sgImgDirs	tasm/marki/marki.cpp	/^static char  sgImgDirs[SLEN];   \/\/ director(ies) holding images (from shapefile)$/;"	v	file:
+sgMarkiLog	tasm/marki/marki.cpp	/^static const char   *sgMarkiLog     = "marki.log";$/;"	v	file:
+sgNewShapeFile	tasm/marki/marki.cpp	/^static char sgNewShapeFile[SLEN];       \/\/ -o$/;"	v	file:
+sgNotifySound	tasm/marki/marki.cpp	/^static const char   *sgNotifySound = "C:\/Windows\/Media\/notify.wav";$/;"	v	file:
+sgRegistryKey	tasm/marki/marki.cpp	/^static const char   *sgRegistryKey  = "Software\\\\Marki";$/;"	v	file:
+sgRegistryName	tasm/marki/marki.cpp	/^static const char   *sgRegistryName = "Config";$/;"	v	file:
+sgShapeFile	tasm/marki/marki.cpp	/^static char  sgShapeFile[SLEN]; \/\/ name of the shape file$/;"	v	file:
+sgTagRegex	tasm/marki/marki.cpp	/^static char sgTagRegex[MAX_PRINT_LEN];  \/\/ -p$/;"	v	file:
+sgTooltips	tasm/marki/marki.cpp	/^static const char *sgTooltips[] =$/;"	v	file:
+sgUsage	tasm/marki/marki.cpp	/^static const char sgUsage[] =$/;"	v	file:
+shape_g	apps/win/wasm.cpp	/^static Shape       shape_g;            \/\/ located landmarks$/;"	m	namespace:stasm	file:
+shapemod_	stasm/asm.h	/^    const ShapeMod shapemod_; \/\/ the shape model$/;"	m	class:stasm::Mod
+shapepath_	apps/shapefile/shapefile.h	/^    char             shapepath_[SLEN]; \/\/ shapefile path$/;"	m	class:stasm::ShapeFile
+shapes_	apps/shapefile/shapefile.h	/^    vec_Shape        shapes_;          \/\/ the shapes$/;"	m	class:stasm::ShapeFile
+splitpath	stasm/misc.cpp	/^void splitpath($/;"	f	namespace:stasm
+ssprintf	stasm/misc.cpp	/^const char* ssprintf(const char* format, ...)$/;"	f	namespace:stasm
+stasm	apps/appmem.cpp	/^namespace stasm$/;"	n	file:
+stasm	apps/appmem.h	/^namespace stasm$/;"	n
+stasm	apps/appmisc.cpp	/^namespace stasm$/;"	n	file:
+stasm	apps/appmisc.h	/^namespace stasm$/;"	n
+stasm	apps/linsolve.cpp	/^namespace stasm$/;"	n	file:
+stasm	apps/linsolve.h	/^namespace stasm$/;"	n
+stasm	apps/shapefile/shapeconvert.cpp	/^namespace stasm$/;"	n	file:
+stasm	apps/shapefile/shapecrop.cpp	/^namespace stasm$/;"	n	file:
+stasm	apps/shapefile/shapefile.cpp	/^namespace stasm$/;"	n	file:
+stasm	apps/shapefile/shapefile.h	/^namespace stasm$/;"	n
+stasm	apps/shapefile/shapefromstasm31.cpp	/^namespace stasm$/;"	n	file:
+stasm	apps/shapefile/shapemirror.cpp	/^namespace stasm$/;"	n	file:
+stasm	apps/shapefile/shapetostasm31.cpp	/^namespace stasm$/;"	n	file:
+stasm	apps/shapefile/stasm_regex.cpp	/^namespace stasm$/;"	n	file:
+stasm	apps/shapefile/stasm_regex.h	/^namespace stasm$/;"	n
+stasm	apps/stasm_main.cpp	/^namespace stasm$/;"	n	file:
+stasm	apps/swas/checkfacedet.cpp	/^namespace stasm$/;"	n	file:
+stasm	apps/swas/fitmeas.cpp	/^namespace stasm$/;"	n	file:
+stasm	apps/swas/fitmeas.h	/^namespace stasm$/;"	n
+stasm	apps/swas/fm29.cpp	/^namespace stasm$/;"	n	file:
+stasm	apps/swas/fm29.h	/^namespace stasm$/;"	n
+stasm	apps/swas/swas.cpp	/^namespace stasm$/;"	n	file:
+stasm	apps/win/findfile.cpp	/^namespace stasm$/;"	n	file:
+stasm	apps/win/findfile.h	/^namespace stasm$/;"	n
+stasm	apps/win/usermsg.cpp	/^namespace stasm$/;"	n	file:
+stasm	apps/win/usermsg.h	/^namespace stasm$/;"	n
+stasm	apps/win/wasm.cpp	/^namespace stasm$/;"	n	file:
+stasm	apps/win/writewind.cpp	/^namespace stasm$/;"	n	file:
+stasm	apps/win/writewind.h	/^namespace stasm$/;"	n
+stasm	stasm/MOD_1/facedet.cpp	/^namespace stasm$/;"	n	file:
+stasm	stasm/MOD_1/facedet.h	/^namespace stasm$/;"	n
+stasm	stasm/MOD_1/initasm.cpp	/^namespace stasm$/;"	n	file:
+stasm	stasm/MOD_1/initasm.h	/^namespace stasm$/;"	n
+stasm	stasm/asm.cpp	/^namespace stasm$/;"	n	file:
+stasm	stasm/asm.h	/^namespace stasm$/;"	n
+stasm	stasm/basedesc.h	/^namespace stasm$/;"	n
+stasm	stasm/classicdesc.cpp	/^namespace stasm$/;"	n	file:
+stasm	stasm/classicdesc.h	/^namespace stasm$/;"	n
+stasm	stasm/convshape.cpp	/^namespace stasm$/;"	n	file:
+stasm	stasm/convshape.h	/^namespace stasm$/;"	n
+stasm	stasm/err.cpp	/^namespace stasm$/;"	n	file:
+stasm	stasm/err.h	/^namespace stasm$/;"	n
+stasm	stasm/eyedet.cpp	/^namespace stasm$/;"	n	file:
+stasm	stasm/eyedet.h	/^namespace stasm$/;"	n
+stasm	stasm/eyedist.cpp	/^namespace stasm$/;"	n	file:
+stasm	stasm/eyedist.h	/^namespace stasm$/;"	n
+stasm	stasm/faceroi.cpp	/^namespace stasm$/;"	n	file:
+stasm	stasm/faceroi.h	/^namespace stasm$/;"	n
+stasm	stasm/hat.cpp	/^namespace stasm$/;"	n	file:
+stasm	stasm/hat.h	/^namespace stasm$/;"	n
+stasm	stasm/hatdesc.cpp	/^namespace stasm$/;"	n	file:
+stasm	stasm/hatdesc.h	/^namespace stasm$/;"	n
+stasm	stasm/landmarks.cpp	/^namespace stasm$/;"	n	file:
+stasm	stasm/landmarks.h	/^namespace stasm$/;"	n
+stasm	stasm/misc.cpp	/^namespace stasm$/;"	n	file:
+stasm	stasm/misc.h	/^namespace stasm$/;"	n
+stasm	stasm/pinstart.cpp	/^namespace stasm$/;"	n	file:
+stasm	stasm/pinstart.h	/^namespace stasm$/;"	n
+stasm	stasm/print.cpp	/^namespace stasm$/;"	n	file:
+stasm	stasm/print.h	/^namespace stasm$/;"	n
+stasm	stasm/shape17.cpp	/^namespace stasm$/;"	n	file:
+stasm	stasm/shape17.h	/^namespace stasm$/;"	n
+stasm	stasm/shapehacks.cpp	/^namespace stasm$/;"	n	file:
+stasm	stasm/shapehacks.h	/^namespace stasm$/;"	n
+stasm	stasm/shapemod.cpp	/^namespace stasm$/;"	n	file:
+stasm	stasm/shapemod.h	/^namespace stasm$/;"	n
+stasm	stasm/startshape.cpp	/^namespace stasm$/;"	n	file:
+stasm	stasm/startshape.h	/^namespace stasm$/;"	n
+stasm	stasm/stasm_lib.cpp	/^namespace stasm$/;"	n	file:
+stasm	tasm/src/tasm.cpp	/^namespace stasm$/;"	n	file:
+stasm	tasm/src/tasmalignshapes.cpp	/^namespace stasm$/;"	n	file:
+stasm	tasm/src/tasmalignshapes.h	/^namespace stasm$/;"	n
+stasm	tasm/src/tasmclassic.cpp	/^namespace stasm$/;"	n	file:
+stasm	tasm/src/tasmclassic.h	/^namespace stasm$/;"	n
+stasm	tasm/src/tasmconf.cpp	/^namespace stasm$/;"	n	file:
+stasm	tasm/src/tasmconf.h	/^namespace stasm$/;"	n
+stasm	tasm/src/tasmdescmod.cpp	/^namespace stasm$/;"	n	file:
+stasm	tasm/src/tasmdescmod.h	/^namespace stasm$/;"	n
+stasm	tasm/src/tasmdraw.cpp	/^namespace stasm$/;"	n	file:
+stasm	tasm/src/tasmdraw.h	/^namespace stasm$/;"	n
+stasm	tasm/src/tasmhat.cpp	/^namespace stasm$/;"	n	file:
+stasm	tasm/src/tasmhat.h	/^namespace stasm$/;"	n
+stasm	tasm/src/tasmimpute.cpp	/^namespace stasm$/;"	n	file:
+stasm	tasm/src/tasmimpute.h	/^namespace stasm$/;"	n
+stasm	tasm/src/tasmlandtab.cpp	/^namespace stasm$/;"	n	file:
+stasm	tasm/src/tasmlandtab.h	/^namespace stasm$/;"	n
+stasm	tasm/src/tasmmeanshape.cpp	/^namespace stasm$/;"	n	file:
+stasm	tasm/src/tasmmeanshape.h	/^namespace stasm$/;"	n
+stasm	tasm/src/tasmshapemod.cpp	/^namespace stasm$/;"	n	file:
+stasm	tasm/src/tasmshapemod.h	/^namespace stasm$/;"	n
+stasm_LANDMARKS_77	stasm/stasm_landmarks.h	/^enum stasm_LANDMARKS_77 \/\/ stasm77 landmarks$/;"	g
+stasm_NLANDMARKS	stasm/stasm_lib.h	/^static const int stasm_NLANDMARKS = 77; \/\/ number of landmarks$/;"	v
+stasm_VERSION	stasm/stasm_lib.cpp	/^const char* const stasm_VERSION = STASM_VERSION;$/;"	v
+stasm_convert_shape	stasm/stasm_lib.cpp	/^void stasm_convert_shape( \/\/ convert stasm_NLANDMARKS points to given number of points$/;"	f
+stasm_force_points_into_image	stasm/stasm_lib.cpp	/^void stasm_force_points_into_image( \/\/ force landmarks into image boundary$/;"	f
+stasm_init	stasm/stasm_lib.cpp	/^int stasm_init(            \/\/ call once, at bootup (to read models from disk)$/;"	f
+stasm_init_ext	stasm/stasm_lib.cpp	/^int stasm_init_ext(        \/\/ extended version of stasm_init$/;"	f
+stasm_lasterr	stasm/stasm_lib.cpp	/^const char* stasm_lasterr(void) \/\/ same as LastErr but not in stasm namespace$/;"	f
+stasm_linsolve_hpp	apps/linsolve.h	4;"	d
+stasm_open_image	stasm/stasm_lib.cpp	/^int stasm_open_image(      \/\/ call once per image, detect faces$/;"	f
+stasm_open_image_ext	stasm/stasm_lib.cpp	/^int stasm_open_image_ext(  \/\/ extended version of stasm_open_image$/;"	f
+stasm_printf	stasm/stasm_lib.cpp	/^void stasm_printf(      \/\/ print to stdout and to the stasm.log file if it is open$/;"	f
+stasm_search_auto	stasm/stasm_lib.cpp	/^int stasm_search_auto( \/\/ call repeatedly to find all faces$/;"	f
+stasm_search_auto_ext	stasm/stasm_lib.cpp	/^int stasm_search_auto_ext( \/\/ extended version of stasm_search_auto$/;"	f
+stasm_search_pinned	stasm/stasm_lib.cpp	/^int stasm_search_pinned(    \/\/ call after the user has pinned some points$/;"	f
+stasm_search_single	stasm/stasm_lib.cpp	/^int stasm_search_single(   \/\/ wrapper for stasm_search_auto and friends$/;"	f
+stasm_tasm_hpp	tasm/src/tasm.h	6;"	d
+stasm_tasmalignshapes_hpp	tasm/src/tasmalignshapes.h	6;"	d
+stasm_tasmclassic_hpp	tasm/src/tasmclassic.h	6;"	d
+stasm_tasmconf_hpp	tasm/src/tasmconf.h	10;"	d
+stasm_tasmdescmod_hpp	tasm/src/tasmdescmod.h	6;"	d
+stasm_tasmhat_hpp	tasm/src/tasmhat.h	6;"	d
+stasm_tasmimpute_hpp	tasm/src/tasmimpute.h	6;"	d
+stasm_tasmmeanshape_hpp	tasm/src/tasmmeanshape.h	6;"	d
+stasm_tasmshapemod_hpp	tasm/src/tasmshapemod.h	6;"	d
+stasm_wasm_hpp	apps/win/wasm.h	6;"	d
+strcmpskip	apps/mdiff/mdiff.cpp	/^static int strcmpskip(char s1[], char s2[])$/;"	f	file:
+strncpy_	stasm/misc.cpp	/^void strncpy_($/;"	f	namespace:stasm
+toolbar_g	apps/win/wasm.cpp	/^static HWND        toolbar_g;          \/\/ toolbar$/;"	m	namespace:stasm	file:
+tprintf	tasm/marki/marki.cpp	/^void tprintf (const char *pArgs, ...)   \/\/ args like printf$/;"	f
+trace_g	stasm/print.cpp	/^bool trace_g;   \/\/ true to trace Stasm internal operation$/;"	m	namespace:stasm	file:
+ugAttr	tasm/marki/marki.cpp	/^static ATTR   ugAttr;       \/\/ attribute bits of the current image (from tag)$/;"	v	file:
+ugMask0	tasm/marki/marki.cpp	/^static ATTR ugMask0, ugMask1;           \/\/ -P$/;"	v	file:
+ugMask1	tasm/marki/marki.cpp	/^static ATTR ugMask0, ugMask1;           \/\/ -P$/;"	v	file:
+ugShowDetData	tasm/marki/marki.cpp	/^static unsigned ugShowDetData;$/;"	v	file:
+ugTagAttr	tasm/marki/marki.cpp	/^static ATTR ugTagAttr;                  \/\/ -t$/;"	v	file:
+unused_	tasm/src/tasmalignshapes.cpp	/^    vec_bool unused_; \/\/ points in shape which are 0,0 are marked as true$/;"	m	class:stasm::RememberUnusedPoints	file:
+vec_DetPar	stasm/MOD_1/facedet.cpp	/^typedef vector<DetPar> vec_DetPar;$/;"	t	namespace:stasm	file:
+vec_Mod	stasm/asm.h	/^typedef vector<const Mod*> vec_Mod; \/\/ vector of ASM models, one for each yaw range$/;"	t	namespace:stasm
+vec_Rect	stasm/misc.h	/^typedef vector<cv::Rect> vec_Rect;$/;"	t	namespace:stasm
+vec_Shape	apps/appmisc.h	/^typedef vector<Shape>    vec_Shape;$/;"	t	namespace:stasm
+vec_VEC	apps/appmisc.h	/^typedef vector<VEC>      vec_VEC;$/;"	t	namespace:stasm
+vec_bool	stasm/misc.h	/^typedef vector<bool>     vec_bool;$/;"	t	namespace:stasm
+vec_double	apps/hat_example.cpp	/^typedef std::vector<double> vec_double;$/;"	t	file:
+vec_double	stasm/misc.h	/^typedef vector<double>   vec_double;$/;"	t	namespace:stasm
+vec_int	apps/hat_example.cpp	/^typedef std::vector<int>    vec_int;$/;"	t	file:
+vec_int	stasm/misc.h	/^typedef vector<int>      vec_int;$/;"	t	namespace:stasm
+vec_string	apps/appmisc.h	/^typedef vector<string>   vec_string;$/;"	t	namespace:stasm
+vec_vec_BaseDescMod	stasm/basedesc.h	/^typedef vector<vector<const BaseDescMod*> > vec_vec_BaseDescMod;$/;"	t	namespace:stasm
+weight	stasm/landmarks.h	/^    double weight;    \/\/ weight of landmark relative to others (for shape mod)$/;"	m	struct:stasm::LANDMARK_INFO
+width	stasm/misc.h	/^    double width, height;  \/\/ width and height of detector shape$/;"	m	struct:stasm::DetPar
+writeimgs_g	apps/shapefile/shapecrop.cpp	/^static bool writeimgs_g = true; \/\/ -i flag$/;"	m	namespace:stasm	file:
+writeimgs_g	apps/shapefile/shapemirror.cpp	/^static bool writeimgs_g = true; \/\/ -i flag$/;"	m	namespace:stasm	file:
+writeimgs_g	apps/stasm_main.cpp	/^static bool writeimgs_g = true;               \/\/ -i flag$/;"	m	namespace:stasm	file:
+writeimgs_g	apps/swas/swas.cpp	/^static bool writeimgs_g = true;             \/\/ -i flag$/;"	m	namespace:stasm	file:
+x	stasm/misc.h	/^    double x, y;           \/\/ center of detector shape$/;"	m	struct:stasm::DetPar
+x	tasm/marki/marki.cpp	/^    MFLOAT x;$/;"	m	struct:UNDO	file:
+xAx	stasm/classicdesc.cpp	/^static double xAx($/;"	f	namespace:stasm
+xgDlg	tasm/marki/marki.cpp	/^static int        xgDlg, ygDlg; \/\/ position of dialog window$/;"	v	file:
+xgLandmark	tasm/marki/marki.cpp	/^static MFLOAT xgLandmark, ygLandmark; \/\/ shape coords of currrent landmark$/;"	v	file:
+xgMouse	tasm/marki/marki.cpp	/^static MFLOAT xgMouse, ygMouse; \/\/ mouse position in child window coords$/;"	v	file:
+xgSrc	tasm/marki/marki.cpp	/^static MFLOAT xgSrc, ygSrc, gSrcWidth, gSrcHeight;$/;"	v	file:
+xres	apps/swas/fm29.cpp	/^    double xres;$/;"	m	struct:stasm::FitParams	file:
+y	stasm/misc.h	/^    double x, y;           \/\/ center of detector shape$/;"	m	struct:stasm::DetPar
+y	tasm/marki/marki.cpp	/^    MFLOAT y;$/;"	m	struct:UNDO	file:
+yaw	stasm/misc.h	/^    double yaw;            \/\/ yaw$/;"	m	struct:stasm::DetPar
+yaw00s_	apps/shapefile/shapefile.h	/^    map_mat          yaw00s_;          \/\/ yaw00 face det results$/;"	m	class:stasm::ShapeFile
+ygDlg	tasm/marki/marki.cpp	/^static int        xgDlg, ygDlg; \/\/ position of dialog window$/;"	v	file:
+ygLandmark	tasm/marki/marki.cpp	/^static MFLOAT xgLandmark, ygLandmark; \/\/ shape coords of currrent landmark$/;"	v	file:
+ygMouse	tasm/marki/marki.cpp	/^static MFLOAT xgMouse, ygMouse; \/\/ mouse position in child window coords$/;"	v	file:
+ygSrc	tasm/marki/marki.cpp	/^static MFLOAT xgSrc, ygSrc, gSrcWidth, gSrcHeight;$/;"	v	file:
+yres	apps/swas/fm29.cpp	/^    double yres;$/;"	m	struct:stasm::FitParams	file:
+~BaseDescMod	stasm/basedesc.h	/^    virtual ~BaseDescMod() {} \/\/ destructor$/;"	f	class:stasm::BaseDescMod
+~Mod	stasm/asm.h	/^    virtual ~Mod() {}                      \/\/ destructor$/;"	f	class:stasm::Mod

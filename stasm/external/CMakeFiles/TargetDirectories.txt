@@ -1,0 +1,1 @@
+/home/yx/fr/project/imageParser/stasm/external/CMakeFiles/minimal.dir
